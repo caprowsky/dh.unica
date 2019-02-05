@@ -1,0 +1,8 @@
+title: Docker4WordPress
+description: Native docker-based local environment for WordPress
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
