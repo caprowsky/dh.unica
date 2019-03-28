@@ -51,7 +51,7 @@ services:
       NGINX_ERROR_LOG_LEVEL: debug
       NGINX_BACKEND_HOST: php
       NGINX_VHOST_PRESET: wordpress
-      #NGINX_SERVER_ROOT: /var/www/html/subdir
+      #NGINX_SERVER_ROOT: /var/www/html/web
     volumes:
       - ./:/var/www/html
 # Options for macOS users (https://wodby.com/stacks/wordpress/docs/local/docker-for-mac/)
@@ -60,7 +60,9 @@ services:
     labels:
       - 'traefik.backend=${PROJECT_NAME}_nginx'
       - 'traefik.port=80'
-      - 'traefik.frontend.rule=Host:${PROJECT_BASE_URL}'
+#      - 'traefik.frontend.rule=Host:${PROJECT_BASE_URL}'
+      - 'traefik.frontend.rule=HostRegexp:{musica:.+}.dh.unica.localhost,dh.unica.localhost'
+      - 'traefik.frontend.rule=HostRegexp:{storia:.+}.dh.unica.localhost,dh.unica.localhost'
 
   mailhog:
     image: mailhog/mailhog
@@ -129,7 +131,7 @@ services:
 ##      ADMINER_DEFAULT_DB_DRIVER: pgsql
 #      ADMINER_DEFAULT_DB_HOST: $DB_HOST
 #      ADMINER_DEFAULT_DB_NAME: $DB_NAME
-#    labels:
+#    labels:wp-admin/
 #      - 'traefik.backend=${PROJECT_NAME}_adminer'
 #      - 'traefik.port=9000'
 #      - 'traefik.frontend.rule=Host:adminer.${PROJECT_BASE_URL}'
@@ -146,19 +148,21 @@ services:
 #    volumes:
 #      - files:/mnt/files
 
-#  pma:
-#    image: phpmyadmin/phpmyadmin
-#    container_name: "${PROJECT_NAME}_pma"
-#    environment:
-#      PMA_HOST: $DB_HOST
-#      PMA_USER: $DB_USER
-#      PMA_PASSWORD: $DB_PASSWORD
-#      PHP_UPLOAD_MAX_FILESIZE: 1G
-#      PHP_MAX_INPUT_VARS: 1G
-#    labels:
-#      - 'traefik.backend=${PROJECT_NAME}_pma'
-#      - 'traefik.port=80'
-#      - 'traefik.frontend.rule=Host:pma.${PROJECT_BASE_URL}'
+  pma:
+    image: phpmyadmin/phpmyadmin
+    container_name: "${PROJECT_NAME}_pma"
+    environment:
+      PMA_HOST: $DB_HOST
+      PMA_USER: $DB_USER
+      PMA_PASSWORD: $DB_PASSWORD
+      PHP_UPLOAD_MAX_FILESIZE: 1G
+      PHP_MAX_INPUT_VARS: 1G
+    ports:
+      - '9191:80'
+    labels:
+      - 'traefik.backend=${PROJECT_NAME}_pma'
+      - 'traefik.port=80'
+      - 'traefik.frontend.rule=Host:pma.${PROJECT_BASE_URL}'
 
 #  athenapdf:
 #    image: arachnysdocker/athenapdf-service:$ATHENAPDF_TAG
@@ -242,23 +246,23 @@ services:
 #      - 'traefik.port=8080'
 #      - 'traefik.frontend.rule=Host:xhprof.${PROJECT_BASE_URL}'
 
-  portainer:
-    image: portainer/portainer
-    container_name: "${PROJECT_NAME}_portainer"
-    command: --no-auth -H unix:///var/run/docker.sock
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    labels:
-      - 'traefik.backend=${PROJECT_NAME}_portainer'
-      - 'traefik.port=9000'
-      - 'traefik.frontend.rule=Host:portainer.${PROJECT_BASE_URL}'
+#  portainer:
+#    image: portainer/portainer
+#    container_name: "${PROJECT_NAME}_portainer"
+#    command: --no-auth -H unix:///var/run/docker.sock
+#    volumes:
+#      - /var/run/docker.sock:/var/run/docker.sock
+#    labels:
+#      - 'traefik.backend=${PROJECT_NAME}_portainer'
+#      - 'traefik.port=9000'
+#      - 'traefik.frontend.rule=Host:portainer.${PROJECT_BASE_URL}'
 
   traefik:
     image: traefik
     container_name: "${PROJECT_NAME}_traefik"
     command: -c /dev/null --web --docker --logLevel=INFO
     ports:
-      - '8000:80'
+      - '80:80'
 #      - '8080:8080' # Dashboard
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
