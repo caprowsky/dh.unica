@@ -160,7 +160,7 @@ services:
       PHP_UPLOAD_MAX_FILESIZE: 1G
       PHP_MAX_INPUT_VARS: 1G
     ports:
-      - '9191:80'
+      - '9000:80'
     labels:
       - 'traefik.backend=${PROJECT_NAME}_pma'
       - 'traefik.port=80'
