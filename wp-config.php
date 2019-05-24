@@ -80,14 +80,9 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* Multisite */
-define( 'WP_ALLOW_MULTISITE', true );
+define( 'WP_ALLOW_MULTISITE', false );
 
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', true);
-define('DOMAIN_CURRENT_SITE', 'dh.unica.localhost');
-define('PATH_CURRENT_SITE', '/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
+
 
 
 /* That's all, stop editing! Happy publishing. */

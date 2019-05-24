@@ -46,8 +46,8 @@ services:
     container_name: "${PROJECT_NAME}_nginx"
     depends_on:
       - php
-#    ports:
-#      - "80"
+    ports:
+      - "80:80"
     environment:
       NGINX_STATIC_OPEN_FILE_CACHE: "off"
       NGINX_ERROR_LOG_LEVEL: debug
