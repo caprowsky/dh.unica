@@ -9,7 +9,7 @@ fi
 
 if [ $comando = "up" ]; then
 
-    docker-compose  -f docker-compose.yml -f docker-compose-dev.yml up -d
+    docker-compose  -f docker-compose.yml -f docker-compose-live.yml up -d
 fi
 
 if [ $comando = "stop" ]; then
@@ -20,13 +20,7 @@ fi
 if [ $comando = "restart" ]; then
 
     docker-compose  stop
-    docker-compose  -f docker-compose.yml -f docker-compose-dev.yml up -d
-fi
-
-if [ $comando = "down" ]; then
-
-    docker-compose -f docker-compose.yml -f docker-compose-dev.yml down
-
+    docker-compose  -f docker-compose.yml -f docker-compose-live.yml up -d
 fi
 
 if [ $comando = "pull" ]; then
