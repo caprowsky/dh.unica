@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "Eseguo docker-compose down..."
+docker-compose down
+echo "Copio l'ultimo database..."
+
+rm mariadb-init/backup.sql
+
+scp dhwp@90.147.144.144:/home/dhwp/dump-db/backup.sql mariadb-init/backup.sql
+
+echo "Assicurati di aver committato eventuali modifiche perché tra 10 secondi farò switch su master"
+sleep 10
+
+git fetch --all
+git checkout master
+sleep 3
+
+echo "Eseguo il git pull"
+git pull origin master
+
+echo "faccio partire tutti i container in locale"
+./dev.sh up
+echo "Aspetto 1 minuto perché sto importando il db di produzione"
+sleep 60
+echo "Imposto wordpress per lo sviluppo locale"
+# wp plugin deactivate really-simple-ssl
+wp option update home 'http://pippo'
+wp option update siteurl 'http://pippo'
+echo "Finito!"
