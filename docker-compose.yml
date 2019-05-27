@@ -34,7 +34,7 @@ services:
 #      PHP_XDEBUG_REMOTE_HOST: 10.254.254.254 # macOS
 #      PHP_XDEBUG_REMOTE_HOST: 10.0.75.1 # Windows
     volumes:
-      - ./:/var/www/html
+      - ./web:/var/www/html
       - ./wp.php:/usr/local/bin/wp
 ## For macOS users (https://wodby.com/stacks/wordpress/docs/local/docker-for-mac/)
 #      - ./:/var/www/html:cached # User-guided caching
@@ -56,7 +56,7 @@ services:
       NGINX_VHOST_PRESET: wordpress
       #NGINX_SERVER_ROOT: /var/www/html/web
     volumes:
-      - ./:/var/www/html
+      - ./web:/var/www/html
 
   mailhog:
     image: mailhog/mailhog
