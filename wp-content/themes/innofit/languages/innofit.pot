@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Innofit\n"
-"POT-Creation-Date: 2019-02-25 14:59+0530\n"
-"PO-Revision-Date: 2019-02-25 14:57+0530\n"
+"POT-Creation-Date: 2019-04-29 17:45+0530\n"
+"PO-Revision-Date: 2019-04-03 17:38+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: 404.php:14 404.php:15
+#: 404.php:14 404.php:15 admin/tab-pages/free_vs_pro.php:145
 msgid "4"
 msgstr ""
 
@@ -213,11 +213,9 @@ msgstr ""
 msgid "Background Slides"
 msgstr ""
 
-#: admin/tab-pages/free_vs_pro.php:57 admin/tab-pages/free_vs_pro.php:73
-#: admin/tab-pages/free_vs_pro.php:74 admin/tab-pages/free_vs_pro.php:98
-#: admin/tab-pages/free_vs_pro.php:121 admin/tab-pages/free_vs_pro.php:122
-#: admin/tab-pages/free_vs_pro.php:145 admin/tab-pages/free_vs_pro.php:146
-#: admin/tab-pages/free_vs_pro.php:170
+#: admin/tab-pages/free_vs_pro.php:57 admin/tab-pages/free_vs_pro.php:74
+#: admin/tab-pages/free_vs_pro.php:98 admin/tab-pages/free_vs_pro.php:122
+#: admin/tab-pages/free_vs_pro.php:146 admin/tab-pages/free_vs_pro.php:170
 msgid "Unlimited"
 msgstr ""
 
@@ -227,6 +225,10 @@ msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:71 admin/tab-pages/free_vs_pro.php:95
 msgid "Number of items"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:73
+msgid "3"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:79
@@ -248,6 +250,10 @@ msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:119
 msgid "Number of testimonials"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:121
+msgid "NULL"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:135
@@ -597,6 +603,7 @@ msgid "Leave a Reply"
 msgstr ""
 
 #: content-page.php:11 content.php:46 functions.php:159
+#: functions/customizer/customizer_layout_settings.php:68
 #: template/template-page-full-width.php:26
 msgid "Read More"
 msgstr ""
@@ -641,153 +648,156 @@ msgstr ""
 msgid "Customizer Repeater"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:285
-#: functions/customizer-repeater/class/customizer-repeater-control.php:463
+#: functions/customizer-repeater/class/customizer-repeater-control.php:310
+#: functions/customizer-repeater/class/customizer-repeater-control.php:488
 #: functions/widgets/wdl_featured_latest_news.php:79
 msgid "Title"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:294
-#: functions/customizer-repeater/class/customizer-repeater-control.php:472
+#: functions/customizer-repeater/class/customizer-repeater-control.php:319
+#: functions/customizer-repeater/class/customizer-repeater-control.php:497
 msgid "Subtitle"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:301
-#: functions/customizer-repeater/class/customizer-repeater-control.php:479
+#: functions/customizer-repeater/class/customizer-repeater-control.php:326
+#: functions/customizer-repeater/class/customizer-repeater-control.php:504
 msgid "Description"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:309
-#: functions/customizer-repeater/class/customizer-repeater-control.php:487
+#: functions/customizer-repeater/class/customizer-repeater-control.php:334
+#: functions/customizer-repeater/class/customizer-repeater-control.php:512
 msgid "Features"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:320
-#: functions/customizer-repeater/class/customizer-repeater-control.php:497
+#: functions/customizer-repeater/class/customizer-repeater-control.php:345
+#: functions/customizer-repeater/class/customizer-repeater-control.php:522
 msgid "Button Text"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:331
-#: functions/customizer-repeater/class/customizer-repeater-control.php:507
-#: functions/customizer-repeater/class/customizer-repeater-control.php:731
-#: functions/customizer-repeater/class/customizer-repeater-control.php:753
+#: functions/customizer-repeater/class/customizer-repeater-control.php:356
+#: functions/customizer-repeater/class/customizer-repeater-control.php:532
+#: functions/customizer-repeater/class/customizer-repeater-control.php:780
+#: functions/customizer-repeater/class/customizer-repeater-control.php:802
 msgid "Link"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:345
-#: functions/customizer-repeater/class/customizer-repeater-control.php:520
+#: functions/customizer-repeater/class/customizer-repeater-control.php:370
+#: functions/customizer-repeater/class/customizer-repeater-control.php:545
 msgid "Price"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:367
-#: functions/customizer-repeater/class/customizer-repeater-control.php:541
+#: functions/customizer-repeater/class/customizer-repeater-control.php:392
+#: functions/customizer-repeater/class/customizer-repeater-control.php:566
 msgid "Video Url"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:391
-#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+#: functions/customizer-repeater/class/customizer-repeater-control.php:416
+#: functions/customizer-repeater/class/customizer-repeater-control.php:480
 msgid "Color"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:401
-#: functions/customizer-repeater/class/customizer-repeater-control.php:552
+#: functions/customizer-repeater/class/customizer-repeater-control.php:426
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
 msgid "Shortcode"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:409
-#: functions/customizer-repeater/class/customizer-repeater-control.php:561
+#: functions/customizer-repeater/class/customizer-repeater-control.php:434
+#: functions/customizer-repeater/class/customizer-repeater-control.php:586
 msgid "Designation"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:425
-#: functions/customizer-repeater/class/customizer-repeater-control.php:572
+#: functions/customizer-repeater/class/customizer-repeater-control.php:450
+msgid "Delete "
+msgstr ""
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:597
 msgid "Delete field"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:609
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
 msgid "Open link in new tab:"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:620
-#: functions/customizer-repeater/class/customizer-repeater-control.php:707
+#: functions/customizer-repeater/class/customizer-repeater-control.php:645
+#: functions/customizer-repeater/class/customizer-repeater-control.php:756
 msgid "Icon"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:625
+#: functions/customizer-repeater/class/customizer-repeater-control.php:650
 #, php-format
 msgid ""
 "Note: Some icons may not be displayed here. You can see the full list of "
 "icons at %1$s."
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:651
 msgid "http://fontawesome.io/icons/"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:643
-#: functions/customizer-repeater/class/customizer-repeater-control.php:708
+#: functions/customizer-repeater/class/customizer-repeater-control.php:692
+#: functions/customizer-repeater/class/customizer-repeater-control.php:757
 msgid "Image"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:646
+#: functions/customizer-repeater/class/customizer-repeater-control.php:695
 msgid "Upload Image"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:655
+#: functions/customizer-repeater/class/customizer-repeater-control.php:704
 msgid "Slide Format"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+#: functions/customizer-repeater/class/customizer-repeater-control.php:708
 msgid "Standard"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:663
+#: functions/customizer-repeater/class/customizer-repeater-control.php:712
 msgid "Aside"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+#: functions/customizer-repeater/class/customizer-repeater-control.php:716
 msgid "Quote"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:671
+#: functions/customizer-repeater/class/customizer-repeater-control.php:720
 msgid "Status"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:675
+#: functions/customizer-repeater/class/customizer-repeater-control.php:724
 msgid "Video"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:686
+#: functions/customizer-repeater/class/customizer-repeater-control.php:735
 msgid "Price highlight"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:690
+#: functions/customizer-repeater/class/customizer-repeater-control.php:739
 msgid "Highlight"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:694
+#: functions/customizer-repeater/class/customizer-repeater-control.php:743
 msgid "Non highlight"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:704
+#: functions/customizer-repeater/class/customizer-repeater-control.php:753
 msgid "Image type"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:709
+#: functions/customizer-repeater/class/customizer-repeater-control.php:758
 msgid "None"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:717
+#: functions/customizer-repeater/class/customizer-repeater-control.php:766
 msgid "Social icons"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:734
-#: functions/customizer-repeater/class/customizer-repeater-control.php:764
+#: functions/customizer-repeater/class/customizer-repeater-control.php:783
+#: functions/customizer-repeater/class/customizer-repeater-control.php:813
 msgid "Remove Icon"
 msgstr ""
 
-#: functions/customizer-repeater/class/customizer-repeater-control.php:739
-#: functions/customizer-repeater/class/customizer-repeater-control.php:772
+#: functions/customizer-repeater/class/customizer-repeater-control.php:788
+#: functions/customizer-repeater/class/customizer-repeater-control.php:821
 msgid "Add Icon"
 msgstr ""
 
@@ -808,6 +818,7 @@ msgid "UPGRADE TO PLUS"
 msgstr ""
 
 #: functions/customizer/customizer-pro.php:20
+#: functions/customizer/customizer_color_back_settings.php:46
 msgid "Upgrade to Plus"
 msgstr ""
 
@@ -854,6 +865,10 @@ msgstr ""
 msgid "Footer background color"
 msgstr ""
 
+#: functions/customizer/customizer_color_back_settings.php:43
+msgid "More options available for Color and Background section in Innofit Plus"
+msgstr ""
+
 #: functions/customizer/customizer_layout_settings.php:15
 msgid "Header"
 msgstr ""
@@ -871,61 +886,65 @@ msgstr ""
 msgid "Copyright text"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:61
+#: functions/customizer/customizer_layout_settings.php:65
+msgid "More options available for Layout section in Innofit Plus"
+msgstr ""
+
+#: functions/customizer/customizer_layout_settings.php:93
 msgid "Blog / Archive"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:80
+#: functions/customizer/customizer_layout_settings.php:112
 msgid "Enable post meta values, like author name, date, comments, etc."
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:90
+#: functions/customizer/customizer_layout_settings.php:122
 msgid "Archive pages title"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:100
-#: functions/customizer/customizer_layout_settings.php:106
+#: functions/customizer/customizer_layout_settings.php:132
+#: functions/customizer/customizer_layout_settings.php:138
 msgid "Archive"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:114
-#: functions/customizer/customizer_layout_settings.php:120
+#: functions/customizer/customizer_layout_settings.php:146
+#: functions/customizer/customizer_layout_settings.php:152
 #: functions/template-tags.php:73
 msgid "Category"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:128
+#: functions/customizer/customizer_layout_settings.php:160
 #: functions/template-tags.php:79
 msgid "All posts by"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:134
+#: functions/customizer/customizer_layout_settings.php:166
 msgid "Author"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:142
-#: functions/customizer/customizer_layout_settings.php:148
+#: functions/customizer/customizer_layout_settings.php:174
+#: functions/customizer/customizer_layout_settings.php:180
 #: functions/template-tags.php:37 functions/template-tags.php:85
 msgid "Tag"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:157
+#: functions/customizer/customizer_layout_settings.php:189
 #: functions/template-tags.php:105
 msgid "Search results for"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:163 searchform.php:3
+#: functions/customizer/customizer_layout_settings.php:195 searchform.php:3
 msgid "Search"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:171
-#: functions/customizer/customizer_layout_settings.php:177
+#: functions/customizer/customizer_layout_settings.php:203
+#: functions/customizer/customizer_layout_settings.php:209
 #: functions/template-tags.php:115
 msgid "404"
 msgstr ""
 
-#: functions/customizer/customizer_layout_settings.php:185
-#: functions/customizer/customizer_layout_settings.php:191
+#: functions/customizer/customizer_layout_settings.php:217
+#: functions/customizer/customizer_layout_settings.php:223
 #: functions/template-tags.php:91
 msgid "Shop"
 msgstr ""
@@ -1168,586 +1187,4 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Business Template"
-msgstr ""
-
-
-#, fuzzy
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: SpiceBox\n"
-"POT-Creation-Date: 2019-02-14 17:01+0530\n"
-"PO-Revision-Date: 2019-02-14 17:01+0530\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: spicebox.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
-
-
-#: inc/innofit/customizer.php:11
-#: inc/innofit/sections/innofit-services-section.php:12
-msgid "Unlimited Support"
-msgstr ""
-
-#: inc/innofit/customizer.php:19
-#: inc/innofit/sections/innofit-services-section.php:20
-msgid "Pixel Perfect Design"
-msgstr ""
-
-#: inc/innofit/customizer.php:27
-#: inc/innofit/sections/innofit-services-section.php:28
-msgid "Powerful Options"
-msgstr ""
-
-#: inc/innofit/customizer.php:35
-#: inc/innofit/sections/innofit-services-section.php:36
-msgid "App Development"
-msgstr ""
-
-#: inc/innofit/customizer.php:43
-#: inc/innofit/sections/innofit-services-section.php:44
-msgid "Unique and Clean"
-msgstr ""
-
-#: inc/innofit/customizer.php:51
-#: inc/innofit/sections/innofit-services-section.php:52
-msgid "Satisfied Clients"
-msgstr ""
-
-#: inc/innofit/customizer.php:80
-#: inc/innofit/sections/innofit-testimonial-section.php:95
-msgid "Developer"
-msgstr ""
-
-#: inc/innofit/customizer.php:90
-#: inc/innofit/sections/innofit-testimonial-section.php:95
-msgid "Team Leader"
-msgstr ""
-
-#: inc/innofit/customizer.php:99
-#: inc/innofit/sections/innofit-testimonial-section.php:95
-msgid "Volunteer"
-msgstr ""
-
-#: inc/innofit/customizer.php:127
-#: inc/innofit/sections/innofit-team-section.php:132
-msgid "Senior Manager"
-msgstr ""
-
-#: inc/innofit/customizer.php:159
-#: inc/innofit/sections/innofit-team-section.php:149
-msgid "Founder & CEO"
-msgstr ""
-
-#: inc/innofit/customizer.php:190
-#: inc/innofit/sections/innofit-team-section.php:166
-msgid "Web Master"
-msgstr ""
-
-#: inc/innofit/customizer.php:223
-#: inc/innofit/sections/innofit-team-section.php:183
-msgid "UI Developer"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:4
-msgid "About settings"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:13
-msgid "Enable About on homepage"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:17
-#: inc/innofit/customizer/callout-section.php:16
-#: inc/innofit/customizer/contact-section.php:17
-#: inc/innofit/customizer/news-section.php:17
-#: inc/innofit/customizer/services-section.php:17
-#: inc/innofit/customizer/slider-section.php:16
-#: inc/innofit/customizer/subscriber-section.php:55
-#: inc/innofit/customizer/team-section.php:15
-#: inc/innofit/customizer/testimonial-section.php:15
-#: inc/innofit/customizer/wooproduct-section.php:14
-msgid "ON"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:18
-#: inc/innofit/customizer/callout-section.php:17
-#: inc/innofit/customizer/contact-section.php:18
-#: inc/innofit/customizer/news-section.php:18
-#: inc/innofit/customizer/services-section.php:18
-#: inc/innofit/customizer/slider-section.php:17
-#: inc/innofit/customizer/subscriber-section.php:56
-#: inc/innofit/customizer/team-section.php:16
-#: inc/innofit/customizer/testimonial-section.php:16
-#: inc/innofit/customizer/wooproduct-section.php:15
-msgid "OFF"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:34
-#: inc/innofit/sections/innofit-about-section.php:20
-msgid "Welcome to"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:34
-#: inc/innofit/sections/innofit-about-section.php:20
-msgid "Innofit"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:35
-#: inc/innofit/sections/innofit-about-section.php:21
-msgid "We have the right solutions"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:36
-#: inc/innofit/sections/innofit-about-section.php:22
-msgid ""
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
-"doloremque laudantium, totame rems aperiam, eaque ipsa quae ab illo "
-"inventore veritatis quasi architecto beatae vitaes dicta sunt explicabo. "
-"Nemo enim ipsam voluptatem."
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:37
-#: inc/innofit/sections/innofit-about-section.php:23
-msgid ""
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
-"tempor incididunt ut labore et dolore."
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:38
-#: inc/innofit/sections/innofit-about-section.php:24
-msgid "Our Story"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:54
-msgid "About content"
-msgstr ""
-
-#: inc/innofit/customizer/about-section.php:73
-#: inc/innofit/customizer/slider-section.php:32
-msgid "Image"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:4
-msgid "Callout section settings"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:12
-msgid "Enable Home Callout section"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:24
-#: inc/innofit/sections/innofit-callout-section.php:8
-msgid "We create beautiful WordPress themes for you!"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:29
-#: inc/innofit/customizer/news-section.php:30
-#: inc/innofit/customizer/services-section.php:31
-#: inc/innofit/customizer/slider-section.php:73
-#: inc/innofit/customizer/subscriber-section.php:115
-#: inc/innofit/customizer/team-section.php:27
-#: inc/innofit/customizer/testimonial-section.php:68
-#: inc/innofit/customizer/wooproduct-section.php:26
-msgid "Title"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:36
-#: inc/innofit/sections/innofit-callout-section.php:9
-msgid "Choose a package that suits all your needs to build a website."
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:41
-#: inc/innofit/customizer/news-section.php:42
-#: inc/innofit/customizer/services-section.php:46
-#: inc/innofit/customizer/slider-section.php:85
-#: inc/innofit/customizer/subscriber-section.php:131
-#: inc/innofit/customizer/team-section.php:38
-#: inc/innofit/customizer/testimonial-section.php:81
-#: inc/innofit/customizer/wooproduct-section.php:37
-msgid "Description"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:49
-#: inc/innofit/sections/innofit-callout-section.php:10
-msgid "Buy Innofit"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:60
-#: inc/innofit/customizer/slider-section.php:98
-msgid "Button Text"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:68
-#: inc/innofit/customizer/slider-section.php:105
-msgid "#"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:74
-#: inc/innofit/customizer/slider-section.php:110
-msgid "Button Link"
-msgstr ""
-
-#: inc/innofit/customizer/callout-section.php:90
-#: inc/innofit/customizer/slider-section.php:123
-msgid "Open link in new tab"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:13
-msgid "Enable Contact form section"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:28
-#: inc/innofit/customizer/subscriber-section.php:71
-#: inc/innofit/customizer/testimonial-section.php:29
-msgid "Background Image"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:40
-msgid "Enable Contact image overlay"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:52
-msgid "Contact image overlay color"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:63
-#: inc/innofit/sections/innofit-contact-section.php:22
-msgid "Send us a message"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:68
-msgid "Contact form title one"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:76
-#: inc/innofit/sections/innofit-contact-section.php:23
-msgid "Contact Us"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:81
-msgid "Contact form title two"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:92
-msgid "Contact Form shortcode"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:105
-msgid "Enable contact info"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:112
-#: inc/innofit/sections/innofit-contact-section.php:47
-msgid "Get in touch"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:112
-#: inc/innofit/sections/innofit-contact-section.php:47
-msgid "Find Us"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:112
-#: inc/innofit/sections/innofit-contact-section.php:47
-msgid "Porterfield 508 Virginia Street Chicago,<br> IL 60653 (USA)"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:112
-#: inc/innofit/sections/innofit-contact-section.php:47
-msgid "Phone"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:112
-#: inc/innofit/sections/innofit-contact-section.php:47
-msgid "Mobile: (+91) 90 1900 - 6886 <br>Hotline: 1800 6886)"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:112
-#: inc/innofit/sections/innofit-contact-section.php:47
-msgid "Email"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:112
-#: inc/innofit/sections/innofit-contact-section.php:47
-msgid "support@innofit.com"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:112
-#: inc/innofit/sections/innofit-contact-section.php:47
-msgid "contact@innofit.com"
-msgstr ""
-
-#: inc/innofit/customizer/contact-section.php:123
-msgid "Contact Info content"
-msgstr ""
-
-#: inc/innofit/customizer/news-section.php:4
-msgid "Latest News settings"
-msgstr ""
-
-#: inc/innofit/customizer/news-section.php:13
-msgid "Enable Home News section"
-msgstr ""
-
-#: inc/innofit/customizer/news-section.php:25
-#: inc/innofit/sections/innofit-news-section.php:14
-msgid "Latest News"
-msgstr ""
-
-#: inc/innofit/customizer/news-section.php:37
-#: inc/innofit/sections/innofit-news-section.php:15
-msgid "From our blog"
-msgstr ""
-
-#: inc/innofit/customizer/news-section.php:59
-msgid "Enable post meta in blog section"
-msgstr ""
-
-#: inc/innofit/customizer/services-section.php:4
-msgid "Services settings"
-msgstr ""
-
-#: inc/innofit/customizer/services-section.php:13
-msgid "Enable Services on homepage"
-msgstr ""
-
-#: inc/innofit/customizer/services-section.php:26
-#: inc/innofit/sections/innofit-services-section.php:64
-msgid "What we do"
-msgstr ""
-
-#: inc/innofit/customizer/services-section.php:39
-#: inc/innofit/sections/innofit-services-section.php:65
-msgid "Services we provide"
-msgstr ""
-
-#: inc/innofit/customizer/services-section.php:56
-msgid "Services content"
-msgstr ""
-
-#: inc/innofit/customizer/services-section.php:59
-msgid "Add new Service"
-msgstr ""
-
-#: inc/innofit/customizer/services-section.php:60
-#: inc/innofit/default-pages/home-custom-menu.php:19
-msgid "Service"
-msgstr ""
-
-#: inc/innofit/customizer/slider-section.php:4
-msgid "Hero settings"
-msgstr ""
-
-#: inc/innofit/customizer/slider-section.php:12
-msgid "Enable Hero Section"
-msgstr ""
-
-#: inc/innofit/customizer/slider-section.php:47
-msgid "Enable slider image overlay"
-msgstr ""
-
-#: inc/innofit/customizer/slider-section.php:60
-msgid "Slider image overlay color"
-msgstr ""
-
-#: inc/innofit/customizer/slider-section.php:68
-#: inc/innofit/sections/innofit-slider-section.php:10
-msgid "We provide solutions to<br /> grow your business"
-msgstr ""
-
-#: inc/innofit/customizer/slider-section.php:80
-#: inc/innofit/sections/innofit-slider-section.php:11
-msgid "Welcome to Innofit"
-msgstr ""
-
-#: inc/innofit/customizer/slider-section.php:93
-msgid "Read more"
-msgstr ""
-
-#: inc/innofit/customizer/subscriber-section.php:24
-msgid "General Settings"
-msgstr ""
-
-#: inc/innofit/customizer/subscriber-section.php:36
-msgid "SendinBlue plugin"
-msgstr ""
-
-#: inc/innofit/customizer/subscriber-section.php:50
-msgid "Enable Suscribe section"
-msgstr ""
-
-#: inc/innofit/customizer/subscriber-section.php:85
-msgid "Enable susbcribe image overlay"
-msgstr ""
-
-#: inc/innofit/customizer/subscriber-section.php:99
-msgid "Subscribe image overlay color"
-msgstr ""
-
-#: inc/innofit/customizer/subscriber-section.php:107
-#: inc/innofit/sections/innofit-subscriber-section.php:15
-msgid "Subscribe to our newsletter"
-msgstr ""
-
-#: inc/innofit/customizer/subscriber-section.php:123
-#: inc/innofit/sections/innofit-subscriber-section.php:16
-msgid "Sign up now for more information about our company."
-msgstr ""
-
-#: inc/innofit/customizer/subscriber-section.php:146
-msgid "Instructions"
-msgstr ""
-
-#: inc/innofit/customizer/team-section.php:4
-msgid "Team settings"
-msgstr ""
-
-#: inc/innofit/customizer/team-section.php:11
-msgid "Enable Home Team section"
-msgstr ""
-
-#: inc/innofit/customizer/team-section.php:22
-#: inc/innofit/sections/innofit-team-section.php:21
-msgid "Meet our superheroes"
-msgstr ""
-
-#: inc/innofit/customizer/team-section.php:34
-#: inc/innofit/sections/innofit-team-section.php:22
-msgid "The best team available"
-msgstr ""
-
-#: inc/innofit/customizer/team-section.php:53
-msgid "Team content"
-msgstr ""
-
-#: inc/innofit/customizer/team-section.php:56
-msgid "Add new Team Member"
-msgstr ""
-
-#: inc/innofit/customizer/team-section.php:57
-msgid "Team Member"
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:3
-msgid "Testimonials settings"
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:11
-msgid "Enable Home Testimonial section"
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:41
-msgid "Enable testimonial image overlay"
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:54
-msgid "Testimonial image overlay color"
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:63
-#: inc/innofit/sections/innofit-testimonial-section.php:12
-msgid "What our clients say"
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:76
-#: inc/innofit/sections/innofit-testimonial-section.php:13
-msgid "We provide best WordPress solutions for your business."
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:91
-msgid "Testimonial content"
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:93
-msgid "Add new Testimonial"
-msgstr ""
-
-#: inc/innofit/customizer/testimonial-section.php:94
-msgid "Testimonial"
-msgstr ""
-
-#: inc/innofit/customizer/wooproduct-section.php:3
-msgid "Home Shop settings"
-msgstr ""
-
-#: inc/innofit/customizer/wooproduct-section.php:10
-msgid "Enable Home Shop section"
-msgstr ""
-
-#: inc/innofit/customizer/wooproduct-section.php:21
-#: inc/innofit/sections/innofit-wooproduct-section.php:16
-msgid "Featured Products"
-msgstr ""
-
-#: inc/innofit/customizer/wooproduct-section.php:33
-#: inc/innofit/sections/innofit-wooproduct-section.php:17
-msgid "Our amazing products"
-msgstr ""
-
-#: inc/innofit/default-pages/home-custom-menu.php:12
-msgid "Home"
-msgstr ""
-
-#: inc/innofit/default-pages/home-custom-menu.php:26
-msgid "About"
-msgstr ""
-
-#: inc/innofit/default-pages/home-custom-menu.php:33
-msgid "Team"
-msgstr ""
-
-#: inc/innofit/default-pages/home-custom-menu.php:40
-msgid "Blog"
-msgstr ""
-
-#: inc/innofit/default-pages/home-custom-menu.php:47
-msgid "Contact"
-msgstr ""
-
-#: inc/innofit/default-pages/home-custom-menu.php:54
-msgid "Callout"
-msgstr ""
-
-#: inc/innofit/sections/innofit-news-section.php:97
-msgid "Read More"
-msgstr ""
-
-#: inc/innofit/sections/innofit-wooproduct-section.php:56
-msgid "On Sale!"
-msgstr ""
-
-#: inc/innofit/sections/innofit-wooproduct-section.php:68
-#, php-format
-msgid "Rated %s out of 5"
-msgstr ""
-
-#: inc/innofit/sections/innofit-wooproduct-section.php:68
-msgid "out of 5"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "SpiceBox"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid "Enhances SpiceThemes with extra functionality."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Spicethemes"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://github.com"
 msgstr ""

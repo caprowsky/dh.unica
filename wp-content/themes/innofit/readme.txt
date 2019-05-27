@@ -3,8 +3,8 @@
 Contributors: SpiceThemes
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready, blog, e-commerce
 Requires at least: 4.5
-Tested up to: 5.0.3
-Stable tag: 1.0.3
+Tested up to: 5.1.1
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,15 @@ Innofit WordPress Theme, Copyright (C) 2019, SpiceThemes
 Innofit Pro is distributed under the terms of the GNU GPL
 
 == Changelog ==
+@Version 1.0.5
+* Added Limitation in service setion.
+* Added Limitation in Team setion.
+* Remove Testimonial Feature.
+* Remove Call To Action Feature.
+* Remove Subscribe Feature.
+
+@Version 1.0.4
+* Added Innofit plus features link in customizer.
 
 @Version 1.0.3
 * Fixed menu create issue.

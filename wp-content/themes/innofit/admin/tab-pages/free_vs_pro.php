@@ -70,7 +70,7 @@
                                 <td>
                                     <h5>- <?php echo esc_html__('Number of items','innofit'); ?></h5>
                                 </td>
-                                <td class="only-pro"><span class="dashicons-before "><?php echo esc_html__('Unlimited','innofit'); ?></span></td>
+                                <td class="only-pro"><span class="dashicons-before "><?php echo esc_html__('3','innofit'); ?></span></td>
                                 <td class="only-lite"><span class="dashicons-before"><?php echo esc_html__('Unlimited','innofit'); ?></span></td>
                             </tr>
 							
@@ -110,7 +110,7 @@
                                 <td>
                                     <h4><?php echo esc_html__('Testimonial Section','innofit'); ?></h4>
                                 </td>
-                                <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
+                                <td class="only-pro"><span class="dashicons-before dashicons-no-alt"></span></td>
                                 <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
                             </tr>
 							
@@ -118,7 +118,7 @@
                                 <td>
                                     <h5>- <?php echo esc_html__('Number of testimonials','innofit'); ?></h5>
                                 </td>
-                                <td class="only-pro"><span class="dashicons-before "><?php echo esc_html__('Unlimited','innofit'); ?></span></td>
+                                <td class="only-pro"><span class="dashicons-before "><?php echo esc_html__('NULL','innofit'); ?></span></td>
                                 <td class="only-lite"><span class="dashicons-before"><?php echo esc_html__('Unlimited','innofit'); ?></span></td>
                             </tr>
 							
@@ -142,7 +142,7 @@
                                 <td>
                                     <h5>- <?php echo esc_html__('Number of team members','innofit'); ?></h5>
                                 </td>
-                                <td class="only-pro"><span class="dashicons-before "><?php echo esc_html__('Unlimited','innofit'); ?></span></td>
+                                <td class="only-pro"><span class="dashicons-before "><?php echo esc_html__('4','innofit'); ?></span></td>
                                 <td class="only-lite"><span class="dashicons-before"><?php echo esc_html__('Unlimited','innofit'); ?></span></td>
                             </tr>
 							
@@ -230,7 +230,7 @@
                                 <td>
                                     <h4><?php echo esc_html__('Subscriber Section','innofit'); ?></h4>
                                 </td>
-                                <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
+                                <td class="only-pro"><span class="dashicons-before dashicons-no-alt"></span></td>
                                 <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
                             </tr>
 							
@@ -238,7 +238,7 @@
                                 <td>
                                     <h4><?php echo esc_html__('Callout Section','innofit'); ?></h4>
                                 </td>
-                                <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
+                                <td class="only-pro"><span class="dashicons-before dashicons-no-alt"></span></td>
                                 <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
                             </tr>
 							

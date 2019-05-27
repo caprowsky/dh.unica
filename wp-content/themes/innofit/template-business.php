@@ -14,12 +14,21 @@ if ( ! is_plugin_active( 'innofit-plus/innofit-plus.php' ) ):
 		do_action( 'innofit_services_action', false);
 		do_action( 'innofit_about_action' ,false);
 		do_action( 'innofit_wooproduct_action', false);
-		do_action( 'innofit_testimonial_action' ,false);
+		if(!empty(get_theme_mod('innofit_testimonial_content')))
+		{
+		do_action( 'innofit_testimonial_action' ,false);	
+		}
 		do_action( 'innofit_team_action' ,false);
         do_action( 'innofit_news_action' ,false);
 		do_action( 'innofit_contact_action' , false);
+		if(!empty(get_theme_mod('innofit_subscribe_title')))
+		{
 		do_action( 'innofit_subscriber_action' , false);
-		do_action( 'innofit_callout_action' ,false);
+		}
+		if(!empty(get_theme_mod('home_call_out_title')))
+		{
+		do_action( 'innofit_callout_action' ,false);	
+		}
 
 	endif;
 
