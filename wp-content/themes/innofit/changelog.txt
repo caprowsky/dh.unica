@@ -1,5 +1,15 @@
 == Changelog ==
 
+@Version 1.0.5
+* Added Limitation in service setion.
+* Added Limitation in Team setion.
+* Remove Testimonial Feature.
+* Remove Call To Action Feature.
+* Remove Subscribe Feature.
+
+@Version 1.0.4
+* Added Innofit plus features link in customizer.
+
 @Version 1.0.3
 * Fixed menu create issue.
 

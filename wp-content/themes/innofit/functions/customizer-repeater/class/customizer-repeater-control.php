@@ -204,7 +204,32 @@ class Innofit_Repeater extends WP_Customize_Control {
 		/*Counter that helps checking if the box is first and should have the delete button disabled*/
 		$it = 0;
 		if(!empty($array)){
-			foreach($array as $icon){ ?>
+			$exist_service=count($array);
+			if($this->boxtitle=="Team Member")
+			{
+				$innofit_del_btn_id="Team_Member";
+			}
+			else
+			{
+				$innofit_del_btn_id=$this->boxtitle;
+			}
+			global $innofit_limit;
+			global $type_with_id;
+			echo "<input type='hidden' value='$exist_service' id='exist_innofit_$innofit_del_btn_id'/>";
+			foreach($array as $icon){ 
+			if($it<3)
+			{
+			$innofit_limit="innofit_limit";
+			$type_with_id='';
+			}
+			else
+			{
+			$innofit_limit="innofit_overlimit";	
+			$type_with_id=$innofit_del_btn_id."_".$it;
+			}
+
+
+				?>
 				<div class="customizer-repeater-general-control-repeater-container customizer-repeater-draggable">
 					<div class="customizer-repeater-customize-control-title">
 						<?php echo esc_html( $this->boxtitle ) ?>
@@ -283,7 +308,7 @@ class Innofit_Repeater extends WP_Customize_Control {
 						if($this->customizer_repeater_title_control==true){
 							$this->input_control(array(
 								'label' => apply_filters('repeater_input_labels_filter', esc_html__( 'Title','innofit' ), $this->id, 'customizer_repeater_title_control' ),
-								'class' => 'customizer-repeater-title-control',
+								'class' => 'customizer-repeater-title-control '."$innofit_limit".' '."$type_with_id".'',
                                 'type'  => apply_filters('innofit_repeater_input_types_filter', '', $this->id, 'customizer_repeater_title_control' ),
 							), $title);
 						}
@@ -292,14 +317,14 @@ class Innofit_Repeater extends WP_Customize_Control {
 						if($this->customizer_repeater_subtitle_control==true){
 							$this->input_control(array(
 								'label' => apply_filters('repeater_input_labels_filter', esc_html__( 'Subtitle','innofit' ), $this->id, 'customizer_repeater_subtitle_control' ),
-								'class' => 'customizer-repeater-subtitle-control',
+								'class' => 'customizer-repeater-subtitle-control '."$innofit_limit".' '."$type_with_id".'',
 								'type'  => apply_filters('innofit_repeater_input_types_filter', '', $this->id, 'customizer_repeater_subtitle_control' ),
 							), $subtitle);
 						}
 						if($this->customizer_repeater_text_control==true){
 							$this->input_control(array(
 								'label' => apply_filters('repeater_input_labels_filter', esc_html__( 'Description','innofit' ), $this->id, 'customizer_repeater_text_control' ),
-								'class' => 'customizer-repeater-text-control',
+								'class' => 'customizer-repeater-text-control '."$innofit_limit".'',
 								'type'  => apply_filters('innofit_repeater_input_types_filter', 'textarea', $this->id, 'customizer_repeater_text_control' ),
 							), $text);
 						}
@@ -307,7 +332,7 @@ class Innofit_Repeater extends WP_Customize_Control {
 						if($this->customizer_repeater_features_control==true){
 							$this->input_control(array(
 								'label' => apply_filters('repeater_input_labels_filter', esc_html__( 'Features','innofit' ), $this->id, 'customizer_repeater_features_control' ),
-								'class' => 'customizer-repeater-features-control',
+								'class' => 'customizer-repeater-features-control ',
 								'type'  => apply_filters('innofit_repeater_input_types_filter', 'textarea', $this->id, 'customizer_repeater_features_control' ),
 							), $features);
 						}
@@ -319,7 +344,7 @@ class Innofit_Repeater extends WP_Customize_Control {
 							$this->input_control(array(
 							'label' => apply_filters('repeater_input_labels_filter', esc_html__('Button Text',
 							'innofit'), $this->id, 'customizer_repeater_button_text_control'),
-							'class' => 'customizer-repeater-button-text-control',
+							'class' => 'customizer-repeater-button-text-control '."$innofit_limit".'',
 							'type' => apply_filters('innofit_repeater_input_types_filter', '' , $this->id,
 							'customizer_repeater_button_text_control'),
 							), $button);
@@ -329,14 +354,14 @@ class Innofit_Repeater extends WP_Customize_Control {
 						if($this->customizer_repeater_link_control){
 							$this->input_control(array(
 								'label' => apply_filters('repeater_input_labels_filter', esc_html__( 'Link','innofit' ), $this->id, 'customizer_repeater_link_control' ),
-								'class' => 'customizer-repeater-link-control',
+								'class' => 'customizer-repeater-link-control '."$innofit_limit".' '."$type_with_id".'',
 								'sanitize_callback' => 'esc_url_raw',
                                 'type'  => apply_filters('innofit_repeater_input_types_filter', '', $this->id, 'customizer_repeater_link_control' ),
 							), $link);
 						}
 						
 						if($this->customizer_repeater_checkbox_control == true){
-							$this->testimonila_check($open_new_tab);
+							$this->testimonila_check($open_new_tab, $innofit_limit, $type_with_id);
 							
 						}
 						
@@ -374,13 +399,13 @@ class Innofit_Repeater extends WP_Customize_Control {
 						
 						
 						if($this->customizer_repeater_image_control == true && $this->customizer_repeater_icon_control == true) {
-							$this->icon_type_choice( $choice );
+							$this->icon_type_choice( $choice,$innofit_limit );
 						}
 						if($this->customizer_repeater_image_control == true){
-							$this->image_control($image_url, $choice);
+							$this->image_control($image_url, $choice, $innofit_limit, $it+1, $innofit_del_btn_id);
 						}
 						if($this->customizer_repeater_icon_control == true){
-							$this->icon_picker_control($icon_value, $choice);
+							$this->icon_picker_control($icon_value, $choice, $innofit_limit);
 						}
 						
 					
@@ -407,13 +432,13 @@ class Innofit_Repeater extends WP_Customize_Control {
 						if($this->customizer_repeater_designation_control==true){
 							$this->input_control(array(
 								'label' => apply_filters('repeater_input_labels_filter', esc_html__( 'Designation','innofit' ), $this->id, 'customizer_repeater_designation_control' ),
-								'class' => 'customizer-repeater-designation-control',
+								'class' => 'customizer-repeater-designation-control '."$innofit_limit".'',
 								'type'  => apply_filters('innofit_repeater_input_types_filter', 'textarea', $this->id, 'customizer_repeater_designation_control' ),
 							), $designation);
 						}
 						
 						if($this->customizer_repeater_repeater_control==true){
-							$this->repeater_control($repeater);
+							$this->repeater_control($repeater, $innofit_limit, $type_with_id);
 						} ?>
 
 						<input type="hidden" class="social-repeater-box-id" value="<?php if ( ! empty( $id ) ) {
@@ -422,7 +447,7 @@ class Innofit_Repeater extends WP_Customize_Control {
 						<button type="button" class="social-repeater-general-control-remove-field" <?php if ( $it == 0 ) {
 							echo 'style="display:none;"';
 						} ?>>
-							<?php esc_html_e( 'Delete field', 'innofit' ); ?>
+							<?php esc_html_e( 'Delete '.$this->boxtitle, 'innofit' ); ?>
 						</button>
 
 					</div>
@@ -603,18 +628,18 @@ class Innofit_Repeater extends WP_Customize_Control {
 	}
 	
 	
-	private function testimonila_check($value='no'){
+	private function testimonila_check($value='no', $class='', $type_with_id=''){
 		?>
 	<div class="customize-control-title">
 	<?php esc_html_e('Open link in new tab:','innofit'); ?>
 	<span class="switch">
-	  <input type="checkbox" name="custom_checkbox" value="yes" <?php if($value=='yes'){echo 'checked';}?> class="customizer-repeater-checkbox">
+	  <input type="checkbox" name="custom_checkbox" value="yes" <?php if($value=='yes'){echo 'checked';}?> class="customizer-repeater-checkbox <?php echo $class;?> <?php echo $type_with_id;?>">
 	</span>
 	</div>
 	<?php
 	}
 
-	private function icon_picker_control($value = '', $show = ''){ ?>
+	private function icon_picker_control($value = '', $show = '', $class=''){ ?>
 		<div class="social-repeater-general-control-icon" <?php if( $show === 'customizer_repeater_image' || $show === 'customizer_repeater_none' ) { echo 'style="display:none;"'; } ?>>
             <span class="customize-control-title">
                 <?php esc_html_e('Icon','innofit'); ?>
@@ -627,7 +652,7 @@ class Innofit_Repeater extends WP_Customize_Control {
                 ); ?>
             </span>
 			<div class="input-group icp-container">
-				<input data-placement="bottomRight" class="icp icp-auto" value="<?php if(!empty($value)) { echo esc_attr( $value );} ?>" type="text">
+				<input data-placement="bottomRight" class="<?php if($class=="innofit_limit") { echo 'icp icp-auto';} else { echo 'innofit-overlimit-icon-picker';}?>" value="<?php if(!empty($value)) { echo esc_attr( $value );} ?>" type="text">
 				<span class="input-group-addon">
                     <i class="fa <?php echo esc_attr($value); ?>"></i>
                 </span>
@@ -637,13 +662,37 @@ class Innofit_Repeater extends WP_Customize_Control {
 		<?php
 	}
 
-	private function image_control($value = '', $show = ''){ ?>
+	private function image_control($value = '', $show = '', $class='', $auto='', $sections=''){ 
+		if($auto==1)
+		{
+			$auto="one";
+		}
+
+		if($auto==2)
+		{
+			$auto="two";
+		}
+		if($auto==3)
+		{
+			$auto="three";
+		}
+		if(($sections=="Team_Member") && ($auto==4))
+		{
+			$team_calss="fourth_team";
+		}
+		else
+		{
+			$team_calss='';
+		}
+		
+
+		?>
 		<div class="customizer-repeater-image-control" <?php if( $show === 'customizer_repeater_icon' || $show === 'customizer_repeater_none' ) { echo 'style="display:none;"'; } ?>>
             <span class="customize-control-title">
                 <?php esc_html_e('Image','innofit')?>
             </span>
-			<input type="text" class="widefat custom-media-url" value="<?php echo esc_attr( $value ); ?>">
-			<input type="button" class="button button-secondary customizer-repeater-custom-media-button" value="<?php esc_html_e( 'Upload Image','innofit' ); ?>" />
+			<input type="text" class="widefat custom-media-url <?php if($class="innofit_overlimit") { echo 'innofit-uploading-img';}?> <?php echo $auto;?> <?php echo $team_calss;?>" value="<?php echo esc_attr( $value ); ?>">
+			<input type="button" class="button button-secondary customizer-repeater-custom-media-button <?php if($class="innofit_overlimit") { echo 'innofit-uploading-img-btn';}?> <?php echo $auto;?> <?php echo $team_calss;?>" value="<?php esc_html_e( 'Upload Image','innofit' ); ?>" />
 		</div>
 		<?php
 	}
@@ -699,11 +748,11 @@ class Innofit_Repeater extends WP_Customize_Control {
 	}
 	
 
-	private function icon_type_choice($value='customizer_repeater_icon'){ ?>
+	private function icon_type_choice($value='customizer_repeater_icon', $innofit_limit=''){ ?>
 		<span class="customize-control-title">
             <?php esc_html_e('Image type','innofit');?>
         </span>
-		<select class="customizer-repeater-image-choice">
+		<select class="customizer-repeater-image-choice <?php echo $innofit_limit;?>">
 			<option value="customizer_repeater_icon" <?php selected($value,'customizer_repeater_icon');?>><?php esc_html_e('Icon','innofit'); ?></option>
 			<option value="customizer_repeater_image" <?php selected($value,'customizer_repeater_image');?>><?php esc_html_e('Image','innofit'); ?></option>
 			<option value="customizer_repeater_none" <?php selected($value,'customizer_repeater_none');?>><?php esc_html_e('None','innofit'); ?></option>
@@ -711,7 +760,7 @@ class Innofit_Repeater extends WP_Customize_Control {
 		<?php
 	}
 
-	private function repeater_control($value = ''){
+	private function repeater_control($value = '', $innofit_limit='', $type_with_id=''){
 		$social_repeater = array();
 		$show_del        = 0; ?>
 		<span class="customize-control-title"><?php esc_html_e( 'Social icons', 'innofit' ); ?></span>
@@ -745,11 +794,11 @@ class Innofit_Repeater extends WP_Customize_Control {
 					$show_del ++; ?>
 					<div class="customizer-repeater-social-repeater-container">
 						<div class="customizer-repeater-rc input-group icp-container">
-							<input data-placement="bottomRight" class="icp icp-auto" value="<?php if( !empty($social_icon['icon']) ) { echo esc_attr( $social_icon['icon'] ); } ?>" type="text">
+							<input data-placement="bottomRight" class="icp icp-auto team_data_<?php echo $innofit_limit;?> <?php echo $type_with_id;?>" value="<?php if( !empty($social_icon['icon']) ) { echo esc_attr( $social_icon['icon'] ); } ?>" type="text">
 							<span class="input-group-addon"><i class="fa <?php echo esc_attr( $social_icon['icon'] ); ?>"></i></span>
 						</div>
 						<?php get_template_part( $this->customizer_icon_container ); ?>
-						<input type="text" class="customizer-repeater-social-repeater-link"
+						<input type="text" class="customizer-repeater-social-repeater-link team_linkdata_<?php echo $innofit_limit;?> <?php echo $type_with_id;?>"
 						       placeholder="<?php esc_html_e( 'Link', 'innofit' ); ?>"
 						       value="<?php if ( ! empty( $social_icon['link'] ) ) {
 							       echo esc_url( $social_icon['link'] );
@@ -769,7 +818,7 @@ class Innofit_Repeater extends WP_Customize_Control {
 				       class="social-repeater-socials-repeater-colector"
 				       value="<?php echo esc_textarea( html_entity_decode( $value ) ); ?>" />
 			</div>
-			<button class="social-repeater-add-social-item button-secondary"><?php esc_html_e( 'Add Icon', 'innofit' ); ?></button>
+			<button class="social-repeater-add-social-item button-secondary <?php echo $innofit_limit;?> <?php echo $type_with_id;?>"><?php esc_html_e( 'Add Icon', 'innofit' ); ?></button>
 			<?php
 		}
 	}
