@@ -14,18 +14,18 @@ rm mariadb-init/backup.sql
 scp dhwp@90.147.144.144:/home/dhwp/dump-db/backup.sql mariadb-init/backup.sql
 
 echo -e "\nAssicurati di aver committato eventuali modifiche perché tra 10 secondi farò switch su master"
-sleep 5
+sleep 10
 
 echo -e "\nAncora 5 secondi ed eseguo lo switch"
 
 #Eseguo switch su branch master
 #git fetch --all
 #git checkout master
-sleep 3
+sleep 6
 
 echo -e "\nEseguo il git pull"
 
-git pull origin master
+#git pull origin master
 
 echo -e "\nFaccio ripartire tutti i container in locale"
 
