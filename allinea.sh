@@ -1,22 +1,26 @@
 #!/bin/bash
 
-echo "Eseguo docker-compose down..."
+echo "Eseguo docker-compose down\n\n\n"
 docker-compose down
-echo "Copio l'ultimo database..."
+sleep 1
+echo "Copio l'ultimo database...\n\n\n"
 
 rm mariadb-init/backup.sql
 
 scp dhwp@90.147.144.144:/home/dhwp/dump-db/backup.sql mariadb-init/backup.sql
 
-echo "Assicurati di aver committato eventuali modifiche perché tra 10 secondi farò switch su master"
-sleep 10
+echo "\nAssicurati di aver committato eventuali modifiche perché tra 10 secondi farò switch su master"
+sleep 5
+
+echo "\n Ancora 5 secondi ed eseguo lo switch"
 
 git fetch --all
-#git checkout master
+git checkout master
 sleep 3
 
 echo "Eseguo il git pull"
-#git pull origin master
+
+git pull origin master
 
 echo "faccio partire tutti i container in locale"
 ./dev.sh up
