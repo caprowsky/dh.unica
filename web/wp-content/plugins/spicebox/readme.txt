@@ -3,7 +3,7 @@ Contributors: spicethemes
 Tags: widget, admin, widgets
 Requires at least: 3.3+
 Tested up to: 5.0.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -136,3 +136,6 @@ This plugin create repeater controls in the customizer settings allowing you to 
 
 = 1.0.2 =
 1. Version Change
+
+= 1.0.3 =
+1. Added Custom Feedback Form

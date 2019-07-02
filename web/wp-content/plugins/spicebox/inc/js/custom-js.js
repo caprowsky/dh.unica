@@ -1,30 +1,9 @@
-(function($) {
-  $(document).ready(function(){
-    $('#submit').click(function(e) {
- var ajaxurl = $('#ajaxurl').val();
- var resaon = $('input[name=reason_key]:checked').val();
- var SiteAdminEmail = $('#admin_mail').val();
- var SiteUrl = $('#plugin_site').val();
- var  reasontext = '';
- if(resaon=="I want to try a new design, I don't like Spicepress style"){
-  reasontext = $('#reason_found_a_better_plugin').val();
- }else if(resaon == 'Other'){
- 	reasontext = $('#reason_other').val();
- } else if(resaon == 'Is not working with a plugin that I need'){
-  reasontext = $('#reason_not_working_with_needed_plugin').val();
- }
- var dataString = 'Resason='+resaon+'&TextReason='+reasontext+'&SiteUrl='+SiteUrl+'&SiteAdminEmail='+SiteAdminEmail;
+JotForm.init(function(){
+      JotForm.highlightInputs = false;
+	JotForm.clearFieldOnHide="disable";
+    /*INIT-END*/
+	});
 
- $.ajax({
-    type:'POST',
-    data:dataString,
-    url:ajaxurl,
-    success:function(data) {
-     location.reload();
- 
-    }
-  });
- 
-});
- });
-}(jQuery));
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"Submit Feedback","type":"control_button"},{"name":"input3","qid":"3","text":"","type":"control_radio"},{"name":"clickTo","qid":"4","text":"Quick Feedback\nYour feedback is valuable to us.","type":"control_text"},{"name":"clickTo5","qid":"5","text":"Skip &amp; Deactive","type":"control_text"},{"description":"","name":"others","qid":"6","subLabel":"Your feedback means a lot to us","text":"Others","type":"control_textarea"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"Submit Feedback","type":"control_button"},{"name":"input3","qid":"3","text":"","type":"control_radio"},{"name":"clickTo","qid":"4","text":"Quick Feedback\nYour feedback is valuable to us.","type":"control_text"},{"name":"clickTo5","qid":"5","text":"Skip &amp; Deactive","type":"control_text"},{"description":"","name":"others","qid":"6","subLabel":"Your feedback means a lot to us","text":"Others","type":"control_textarea"}]);}, 20); 

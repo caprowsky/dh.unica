@@ -3,14 +3,14 @@
 Plugin Name: SpiceBox
 Plugin URI:
 Description: Enhances SpiceThemes with extra functionality.
-Version: 1.0.2
+Version: 1.0.3
 Author: Spicethemes
 Author URI: https://github.com
 Text Domain: spicebox
 */
 define( 'SPICEB_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'SPICEB_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-
+error_reporting(0);
 function spiceb_activate() {
 	$theme = wp_get_theme(); // gets the current theme
 	if ( 'SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name  || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name){
@@ -189,4 +189,36 @@ if ( ! is_plugin_active( 'innofit-plus/innofit-plus.php' ) ):
 	}
 			
 endif;
+
+
+function spiceb_spicepress_feedback_scripts() {
+
+wp_enqueue_style('spiceb_style',SPICEB_PLUGIN_URL.'inc/css/feedback-popup.css');
+
+wp_enqueue_style('spiceb_formcss1',SPICEB_PLUGIN_URL.'inc/css/formCss.css');
+wp_enqueue_style('spiceb_formcss2','https://cdn.jotfor.ms/css/printForm.css');
+wp_enqueue_style('spiceb_formcss3', SPICEB_PLUGIN_URL.'inc/css/nova.css');
+wp_enqueue_style('spiceb_formcss4','https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css');
+wp_enqueue_style('spiceb_custom1',SPICEB_PLUGIN_URL.'inc/css/custom-one.css');
+wp_enqueue_style('spiceb_custome2',SPICEB_PLUGIN_URL.'inc/css/custom-two.css');
+
+wp_enqueue_script( 'spiceb-prototype-form', SPICEB_PLUGIN_URL.'inc/js/prototype.forms.js',array('jquery'), '', true);
+wp_enqueue_script( 'spiceb-jotform-js', SPICEB_PLUGIN_URL.'inc/js/jotform.forms.js',array('jquery'), '', true);
+wp_register_script('spiceb-custom-script', SPICEB_PLUGIN_URL. 'inc/js/custom-js.js',array('jquery','wp-color-picker'),'1.1', true);
+wp_enqueue_script('spiceb-custom-script');
+}
+add_action( 'admin_enqueue_scripts', 'spiceb_spicepress_feedback_scripts' );
+
+if ('SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name)
+{
+add_action( 'switch_theme', 'spicepresstheme_deactivate_message' );
+	function spicepresstheme_deactivate_message()
+	{
+	    $theme = wp_get_theme();
+	    if($theme->template!='spicepress'){
+	    require_once('inc/feedback-pop-up-form.php');
+	    }
+	  
+	}
+}
 ?>

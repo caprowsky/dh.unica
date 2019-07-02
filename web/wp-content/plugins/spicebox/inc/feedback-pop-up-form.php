@@ -1,55 +1,102 @@
+<?php error_reporting(0);?>
 <div class="dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox" id="spicepress-deactivate-feedback-modal" style="display: block;">
-	<div class="dialog-widget-content dialog-lightbox-widget-content" style="top: 173px; left: 550px;">
-	<div class="dialog-widget-header dialog-lightbox-widget-header">
-		<div id="spicepress-deactivate-feedback-dialog-header">
-		
-			<span id="spicepress-deactivate-feedback-dialog-header-title"><?php _e('Quick Feedback', 'spicepress');?></span><br>
-			<p style="color:#ffffff; font-weight: 400; font-size: 14px;
-    margin: 8px 0 0px;"> <?php _e('Your feedback is valuable for us.','spicepress');?> </p>
-		</div>
-	</div>
-	<div class="dialog-message dialog-lightbox-message">
-    <form id="spicepress-deactivate-feedback-dialog-form" method="post">
-		
-		<input type="hidden" name="ajaxurl" id="ajaxurl" value="<?php echo SPICEB_PLUGIN_URL.'feedback-mail.php'?>">
-		<input type="hidden" name="plugin_site" id="plugin_site" value='<?php echo get_home_url(); ?>'>
-		<input type="hidden" name="admin_mail" id="admin_mail" value="<?php echo get_option('admin_email'); ?>">
-		<div id="spicepress-deactivate-feedback-dialog-form-caption"><?php echo _e('What we have done wrong?','spicepress');?></div>
-		<div id="spicepress-deactivate-feedback-dialog-form-body">
-			<div class="spicepress-deactivate-feedback-dialog-input-wrapper">
-				<input id="spicepress-deactivate-feedback-no_longer_needed" class="spicepress-deactivate-feedback-dialog-input" type="radio" name="reason_key" checked value="It lacks options">
-				<label for="spicepress-deactivate-feedback-no_longer_needed" class="spicepress-deactivate-feedback-dialog-label"><?php _e('Very limited options','spicepress');?></label>
-										
-			</div>
-			<div class="spicepress-deactivate-feedback-dialog-input-wrapper">
-				<input id="spicepress-deactivate-feedback-found_a_better_plugin" class="spicepress-deactivate-feedback-dialog-input" type="radio" name="reason_key" value="I want to try a new design, I don't like Spicepress style">
-				<label for="spicepress-deactivate-feedback-found_a_better_plugin" class="spicepress-deactivate-feedback-dialog-label"><?php _e("I want to try a new design, I don't like Spicepress style","spicepress");?></label>
-				<textarea class="spicepress-feedback-text" id="reason_found_a_better_plugin" name="reason_found_a_better_plugin" placeholder="<?php _e('If possible tell us the name of the theme you have selected','spicepress'); ?>"></textarea>
-			</div>
-			<div class="spicepress-deactivate-feedback-dialog-input-wrapper">
-				<input id="spicepress-deactivate-feedback-couldnt_get_the_plugin_to_work" class="spicepress-deactivate-feedback-dialog-input" type="radio" name="reason_key" value="Is not working with a plugin that I need">
-				<label for="spicepress-deactivate-feedback-couldnt_get_the_plugin_to_work" class="spicepress-deactivate-feedback-dialog-label"><?php _e('Is not working with a plugin that I need','spicepress');?></label>
-				<textarea class="spicepress-feedback-text" id="reason_not_working_with_needed_plugin" name="reason_not_working_with_needed_plugin" placeholder="<?php _e('Plugin Name','spicepress'); ?>"></textarea>
-			</div>
-			<div class="spicepress-deactivate-feedback-dialog-input-wrapper">
-				<input id="spicepress-deactivate-feedback-temporary_deactivation" class="spicepress-deactivate-feedback-dialog-input" type="radio" name="reason_key" value="I don't know how to make it look like demo">
-				<label for="spicepress-deactivate-feedback-temporary_deactivation" class="spicepress-deactivate-feedback-dialog-label"><?php _e("I don't know how to make it look like demo",'spicepress');?></label>
-			</div>
-			<div class="spicepress-deactivate-feedback-dialog-input-wrapper">
-				<input id="spicepress-deactivate-feedback-other" class="spicepress-deactivate-feedback-dialog-input reason_key5" type="radio" name="reason_key" value="Other">
-				<label for="spicepress-deactivate-feedback-other" class="spicepress-deactivate-feedback-dialog-label"><?php _e('Other','spicepress');?></label>
-				<textarea class="spicepress-feedback-text" name="reason_other" id="reason_other" placeholder="<?php _e('Please share the reason','spicepress');?>"></textarea>
-			</div>
-		</div>
-    </form>
-	</div>
-	<div class="dialog-buttons-wrapper dialog-lightbox-buttons-wrapper"><button  class="dialog-button dialog-submit dialog-lightbox-submit" name="submit" id="submit"><?php _e('Submit','spicepress');?></button>
-	<button onclick="window.location.reload()"; class="dialog-button dialog-skip dialog-lightbox-skip"><?php _e('Skip &amp; Deactivate','spicepress');?></button>
-	</div>
-	</div>
-</div>
-	<?php
-	unset( $_GET['action'] );
+
+<form class="jotform-form" action="https://submit.jotform.me/submit/91673332832458/" method="post" name="form_91673332832458" id="91673332832458" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="91673332832458" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li class="form-line" data-type="control_text" id="id_4">
+        <div id="cid_4" class="form-input-wide">
+          <div id="text_4" class="form-html" data-component="text">
+            <p><span style="font-family: helvetica, arial, sans-serif;"><strong><span style="font-size: 18pt;"><?php _e('Quick Feedback','spicepress');?></span></strong></span></p>
+            <p><span style="font-size: 10pt; font-family: helvetica, arial, sans-serif;"><?php _e('Your feedback is valuable to us.','spicepress');?></span></p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_3">
+        <label class="form-label form-label-top" id="label_3" for="input_3">  </label>
+        <div id="cid_3" class="form-input-wide">
+          <div class="form-single-column" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_3_0" name="q3_input3" value="I found a better theme" />
+              <label id="label_input_3_0" for="input_3_0"> <?php _e('I found a better theme','spicepress');?> </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_3_1" name="q3_input3" value="It&#x27;s a temporary deactivation. I&#x27;m just debugging an issue." />
+              <label id="label_input_3_1" for="input_3_1"> <?php _e("It's a temporary deactivation. I'm just debugging an issue.","spicepress");?> </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_3_2" name="q3_input3" value="It does not have a feature I require. If possible, mention them in text box." />
+              <label id="label_input_3_2" for="input_3_2"> <?php _e('It does not have a feature I require. If possible, mention them in text box.','spicepress');?> </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_6">
+        <label class="form-label form-label-top form-label-auto" id="label_6" for="input_6"> <?php _e('Others','spicepress');?> </label>
+        <div id="cid_6" class="form-input-wide">
+          <span class="form-sub-label-container" style="vertical-align:top">
+            <textarea id="input_6" class="form-textarea" name="q6_others" cols="40" rows="6" data-component="textarea" aria-labelledby="label_6 sublabel_input_6"></textarea>
+            <label class="form-sub-label" for="input_6" id="sublabel_input_6" style="min-height:13px"> <?php _e('Your feedback means a lot to us','spicepress');?> </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div style="text-align:left" class="form-buttons-wrapper">
+            <button id="input_2" type="submit" class="form-submit-button" data-component="button">
+              <?php _e('Submit Feedback','spicepress');?>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_text" id="id_5">
+        <div id="cid_5" class="form-input-wide">
+          <div id="text_5" class="form-html" data-component="text">
+            <p><a class="form-deactivation" href="#" rel="nofollow" onclick="window.location.reload()"><?php _e('Skip & Deactive','spicepress');?></a></p>
+          </div>
+        </div>
+      </li>
+    
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="91673332832458" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "91673332832458-91673332832458";
+  </script>
+  <div class="formFooter-heightMask">
+  </div>
+  <div class="formFooter f6">
+    <a href="https://www.jotform.com/pricing?utm_source=formfooter&utm_medium=banner&utm_term=91673332832458&utm_content=jotform_logo&utm_campaign=powered_by_jotform_le" target="_blank" class="formFooter-logoLink"><img class="formFooter-logo" src="https://cdn.jotfor.ms/assets/img/logo/logo-new@1x.png" alt="" style="height: 44px;"></a>
+    <div class="formFooter-rightSide">
+      <span class="formFooter-text">
+        <?php _e("Now create your own JotForm - It's free!","spicepress");?>
+      </span>
+      <a class="formFooter-button" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=91673332832458&utm_content=jotform_button&utm_campaign=powered_by_jotform_le" target="_blank"><?php _e('Create your own JotForm','spicepress');?></a>
+    </div>
+  </div>
+  <input type="hidden" id="input_7" name="q7_typeA" class="form-hidden" value="<?php
+                global $wp;
+echo home_url( $wp->request ).'/wp-admin/themes.php';
+?>" data-component="hidden" />
+</form>
+  </div>
+
+  <?php
+  unset( $_GET['action'] );
     require ABSPATH . 'wp-admin/themes.php';
 
 ?>
