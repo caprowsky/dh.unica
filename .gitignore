@@ -1,4 +1,4 @@
 .idea/
 .docker-sync
 mariadb-init*
-web/wp-config.php
+#web/wp-config.php
