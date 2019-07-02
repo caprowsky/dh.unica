@@ -3,7 +3,7 @@ Contributors: spicethemes
 Tags: widget, admin, widgets
 Requires at least: 3.3+
 Tested up to: 5.0.3
-Stable tag: 0.3.9.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -108,3 +108,31 @@ This plugin create repeater controls in the customizer settings allowing you to 
 = 0.3.9.1 =
 
 1. Fixed menu create issue in innofit.
+
+= 0.3.9.2 =
+
+1. Added Innofit plus feature link in customizer section.
+
+= 0.4 =
+
+= 0.5 =
+1. Add Meta Box Feature of slider setting for chilly theme
+
+= 0.6 =
+1. Update version.
+
+= 0.7 =
+1. Add Limit in innofit theme for service section
+2. Add Limit in innofit theme for team section
+3. Remove Testimonial section from innofit theme
+4. Remove CTA section from innofit theme
+5. Remove subscribe section from innofit theme
+
+= 1.0 =
+1. Update version.
+
+= 1.0.1 =
+1. Service Icon issue fix
+
+= 1.0.2 =
+1. Version Change

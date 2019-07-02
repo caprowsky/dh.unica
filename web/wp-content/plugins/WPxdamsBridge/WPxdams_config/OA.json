@@ -1,0 +1,17 @@
+{
+       "items":   [
+
+
+  {"type":"#field", "label": "titolo" ,  "id": "/c/did/materialspec/title"}
+, {"type":"#field", "label": "data di produzione" ,     "id": "/c/did/unitdate/"}
+, {"type":"#field", "label": "soggetto" ,               "id": "/c/controlaccess/subject/"}
+, {"type":"#field", "label": "enti" ,                "id": "/c/did/origination/corpname/"}
+, {"type":"#field", "label": "persone" ,                "id": "/c/did/origination/persname/"}
+, {"type":"#field", "label": "luoghi" ,                 "id": "/c/controlaccess/geogname/"}
+
+
+
+		
+
+                 ]
+}

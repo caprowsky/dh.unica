@@ -537,7 +537,7 @@ class Spicepress_Repeater extends WP_Customize_Control {
                 <?php
                 echo sprintf(
 	                esc_html__( 'Note: Some icons may not be displayed here. You can see the full list of icons at %1$s.', 'spicepress' ),
-	                sprintf( '<a href="http://fontawesome.io/icons/" rel="nofollow">%s</a>', esc_html__( 'http://fontawesome.io/icons/', 'spicepress' ) )
+	                sprintf( '<a href="%1$s" rel="nofollow">%s</a>', esc_html__( 'http://fontawesome.io/icons/', 'spicepress' ) )
                 ); ?>
             </span>
 			<div class="input-group icp-container">

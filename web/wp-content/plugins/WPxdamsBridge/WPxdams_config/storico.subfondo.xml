@@ -1,0 +1,7 @@
+<c id="generic" level="subfonds">
+	<xDamsElement presentation="unittitle/1" label="titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="scopecontent" label="scopecontent"   multiple="yes">active</xDamsElement>
+
+</c>
+
+

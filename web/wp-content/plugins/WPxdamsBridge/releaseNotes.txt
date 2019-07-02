@@ -1,0 +1,351 @@
+******************************************************************
+
+*******  Wordpress to xDams Bridge  - Release Notes   ************
+  
+********** last update 18th october 2018 – version 2.2 ***********
+
+******************************************************************
+
+**** version 2.2.0 18 oct 2018  GARD  --------------------------
+
+NEW > added eaccpf archive configuration (people authority)
+
+NEW > added itembultiearch attribute   (in listshortcode)  to start a multiarchive search by a detail page (relataed content)
+
+NEW > added formdescpost attribute   (in list and search shortcode)  
+
+NEW > added redirectitem attribute to customize item page  (in list and search shortcode) 
+
+NEW > added redirect attribute to customize second page in vocabulary (only!) result list (in list shortcode) 
+
+NEW > added vocabularytemplate attribute to customize vocabulary results list (in list shortcode)
+
+NEW > added menutemplate attribute to customize menu (in list and search shortcode) 
+
+NEW > added showarchives attribute to show or not other archives in result page (in search shortcode)
+
+NEW > added showlist attribute to show a results list in first page (in search shortcode)
+ 
+NEW > added xdamsTree shorcode with formdescpost, formtemplate, treetemplate and treestartlevel attributes 
+
+NEW > Create index page in back end (for xdamsTree)
+
+NEW > singular / plural in messages
+
+NEW > added responsive menu (using in your template WPxdamsBridge_getPagingMenuBootstrap ())
+
+NEW > added alphabetical navigation menu for vocabulary
+
+NEW > added separator in output fields settings (beetween two occurencies of same field
+
+NEW > added group end value in output fields settings
+
+NEW > added hierarchy visualization in item page
+
+NEW > added customization options for hierarchy visualization
+
+NEW > added itemdescpre itemdescpos listdespre listdescpos attributes in text and Ad search
+
+NEW > historical archive new config file for collections
+
+NEW > historical archive new config file for series
+
+NEW > historical archive new config file for subserie
+
+NEW > historical archive new config file for subfonds
+
+NEW > historical archive new config file for files
+
+NEW > photo archive new config file for collections
+
+NEW > photo archive new config file for series
+
+NEW > photo archive new config file for files with media field
+
+NEW > added page list customization for multiarchives search (option for archive in archive settings)
+
+NEW > number of results in menu made visible or not (customizable)
+
+NEW > customizable width of search box
+
+NEW > customizable redirect page in search form (results page in a different wordpress page)
+
+NEW > custom form and results page in 2 different cols (example ABG)
+
+NEW > added field attribute as search criteria 
+
+NEW > added field attribute value for field selection (output fields page) 
+
+NEW > added option to publish only the attribute value
+
+CHANGE > changed "search form field" configuration page label in "Archives settings"
+
+CHANGE > OA configuration file upgraded
+
+FIX > error in cleaning html tags.
+
+FIX > bug in search caused by characters as è é ç etc.
+
+FIX > null value in description
+
+FIX > to publish only public item without search criteria ( no error if the search criteria have been added in shortcode)
+
+FIX > correct visualization of multiple occurences of a field in absence of end tag (only "/>")
+
+FIX > uncorrect visualization a field value when it is at the end of the XML tag
+
+FIX > search text condition error in xdamsList shorcode
+
+FIX > obsolete method for capabilities in add menu page
+
+FIX > eliminated double slash in photo url
+
+**** version 2.1.4 23 aug 2108  Stari Most  -------not published------
+
+
+**** version 2.1.3 09 jan 2108  Stari Most  --------------------------
+
+FIX > compatibility issues in Admin using some themes 
+
+FIX > visualizzation of character with umlaut, accent etc. in vocabulary list
+
+FIX > management of characters in unicode for vocabulary search
+
+FIX > @=text to find in search criteria for listing
+
+
+
+**** version 2.1.2 22 dec 2017  Stari Most  --------------------------
+
+NEW > added a check in configuration to publish only value of a tag excluding nested subtags
+
+FIX > pages menu after serch form
+
+
+
+**** version 2.1.1 18 dec 2017  Stari Most  --------------------------
+
+NEW > add and delete field in search form settings
+
+NEW > selective import for archives levels and search form fields
+
+NEW > added new level configurations in OA archive
+
+FIX > search field configuration for OA Archive
+
+FIX > special html character management in search form (wrong visualization es. /' )
+
+
+
+**** version 2.1   12 dec 2017  Stari Most  --------------------------
+
+NEW > modifiable img field in output field settings
+
+NEW > management of external urls form images and/or attachments
+
+NEW > attachments management for multiaccount installations
+
+
+
+**** version 2.0   25 nov 2017  Fabricio  --------------------------
+
+NEW > IMPORTANT - management od CURL option introduced to avoid php allow_url_fopen paramenter = on (deprecated)
+
+
+
+
+**** version 1.9   13 nov 2017  ------------------------------------
+
+FIX > error in list loop
+
+
+
+**** version 1.8   3 nov 2017  ------------------------------------
+
+NEW > conditional option added in free search
+
+FIX > logic operator priority revisited (in addtional conditions)
+
+
+**** version 1.7   31 jul 2017  ------------------------------------
+
+NEW > html areas pre and post title added to back end and managed in the single item page
+
+NEW > html areas pre and post field value added to back end and managed in the single item page
+
+
+**** version 1.6   17 apr 2017  ------------------------------------
+
+NEW > management of audience attribute (public or not)
+
+FIX > search of items after selection in vacabularies
+
+
+
+**** version 1.5   21 jan 2017  ------------------------------------
+
+NEW > introduced 'formtemplate' parameter in search process to specify a template for a search form(textual or advanced)
+
+NEW > introduced 'listtemplate' parameter in search process to specify a template for a search result list (textual or advanced)
+
+NEW > introduced 'listtemplate' parameter in xdamsList  to specify a custom template 
+
+
+
+**** version 1.4   15 jan 2017  ------------------------------------
+
+NEW > introduced 'form' parameter in search process to distinguish if you publish only form or form + results
+
+
+
+**** version 1.3    7 jan 2017  ------------------------------------
+
+NEW > migrated boootstrap based functions in the new plugin wpxdamsstories 
+
+
+
+**** version 1.2    3 jan 2017  ------------------------------------ 
+
+NEW > plugin core separated by story funtions (new plugin wpxdamsstories) 
+
+NEW > wpxdamsbridge story funtions deprecated use new plugin 
+
+
+
+
+**** version 1.1    7 dec 2016  ------------------------------------
+
+NEW > all setting saved on DB (from files only for the first setting)
+
+    
+NEW > migration from previous version (saving or deleting settings) 
+
+    
+NEW > archive description modifiable via back end
+
+    
+NEW > field description and Id modifiable via back end
+
+    
+NEW > fields re-ordering via back end
+
+    
+NEW > selective re-import from config file
+
+    
+FIX > visualization attribute
+
+
+
+
+**** version 1.0   20 sep 2016  ------------------------------------
+
+NEW > multilingual management
+
+    
+NEW > language setting page
+
+
+
+
+
+**** version 0.6   11 jul 2016  ------------------------------------
+
+    
+
+NEW > vocabulary function added
+
+
+
+
+
+
+
+**** version 0.5   21 jun 2016  ------------------------------------
+
+    
+
+NEW > introduced management of more kind of rendering for the stories
+
+
+
+
+
+
+
+**** version 0.4    3 jun 2016  ------------------------------------
+
+    
+
+NEW > changed "exhibition" in story -   [xdamsStory]id number of the story
+
+    
+NEW > management of shortcode 
+
+            
+[xdamsImage type='archive ID' ]
+            
+[xdamsDynSlider type='archive ID]
+
+
+
+
+
+**** version 0.3   25 may 2016  ------------------------------------
+
+    
+
+NEW > exhibition management page 
+
+    
+NEW > management of shortcode 
+
+            
+[xdamsExhibit]id number of the exhibition
+   
+
+
+
+
+**** version 0.2    5 may 2016  ------------------------------------
+
+    
+
+NEW > management of shortcode 
+
+            
+[xdamsPreview type='archive ID' ]
+            
+[xdamsListImg type='archive ID' ]
+
+
+
+
+
+
+**** version 0.1    1 apr 2016  ------------------------------------
+
+    
+
+NEW > general settings page
+
+    
+NEW > serch form setting page
+
+    
+NEW > output fields setting page
+
+    
+NEW > management of shortcode 
+
+            
+[xdamsItem type='archive ID' ]
+            
+[xdamsSearch type='archive ID' ]
+            
+[xdamsAdSearch type='archive ID' ]
+            
+[xdamsList type='archive ID' ]
+
+
+	

@@ -1,0 +1,25 @@
+/*
+WPxdamsBRidge
+Author: regesta.exe
+Author URI: http://www.regesta.com
+
+*/
+
+.ui-sortable tr {     cursor:pointer; }    
+.ui-sortable tr:hover {     background:rgba(244,251,17,0.45); } 
+
+.editDetailsButton {
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+color: #fff;
+background-color: #d9534f;
+border-color: #d43f3a;
+} 
+/********************************************************************************************************************/
+/******************************************** MAIN HTML STYLES ******************************************************/
+/********************************************************************************************************************/

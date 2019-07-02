@@ -1,0 +1,771 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Easy Instagram Feed\n"
+"POT-Creation-Date: 2018-10-11 13:30+0530\n"
+"PO-Revision-Date: 2018-10-11 13:29+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: easyfeed.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: easyfeed.php:90
+msgid "Easy Instagram Feed"
+msgstr ""
+
+#: easyfeed.php:111
+msgid "Sorry given field are not correct"
+msgstr ""
+
+#: easyfeed.php:120
+msgid "Settings"
+msgstr ""
+
+#: easyfeed.php:125
+msgid "Instagram Feed Plugin"
+msgstr ""
+
+#: easyfeed.php:133
+msgid "General Settings"
+msgstr ""
+
+#: easyfeed.php:135
+msgid "Design Customization"
+msgstr ""
+
+#: easyfeed.php:137
+msgid "Custom CSS and JS"
+msgstr ""
+
+#: easyfeed.php:139
+msgid "Display Your Feeds"
+msgstr ""
+
+#: easyfeed.php:141
+msgid "Get The advance Version"
+msgstr ""
+
+#: easyfeed.php:143 easyfeed.php:317
+msgid "Show some love"
+msgstr ""
+
+#: easyfeed.php:145
+msgid "FAQ"
+msgstr ""
+
+#: easyfeed.php:159
+msgid ""
+"Add the shortcode <strong>[easyinstagramfeed]</strong> to display instagram "
+"feeds."
+msgstr ""
+
+#: easyfeed.php:255
+msgid "What you get in advance version"
+msgstr ""
+
+#: easyfeed.php:258
+msgid "Video type media support"
+msgstr ""
+
+#: easyfeed.php:259
+msgid ""
+"In the advance verison you can show video type items in the instagram feed. "
+"LightBox pop up will play the video."
+msgstr ""
+
+#: easyfeed.php:262
+msgid "Hashtags support"
+msgstr ""
+
+#: easyfeed.php:263
+msgid ""
+"Get feeds by the hashtags. Say if you set Adidas and sports as the tags than "
+"you will recieves those media items in feed which have atleast both the tags."
+msgstr ""
+
+#: easyfeed.php:266
+msgid "Common hashtags feed support"
+msgstr ""
+
+#: easyfeed.php:267
+msgid ""
+"By default Instagram shows all the feeds from the multiple hashtags. Right "
+"now instagram did not have a feature to show feeds common in the multiple "
+"hastags. The advance version does have a feature to display only those feeds "
+"common in the multiple hashtags."
+msgstr ""
+
+#: easyfeed.php:270
+msgid "User feed filtering by hashtag"
+msgstr ""
+
+#: easyfeed.php:271
+msgid ""
+"As you know that instagram has no phenomena which allow you to display user "
+"feed tagged by specific hash tags, so , we have added a feature to do it."
+msgstr ""
+
+#: easyfeed.php:274
+msgid "Lightbox support"
+msgstr ""
+
+#: easyfeed.php:275
+msgid ""
+"By default the lightbox is active that if you click on any of the image / "
+"video , than you get the nice piece of lightBox  overlay. In this overlay "
+"window you can watch video, navigate to other images, share the items on "
+"insatragam  etc etc. You can also disable it if you dint want to use "
+"lightbox."
+msgstr ""
+
+#: easyfeed.php:278
+msgid "Socialise feeds"
+msgstr ""
+
+#: easyfeed.php:279
+msgid ""
+"Share the feed items on Instagram as well as other social services like "
+"Facebook, Twitter, Google Plus, LinkedIn, Pinterest, Reddit and Stumbleupon."
+msgstr ""
+
+#: easyfeed.php:282
+msgid "Configure caption"
+msgstr ""
+
+#: easyfeed.php:283
+msgid ""
+"Easy control over the media caption. You can hide, style, specify the limit "
+"of text to show by default."
+msgstr ""
+
+#: easyfeed.php:286
+msgid "Configure like and share icon"
+msgstr ""
+
+#: easyfeed.php:287
+msgid ""
+"You can add the like and share icons by selecting the checkbox. You can also "
+"change the icon colors."
+msgstr ""
+
+#: easyfeed.php:290
+msgid "Header support"
+msgstr ""
+
+#: easyfeed.php:291
+msgid ""
+"Show you instagram profile picture along with the name. You can also change "
+"the text color in the header."
+msgstr ""
+
+#: easyfeed.php:295
+msgid "How to get advance version"
+msgstr ""
+
+#: easyfeed.php:296
+msgid ""
+"If you are interested in advance version of this plugin then please drop us "
+"a mail. <a target =\"_blank\" href=\"https://spicethemes.com/contact/\"> "
+"here</a>. I hope you will also enjoy working with us."
+msgstr ""
+
+#: easyfeed.php:299
+msgid "Cheers"
+msgstr ""
+
+#: easyfeed.php:301
+msgid "Co-Founder, Spicethemes"
+msgstr ""
+
+#: easyfeed.php:320
+msgid "Like this plugin? Support us by"
+msgstr ""
+
+#: easyfeed.php:324
+msgid "Rate it"
+msgstr ""
+
+#: easyfeed.php:325
+msgid "Tweet it"
+msgstr ""
+
+#: easyfeed.php:344
+msgid "Common issues"
+msgstr ""
+
+#: easyfeed.php:349
+msgid "Feeds not displaying"
+msgstr ""
+
+#: easyfeed.php:351
+msgid ""
+"The heart of this plugin is javascript, so, its a very good chance that the "
+"plugin will face javascript conflicts with others themes and plugins. In "
+"this case, always check for the errors in the console, try to deactivate the "
+"plugin one by one and see whether you are still facing the same issue. "
+"Sometimes it has seen that the plugin did not work with the theme itself, "
+"again, the main issue is of javascript conflict, So, in this case, try with "
+"the others themes like twenty fourteen, twenty twelve etc. If nothing works "
+"then do let us know about the issue."
+msgstr ""
+
+#: easyfeed.php:353
+msgid ""
+"After taking all measures mentioned above, if you are still facing the "
+"issue, than check wither your access token is valid or not."
+msgstr ""
+
+#: easyfeed.php:358
+msgid "How to display Instagram feed on post/page?"
+msgstr ""
+
+#: easyfeed.php:360
+msgid ""
+"After plugin activation Go to \"Easy Instagram feed\" option panel, "
+"configure it and add the shortcode <b>[easyinstagramfeed]</b> in the "
+"WordPress Post/Pages."
+msgstr ""
+
+#: easyfeed.php:367
+msgid "What is the minimum requirement to run the shortcode?"
+msgstr ""
+
+#: easyfeed.php:369
+msgid "User access token are mandatory."
+msgstr ""
+
+#: easyfeed.php:376
+msgid "How to display different feeds on different pages."
+msgstr ""
+
+#: easyfeed.php:378
+msgid ""
+"Add different shortcodes on different pages ie if you want to show 2 user "
+"feeds on different pages than add <b><i>[easyinstagramfeed accesstoken="
+"\"Token1\"]</i></b> to one page and add <b><i>[easyinstagramfeed accesstoken="
+"\"Token2\"]</i></b> to another page."
+msgstr ""
+
+#: easyfeed.php:384
+msgid "How to get user Access token?"
+msgstr ""
+
+#: easyfeed.php:386
+msgid ""
+"Go to general settings and get the user from there or use the this third "
+"party <a target =\"_blank\" href=\"http://instagram.pixelunion.net/\"> tool "
+"</a>"
+msgstr ""
+
+#: easyfeed.php:393
+msgid "How to display multiple accounts feeds on pages?"
+msgstr ""
+
+#: easyfeed.php:395
+msgid ""
+"I am assuming that you have authorized the app with your Instagram account "
+"ie you have the access token. Add the shortcode <b><i>[easyinstagramfeed "
+"accesstoken=\"Token1,Token2\"]</i></b> to wordpress page."
+msgstr ""
+
+#: easyfeed.php:400
+msgid "Facing other issues."
+msgstr ""
+
+#: easyfeed.php:402
+msgid "click here"
+msgstr ""
+
+#: lib/optionpanel/custome_css_and_js.php:18
+msgid "Custom CSS"
+msgstr ""
+
+#: lib/optionpanel/custome_css_and_js.php:19
+msgid "<strong>Note:</strong> Only enter CSS without style tag."
+msgstr ""
+
+#: lib/optionpanel/custome_css_and_js.php:28
+msgid "Custom JavaScript"
+msgstr ""
+
+#: lib/optionpanel/custome_css_and_js.php:29
+msgid "<strong>Note:</strong> Enter JS without script tag."
+msgstr ""
+
+#: lib/optionpanel/customize.php:115
+msgid "Customize feed area"
+msgstr ""
+
+#: lib/optionpanel/customize.php:120
+msgid "Width of feed area"
+msgstr ""
+
+#: lib/optionpanel/customize.php:124 lib/optionpanel/customize.php:135
+#: lib/optionpanel/customize.php:203
+msgid "px"
+msgstr ""
+
+#: lib/optionpanel/customize.php:125 lib/optionpanel/customize.php:136
+#: lib/optionpanel/customize.php:204
+msgid "%"
+msgstr ""
+
+#: lib/optionpanel/customize.php:131
+msgid "Height of feed area"
+msgstr ""
+
+#: lib/optionpanel/customize.php:142
+msgid "Background color of feed section"
+msgstr ""
+
+#: lib/optionpanel/customize.php:152
+msgid "Photos"
+msgstr ""
+
+#: lib/optionpanel/customize.php:154
+msgid "Order by"
+msgstr ""
+
+#: lib/optionpanel/customize.php:157
+msgid "Newest to Oldest"
+msgstr ""
+
+#: lib/optionpanel/customize.php:158
+msgid "Random"
+msgstr ""
+
+#: lib/optionpanel/customize.php:163
+msgid "Number of photos"
+msgstr ""
+
+#: lib/optionpanel/customize.php:166
+msgid ""
+"Specify number of photos to show initially. Maximum 33 media items returned "
+"in a single request. In case of multiple id and hashtag, you will get, this "
+"much number of media items for each ids/tags."
+msgstr ""
+
+#: lib/optionpanel/customize.php:170
+msgid "Number of columns"
+msgstr ""
+
+#: lib/optionpanel/customize.php:188
+msgid "Image resolution"
+msgstr ""
+
+#: lib/optionpanel/customize.php:191
+msgid "Thumbnail (150*150)"
+msgstr ""
+
+#: lib/optionpanel/customize.php:192
+msgid "Medium (306*306)"
+msgstr ""
+
+#: lib/optionpanel/customize.php:193
+msgid "Full Size (640*640)"
+msgstr ""
+
+#: lib/optionpanel/customize.php:199
+msgid "Padding around images"
+msgstr ""
+
+#: lib/optionpanel/customize.php:210
+msgid "Image overLay"
+msgstr ""
+
+#: lib/optionpanel/customize.php:215
+msgid "Border around image"
+msgstr ""
+
+#: lib/optionpanel/customize.php:220
+msgid "Image shadow"
+msgstr ""
+
+#: lib/optionpanel/customize.php:226
+msgid "Enable Pop-up Lightbox"
+msgstr ""
+
+#: lib/optionpanel/customize.php:229 lib/optionpanel/customize.php:243
+#: lib/optionpanel/customize.php:249 lib/optionpanel/customize.php:250
+#: lib/optionpanel/customize.php:260 lib/optionpanel/customize.php:266
+#: lib/optionpanel/customize.php:271 lib/optionpanel/customize.php:272
+#: lib/optionpanel/customize.php:282 lib/optionpanel/customize.php:292
+#: lib/optionpanel/customize.php:298 lib/optionpanel/customize.php:305
+#: lib/optionpanel/general-settings.php:49
+msgid "Available in advance version"
+msgstr ""
+
+#: lib/optionpanel/customize.php:239
+msgid "Header"
+msgstr ""
+
+#: lib/optionpanel/customize.php:241
+msgid "Show the header"
+msgstr ""
+
+#: lib/optionpanel/customize.php:247
+msgid "Header text color"
+msgstr ""
+
+#: lib/optionpanel/customize.php:256
+msgid "Caption"
+msgstr ""
+
+#: lib/optionpanel/customize.php:258
+msgid "Show caption"
+msgstr ""
+
+#: lib/optionpanel/customize.php:264
+msgid "Maximum text length"
+msgstr ""
+
+#: lib/optionpanel/customize.php:269
+msgid "Text color"
+msgstr ""
+
+#: lib/optionpanel/customize.php:275
+msgid "Text size"
+msgstr ""
+
+#: lib/optionpanel/customize.php:288
+msgid "Likes and comments"
+msgstr ""
+
+#: lib/optionpanel/customize.php:290
+msgid "Show number of likes"
+msgstr ""
+
+#: lib/optionpanel/customize.php:296
+msgid "Show number of comments"
+msgstr ""
+
+#: lib/optionpanel/customize.php:302
+msgid "Background color"
+msgstr ""
+
+#: lib/optionpanel/customize.php:314
+msgid "'Load More' button"
+msgstr ""
+
+#: lib/optionpanel/customize.php:316
+msgid "Show the 'Load More' button"
+msgstr ""
+
+#: lib/optionpanel/customize.php:322 lib/optionpanel/customize.php:352
+msgid "Button background color"
+msgstr ""
+
+#: lib/optionpanel/customize.php:328 lib/optionpanel/customize.php:358
+msgid "Button text color"
+msgstr ""
+
+#: lib/optionpanel/customize.php:334 lib/optionpanel/customize.php:364
+msgid "Button text"
+msgstr ""
+
+#: lib/optionpanel/customize.php:343
+msgid "'Follow on Instagram' button"
+msgstr ""
+
+#: lib/optionpanel/customize.php:345
+msgid "Show the follow button"
+msgstr ""
+
+#: lib/optionpanel/customize.php:371 lib/optionpanel/general-settings.php:55
+msgid "Save"
+msgstr ""
+
+#: lib/optionpanel/customize.php:372
+msgid "Reset"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:5
+msgid "Display your Feed"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:7
+msgid ""
+"To show Instagram feeds on the pages or posts add the shortcode highlighted "
+"below in the editor. But for this configure the details in the option panel."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:10
+msgid ""
+"The plugin comes with the number of attributes so that you can configure "
+"your feeds by just assigning the appropriate value to it. For example, if "
+"you'd like to display Instagram feed in the fashion of 4 columns than all "
+"you need to do is just assign the value 4 to the cols attribute as shown "
+"below."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:11
+msgid ""
+"You can display as many different feeds as you like, on either the same page "
+"or on different pages, by just using the shortcode attributes below. For "
+"example:"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:16
+msgid "See the table below for a full list of available shortcode attributes:"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:20
+msgid "Shortcode option"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:21
+msgid "Example"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:22
+msgid "Description"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:30
+msgid ""
+"An Instagram User Token. Want to fetch feeds from multiple user accounts "
+"than specify their Tokens and separate them by commas. Use this tool to know "
+"your <a href=\"http://instagram.pixelunion.net/\" target=\"_blank\">Token</"
+"a> . You can also get your token by authorizing this app in the General "
+"Settings of the Option Panel."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:35
+msgid ""
+"The width of your feed in number. No need to add px or %. Default value is "
+"100."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:40
+msgid ""
+"The width unit of the feed. Allowed units are px or %. Default value if not "
+"specified is %."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:45
+msgid ""
+"The height of the feed. Just specify a number. The Default value is 100."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:50
+msgid "The height unit of feed. Use px or %."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:55
+msgid "The background color color of your feed area. Default value #fff."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:60
+msgid ""
+"Sort photos by order. It has two values <b>\"Newest to Oldest\"</b> and <b>"
+"\"Random\"</b>. Default order is <strong>Newest to Oldest</strong> if not "
+"specified."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:65
+msgid "Limit number of images to show."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:70
+msgid "Number of column of feed. The default value is 4."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:75
+msgid ""
+"Resolution of images, has three values <b>thumbnail</b> , <b>low_resolution</"
+"b> and <b>standard_resolution</b>. Default resolution is low_resolution if "
+"not specified. Thumbnail will render image of size 150 * 150, low resolution "
+"306 * 306 and standard 640px * 640px "
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:80
+msgid "The image padding size in number. The default is 5."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:85
+#, php-format
+msgid "The image padding unit in % or px. The default is px."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:91
+msgid ""
+"Whether to show the \"overlay\" on feed. <b>yes</b> or <b>no</b>. The "
+"default value is <b>Yes</b>."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:96
+msgid ""
+"Whether to show the \"Border\" on feed. <b>yes</b> or <b>no</b>. The default "
+"value is <b>Yes</b>."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:101
+msgid ""
+"Whether to show the \"image shadow\" on feed. <b>yes</b> or <b>no</b>. The "
+"default value is <b>no</b>."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:107
+msgid ""
+"Whether to show the 'Load More' button. <b>yes</b> or <b>no</b>. The default "
+"is <b>no</b>."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:112
+msgid "The Load More button color. The default is #000."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:117
+msgid "The Load More button text color. The default is #fff."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:122
+msgid "The Load More button display text."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:127
+msgid ""
+"Whether to show the <b>Follow on Instagram</b> button. <b>yes</b> or <b>no</"
+"b>. The default value is no."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:132
+msgid "The follow on Instagram button color. The default color is #000."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:137
+msgid "The follow on Instagram button text color. The default is #fff."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:142
+msgid "The follow on Instagram button display text."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:145
+msgid "Available Attributes in advance version"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:153
+msgid ""
+"This is to specify which type of feed you want to display. If you want to "
+"show feed with hashtag then specify <b>hashtag</b> as a value of shortcode "
+"attribute <i>searchtype</i>. If you want feeds from specific user account "
+"than specify <b>user</b> as a value of shortcode attribute <i>searchtype</"
+"i>. <br> Note: In case of user feed  it is not mandatory to use specify "
+"searchtype value as user, it is the defautl value ie [easyinstagramfeed "
+"userid='your-user-id' searchtype='user'] is equivalent to [easyinstagramfeed "
+"userid='your-user-id']"
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:159
+msgid ""
+"An Instagram Hashtag. Want to fetch feeds from multiple Hashtag than specify "
+"their Name and for multiple hashtag separate them by commas. Also no need to "
+"put # symbol before the hashtag name."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:164
+msgid ""
+"To disable popup set <strong>no</strong>. The default value is <b>yes</b>."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:170
+msgid ""
+"Whether to show the caption on feed. <b> yes</b> or <b>no</b>. The default "
+"value is no."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:177
+msgid "The caption text length. The default is 10."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:183
+msgid "The caption text color. The default is #666."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:189
+msgid ""
+"The caption text size does not need to mention px it is by default include "
+"in. The default is 14."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:195
+msgid ""
+"Whether to show the header on feed. <b>yes</b> or <b>no</b>. The default "
+"value is yes."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:201
+msgid "The color of header text. The default is #e34f0e."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:207
+msgid ""
+"Whether to show the likes on feed. <b>yes</b> or <b>no</b>.  The default "
+"value is yes."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:213
+msgid ""
+"Whether to show the comments on feed. <b>yes</b> or <b>no</b>.  The default "
+"value is yes."
+msgstr ""
+
+#: lib/optionpanel/display-feeds.php:220
+msgid "The likes and comments color. The default is #dd9494."
+msgstr ""
+
+#: lib/optionpanel/general-settings.php:31
+msgid "Authorize plugin to get access token."
+msgstr ""
+
+#: lib/optionpanel/general-settings.php:33
+msgid "Login to your account and authorize the app."
+msgstr ""
+
+#: lib/optionpanel/general-settings.php:37
+msgid "Your access token"
+msgstr ""
+
+#: lib/optionpanel/general-settings.php:38
+msgid ""
+"To show multiple user feeds add multiple tokens using commas. Click the link "
+"to know token <a href='http://instagram.pixelunion.net/' "
+"target='_blank'>link</a> Like this:"
+msgstr ""
+
+#: lib/optionpanel/general-settings.php:44
+msgid "User ID"
+msgstr ""
+
+#: lib/optionpanel/general-settings.php:48
+msgid "Hashtag"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin allows to fetch the Instagram feeds in your wordpress site. Just "
+"add the shortcode [easyinstagramfeed] in the normal wordpress page inorder "
+"to get the feeds."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "priyanshu.mittal,a.ankit,spicethemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.spicethemes.com"
+msgstr ""

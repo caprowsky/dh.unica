@@ -33,34 +33,8 @@ function innofit_services_section()
 				'link'       => '#',
 				'open_new_tab' => 'yes',
 				'id'         => 'customizer_repeater_56d7ea7f40b86',
-				),
-				array(
-				'icon_value' => 'fa-android',
-				'title'      => esc_html__( 'App Development', 'spicebox' ),
-				'text'       => 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.',
-				'choice'    => 'customizer_repeater_icon',
-				'link'       => '#',
-				'open_new_tab' => 'yes',
-				'id'         => 'customizer_repeater_56d7ea7f40b88',
-				),
-				array(
-				'icon_value' => 'fa-code',
-				'title'      => esc_html__( 'Unique and Clean', 'spicebox' ),
-				'text'       => 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.',
-				'choice'    => 'customizer_repeater_icon',
-				'link'       => '#',
-				'open_new_tab' => 'yes',
-				'id'         => 'customizer_repeater_56d7ea7f40b89',
-				),
-				array(
-				'icon_value' => 'fa-users',
-				'title'      => esc_html__( 'Satisfied Clients', 'spicebox' ),
-				'text'       => 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.',
-				'choice'    => 'customizer_repeater_icon',
-				'link'       => '#',
-				'open_new_tab' => 'yes',
-				'id'         => 'customizer_repeater_56d7ea7f40b91',
-				),
+				),				
+				
 			) );
 		}
 		
@@ -74,7 +48,7 @@ function innofit_services_section()
 <!-- Service Section -->
 <section class="section-module services" id="services">
 	<div class="container">
-		<?php if($innofit_service_section_discription!='' || innofit_service_section_title!=''){ ?>
+		<?php if($innofit_service_section_discription!='' || $innofit_service_section_title!=''){ ?>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-header">
@@ -91,7 +65,8 @@ function innofit_services_section()
 		
 		<div id="service_content">
 		<div class="row">
-		<?php $service_data = json_decode($service_data);
+		<?php 
+		$service_data = json_decode($service_data);
 		if (!empty($service_data))
 		{ 
 			foreach($service_data as $service_team)

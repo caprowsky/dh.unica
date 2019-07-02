@@ -9,7 +9,16 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 
-	<?php wp_head(); ?>
+	<?php wp_head(); 
+	if ( ! is_plugin_active( 'innofit-plus/innofit-plus.php' ) ):
+		if(empty(get_theme_mod('home_call_out_title'))):?>
+	<style>
+		.menu-item-object-custom.menu-item-13
+		{
+			display: none;
+		}
+	</style>
+<?php endif; endif;?>
 </head>
 	<?php 
 	$innofit_layout_style=get_theme_mod('innofit_layout_style','wide');

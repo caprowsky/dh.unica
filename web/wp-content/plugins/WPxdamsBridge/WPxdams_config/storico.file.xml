@@ -1,0 +1,19 @@
+<c id="generic" level="file">
+	<xDamsElement presentation="unittitle/1"                label="titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="scopecontent"               label="scopecontent"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="origination"                label="origine"   multiple="yes">active</xDamsElement> 
+	<xDamsElement presentation="acqinfo"                    label="info acquisizione"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="subject"                    label="soggetto"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="controlaccess/persname/1[role]" label="persona e ruolo"   multiple="yes">active</xDamsElement>     
+	<xDamsElement presentation="bioghist"                   label="biog hist"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unitdate"                   label="data"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="descgrp/originalsloc/1"     label="originals loc"   multiple="yes">active</xDamsElement>     
+        <xDamsElement presentation="origination/corpname/1"     label="ente"   multiple="yes">active</xDamsElement>          
+        <xDamsElement presentation="daoloc/1[href]"             label="risorsa"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="did/physdesc/extent/3"      label="numero"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="did/physdesc/genreform/1"   label="genere"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="did/physdesc/physfacet/1"   label="phys facet"   multiple="yes">active</xDamsElement>
+
+</c>
+
+

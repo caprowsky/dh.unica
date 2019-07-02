@@ -125,6 +125,37 @@
 			'type' => 'checkbox',
 	    ));
 		
+		//Plus Slider	
+		class WP_slider_plus_Customize_Control extends WP_Customize_Control {
+		public $type = 'new_menu';
+		/**
+		* Render the control's content.
+		*/
+		public function render_content() {
+		?>
+		 <div class="pro-vesrion">
+		 <P><?php esc_html_e('Want to add more slider and video slider?Then upgrade to Innofit Plus','spicebox');?></P>
+		 </div>
+		  <div class="pro-box">
+		 <a href="<?php echo esc_url('https://spicethemes.com/innofit-plus/');?>" class="read-more-button" id="review_plus" target="_blank"><?php esc_html_e( 'Upgrade to Plus','spicebox' ); ?></a>
+		 <div>
+		<?php
+		}
+	    }
+
+		$wp_customize->add_setting(
+			'add_plus_slider',
+			array(
+				'capability'     => 'edit_theme_options',
+				'sanitize_callback' => 'sanitize_text_field',
+			)	
+		);
+		$wp_customize->add_control( new WP_slider_plus_Customize_Control( $wp_customize, 'add_plus_slider', array(	
+				'section' => 'slider_section',
+				'setting' => 'add_plus_slider',
+		
+		)));
+		
 		
 	/**
 	* Add selective refresh for Front page slider section controls.

@@ -1,0 +1,9 @@
+<c id="generic" level="series">
+	<xDamsElement presentation="unittitle/1" label="titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="scopecontent" label="scopecontent"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="materialspec" label="materiali"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unitdate" label="data"   multiple="yes">active</xDamsElement>
+
+</c>
+
+

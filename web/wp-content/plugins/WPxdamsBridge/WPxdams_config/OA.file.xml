@@ -1,0 +1,16 @@
+<c id="generic" level="file">
+	<xDamsElement presentation="materialspec/unittitle/1" label="titolo serie"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="materialspec/title/1" label="titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unittitle/title/1" label="titolo: titolo"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="unittitle/geogname/1" label="titolo: luogo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="controlaccess/geogname/1" label="luogo"   multiple="yes">active</xDamsElement> 
+	<xDamsElement presentation="controlaccess/subject/1" label="soggetto"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="materialspec/materialspec/1" label="materiali"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="origination/persname/1[role]" label="persone e ruoli"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/genreform/1" label="genere"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="physdesc/dimensions/1[encodinganalog]" label="genere"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="phystech/1[encodinganalog]" label="genere"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="scopecontent" label="scopecontent"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="descgrp" label="descrizione"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unitdate" label="data"   multiple="yes">active</xDamsElement>	
+</c>

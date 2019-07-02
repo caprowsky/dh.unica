@@ -32,34 +32,8 @@ if ( ! function_exists( 'innofit_service_default_customize_register' ) ) :
 						'link'       => '#',
 						'open_new_tab' => 'yes',
 						'id'         => 'customizer_repeater_56d7ea7f40b86',
-						),
-						array(
-						'icon_value' => 'fa-android',
-						'title'      => esc_html__( 'App Development', 'spicebox' ),
-						'text'       => 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.',
-						'choice'    => 'customizer_repeater_icon',
-						'link'       => '#',
-						'open_new_tab' => 'yes',
-						'id'         => 'customizer_repeater_56d7ea7f40b88',
-						),
-						array(
-						'icon_value' => 'fa-code',
-						'title'      => esc_html__( 'Unique and Clean', 'spicebox' ),
-						'text'       => 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.',
-						'choice'    => 'customizer_repeater_icon',
-						'link'       => '#',
-						'open_new_tab' => 'yes',
-						'id'         => 'customizer_repeater_56d7ea7f40b89',
-						),
-						array(
-						'icon_value' => 'fa-users',
-						'title'      => esc_html__( 'Satisfied Clients', 'spicebox' ),
-						'text'       => 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.',
-						'choice'    => 'customizer_repeater_icon',
-						'link'       => '#',
-						'open_new_tab' => 'yes',
-						'id'         => 'customizer_repeater_56d7ea7f40b91',
-						),
+						),				
+						
 						
 					) );
 
@@ -255,6 +229,29 @@ function innofit_team_default_customize_register( $wp_customize ){
 						)
 					),
 				),
+				
+				) );
+
+			}
+}
+endif;
+
+// Innofit Pricing content data
+if ( ! function_exists( 'innofit_pricing_default_customize_register' ) ) :
+add_action( 'customize_register', 'innofit_pricing_default_customize_register' );
+function innofit_pricing_default_customize_register( $wp_customize ){
+				//SpicePrss default team data.
+				$innofit_pricing_content_control = $wp_customize->get_setting( 'innofit_pricing_content' );
+				if ( ! empty( $innofit_pricing_content_control ) ) 
+				{
+				$innofit_pricing_content_control->default = json_encode( 
+				
+				array(
+				
+				array(
+					'price_heighlight' => 'customizer_repeater_price_heighlight_nonlight',
+				),
+				
 				
 				) );
 

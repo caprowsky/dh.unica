@@ -66,7 +66,30 @@
 				'customizer_repeater_image_control' => true,
 				) ) );
 		}
+		//plus Button
+		class Innofit_services__section_upgrade extends WP_Customize_Control {
+			public function render_content() { ?>
+			<h3 class="customizer_service_upgrade_section" style="display: none;"><?php _e('To add More Service? Then','spicebox'); ?><a href="<?php echo esc_url( 'https://helpdoc.spicethemes.com/innofit-plus/homepage-section-settings-2/#innofitService' ); ?>" target="_blank">
+			<?php _e('Upgrade to Plus','spicebox'); ?> </a>  
+			<?php
+			}
+		}
 		
+		
+		$wp_customize->add_setting( 'innofit_service_upgrade_to_pro', array(
+			'capability'			=> 'edit_theme_options',
+			'sanitize_callback'	=> 'wp_filter_nohtml_kses',
+		));
+		$wp_customize->add_control(
+			new Innofit_services__section_upgrade(
+			$wp_customize,
+			'innofit_service_upgrade_to_pro',
+				array(
+					'section'				=> 'services_section',
+					'settings'				=> 'innofit_service_upgrade_to_pro',
+				)
+			)
+		);
 		
     /**
 	* Add selective refresh for Front page service section controls.

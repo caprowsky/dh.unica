@@ -1,0 +1,36 @@
+# Translation of Themes - Certify in Italian
+# This file is distributed under the same license as the Themes - Certify package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-03 09:49:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Certify\n"
+
+#. Theme Name of the plugin/theme
+msgid "Certify"
+msgstr "Certify"
+
+#. Description of the plugin/theme
+msgid "Certify is a responsive, multi-purpose WordPress theme. It's flexible and suitable for agencies, agency, blog, business, corporate, finance, account, consulting or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence."
+msgstr "Certify è un tema WordPress responsivo e polivalente. È flessibile e perfetto per agenzie, blog, siti aziendali e istituzionali e per portfolio. La sua personalizzazione è facile e intuitiva, con opzioni che ti permetteranno di creare un sito perfettamente in linea con i tuoi obiettivi per una ottimale presenza online."
+
+#: header/header-navbar.php:48
+msgid "Toggle navigation"
+msgstr "Attiva/disattiva navigazione"
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/certify-wordpress-theme"
+msgstr "https://spicethemes.com/certify-wordpress-theme"
+
+#. Author of the plugin/theme
+msgid "SpiceThemes"
+msgstr "SpiceThemes"
+
+#. Author URI of the plugin/theme
+msgid "https://spicethemes.com/"
+msgstr "https://spicethemes.com/"

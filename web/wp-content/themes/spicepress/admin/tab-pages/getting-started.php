@@ -79,9 +79,7 @@ $customizer_url = admin_url() . 'customize.php' ;
 				<div class="spicepress-tab-pane-half spicepress-tab-pane-first-half">
 					
 					<a href="<?php echo 'https://spicethemes.com/spicepress/'; ?>" target="_blank"  class="info-block"><div class="dashicons dashicons-book-alt info-icon"></div>
-					<p class="info-text"><?php echo esc_html__('Premium Theme Details','
-					
-					'); ?></p></a>
+					<p class="info-text"><?php echo esc_html__('Premium Theme Details', 'spicepress'); ?></p></a>
 					
 				</div>
 				

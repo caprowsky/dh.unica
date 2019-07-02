@@ -254,7 +254,7 @@ jQuery(document).ready(function () {
 
     /**
      * This adds a new box to repeater
-     *
+     * This will work for spicebox plugin only
      */
     theme_conrols.on('click', '.customizer-repeater-new-field', function () {
         var split_add_more_button=jQuery(this).text();
@@ -387,6 +387,105 @@ jQuery(document).ready(function () {
                 /*Append new box*/
                 th.find('.customizer-repeater-general-control-repeater-container:first').parent().append(field);
                
+                /*Refresh values*/
+                customizer_repeater_refresh_general_control_values();
+            }
+
+        }
+        return false;
+    });
+
+    /**
+     * This adds a new box to repeater
+     * This will work only with innofit plus plugin
+     */
+    theme_conrols.on('click', '.customizer-repeater-new-field-plus', function () {
+        var th = jQuery(this).parent();
+        var id = 'customizer-repeater-' + customizer_repeater_uniqid();
+        if (typeof th !== 'undefined') {
+            /* Clone the first box*/
+            var field = th.find('.customizer-repeater-general-control-repeater-container:first').clone( true, true );
+
+            if (typeof field !== 'undefined') {
+                /*Set the default value for choice between image and icon to icon*/
+                field.find('.customizer-repeater-image-choice').val('customizer_repeater_icon');
+
+                /*Show icon selector*/
+                field.find('.social-repeater-general-control-icon').show();
+
+                /*Hide image selector*/
+                if (field.find('.social-repeater-general-control-icon').length > 0) {
+                    field.find('.customizer-repeater-image-control').hide();
+                }
+
+                /*Show delete box button because it's not the first box*/
+                field.find('.social-repeater-general-control-remove-field').show();
+
+                /* Empty control for icon */
+                field.find('.input-group-addon').find('.fa').attr('class', 'fa');
+
+
+                /*Remove all repeater fields except first one*/
+
+                field.find('.customizer-repeater-social-repeater').find('.customizer-repeater-social-repeater-container').not(':first').remove();
+                field.find('.customizer-repeater-social-repeater-link').val('');
+                field.find('.social-repeater-socials-repeater-colector').val('');
+
+                /*Remove value from icon field*/
+                field.find('.icp').val('');
+
+                /*Remove value from text field*/
+                field.find('.customizer-repeater-text-control').val('');
+                
+                 /*Remove value from button text field*/
+                field.find('.customizer-repeater-button-text-control').val('');
+                
+                field.find('.customizer-repeater-video-url-control').val('');
+                
+                 /*Remove value from designation  text field*/
+                field.find('.customizer-repeater-designation-control').val('');
+                
+                /*Remove value from price field*/
+                field.find('.customizer-repeater-price-control').val('');
+                
+                /*Remove value from price field*/
+                field.find('.customizer-repeater-features-control').val('');
+                
+                /*Set the default value in slide format*/
+                field.find('.customizer-repeater-slide-format').val('customizer_repeater_slide_format_standard');
+                
+                /*Set the default value in price heighlight format*/
+                field.find('.customizer-repeater-price-heighlight').val('customizer_repeater_price_heighlight');
+
+                /*Remove value from link field*/
+                field.find('.customizer-repeater-link-control').val('');
+
+                /*Set box id*/
+                field.find('.social-repeater-box-id').val(id);
+
+                /*Remove value from media field*/
+                field.find('.custom-media-url').val('');
+
+                /*Remove value from title field*/
+                field.find('.customizer-repeater-title-control').val('');
+
+                /*Remove value from color field*/
+                field.find('.wp-picker-container').replaceWith('<input type="text" class="customizer-repeater-color-control ' + id + '">');
+                field.find('.customize-control-notifications-container').remove();
+                field.find('.customizer-repeater-color-control').wpColorPicker(color_options);
+
+                /*Remove value from subtitle field*/
+                field.find('.customizer-repeater-subtitle-control').val('');
+
+                /*Remove value from shortcode field*/
+                field.find('.customizer-repeater-shortcode-control').val('');
+                
+                /*Set the default value in checkbox*/
+                field.find('.customizer-repeater-checkbox').val('');
+
+                /*Append new box*/
+                th.find('.customizer-repeater-general-control-repeater-container:first').parent().append(field);
+
                 /*Refresh values*/
                 customizer_repeater_refresh_general_control_values();
             }

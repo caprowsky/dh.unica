@@ -97,7 +97,7 @@
 	* Add selective refresh for Front page callout section controls.
 	*/
 	
-	
+	if (  is_plugin_active( 'innofit-plus/innofit-plus.php' ) ):
 	$wp_customize->selective_refresh->add_partial( 'home_call_out_title', array(
 		'selector'            => '.call-to-action-one h4',
 		'settings'            => 'home_call_out_title',
@@ -119,6 +119,7 @@
 		'settings'            => 'home_call_out_btn_text',
 		'render_callback'  => 'home_call_out_btn_text_render_callback',
 	
-	) );		
+	) );	
+	endif;	
 					
 ?>

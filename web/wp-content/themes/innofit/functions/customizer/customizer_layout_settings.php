@@ -228,7 +228,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 }
 add_action( 'customize_register', 'innofit_layout_settings_customizer' );
 
-
+if (  is_plugin_active( 'innofit-plus/innofit-plus.php' ) ):
 function innofit_register_copyright_section_partials( $wp_customize ){
 
 $wp_customize->selective_refresh->add_partial( 'footer_copyright_text', array(
@@ -241,7 +241,7 @@ $wp_customize->selective_refresh->add_partial( 'footer_copyright_text', array(
 }
 
 add_action( 'customize_register', 'innofit_register_copyright_section_partials' );
-
+endif;
 
 function innofit_footer_copyright_text_render_callback() {
 	return get_theme_mod( 'footer_copyright_text' );

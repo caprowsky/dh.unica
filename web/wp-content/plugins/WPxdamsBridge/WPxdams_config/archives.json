@@ -1,0 +1,46 @@
+{
+        "items":   [
+
+
+  {"type":"#archive",   "label": "Archivio Storico" ,                            "id": "storico",               "xOut": "0"}	
+, {"type":"#archive",   "label": "Archivio Audiovisivo" ,                        "id": "audiovisivo",           "xOut": "0"}	
+, {"type":"#archive",   "label": "Bibliografia" ,                                "id": "biblio",                "xOut": "mods"}		
+, {"type":"#archive",   "label": "Archivio Oggetti e Opere" ,                    "id": "OA",                    "xOut": "0"}
+, {"type":"#archive",   "label": "Archivio Fotografico" ,                        "id": "fotografico",           "xOut": "0"}
+, {"type":"#archive",   "label": "Authority Persone Enti Famiglie" ,             "id": "eaccpf",               "xOut": "eaccpf"}	
+
+, {"type":"#archLevel", "label": "Scheda item" ,       "id": "item" ,           "father": "eaccpfBG" ,      "configfile": "eaccpf.item.xml" }	
+
+, {"type":"#archLevel", "label": "Scheda Serie" ,       "id": "series" ,        "father": "storico" ,      "configfile": "storico.serie.xml" }
+, {"type":"#archLevel", "label": "Scheda SubFondo" ,    "id": "subfonds" ,      "father": "storico" ,      "configfile": "storico.subfondo.xml" }
+, {"type":"#archLevel", "label": "Scheda File" ,        "id": "file" ,          "father": "storico" ,      "configfile": "storico.file.xml" , "mediafield": "daoloc" }
+, {"type":"#archLevel", "label": "Scheda Item" ,        "id": "item" ,          "father": "storico" ,      "configfile": "storico.item.xml" , "mediafield": "daoloc" }
+, {"type":"#archLevel", "label": "Scheda Fondo" ,       "id": "fonds" ,         "father": "storico" ,      "configfile": "storico.fondo.xml" }
+, {"type":"#archLevel", "label": "Scheda Collezione" ,  "id": "collection" ,    "father": "storico" ,      "configfile": "storico.collection.xml" }
+, {"type":"#archLevel", "label": "Scheda Sotto serie" , "id": "subseries" ,     "father": "storico" ,      "configfile": "storico.subserie.xml" }
+
+, {"type":"#archLevel", "label": "Scheda Serie" ,       "id": "series" ,        "father": "audiovisivo" ,   "configfile": "audiovisivo.serie.xml" }
+, {"type":"#archLevel", "label": "Scheda Item" ,        "id": "item" ,          "father": "audiovisivo" ,   "configfile": "audiovisivo.item.xml" , "mediafield": "extrefloc[href]" ,   "videofield":"extref /href" }
+, {"type":"#archLevel", "label": "Scheda Fondo" ,       "id": "fonds" ,         "father": "audiovisivo" ,   "configfile": "audiovisivo.fondo.xml" }
+
+, {"type":"#archLevel", "label": "Scheda Item" ,        "id": "item" ,          "father": "biblio" ,        "configfile": "biblio.item.xml" , "mediafield": "url" }
+, {"type":"#archLevel", "label": "Scheda Collezione" ,  "id": "collection" ,    "father": "biblio" ,        "configfile": "biblio.collezione.xml" }
+, {"type":"#archLevel", "label": "Scheda Fondo" ,       "id": "fonds" ,         "father": "biblio" ,        "configfile": "biblio.fonds.xml" }
+ 
+, {"type":"#archLevel", "label": "Scheda Item" ,        "id": "item" ,          "father": "OA" ,            "configfile": "OA.item.xml" , "mediafield": "extptr[href]" }
+, {"type":"#archLevel", "label": "Scheda Fondo" ,       "id": "fonds" ,         "father": "OA" ,            "configfile": "OA.fondo.xml" }
+, {"type":"#archLevel", "label": "Scheda File" ,        "id": "file" ,          "father": "OA" ,            "configfile": "OA.file.xml" , "mediafield": "extptr[href]" }
+, {"type":"#archLevel", "label": "Scheda Collezione" ,  "id": "collection" ,    "father": "OA" ,            "configfile": "OA.collection.xml" , "mediafield": "no" }
+, {"type":"#archLevel", "label": "Scheda Raccolta" ,    "id": "recordgrp"  ,    "father": "OA" ,            "configfile": "OA.recordgrp.xml" , "mediafield": "no" }
+, {"type":"#archLevel", "label": "Scheda Sub Fondo" ,   "id": "subfonds"   ,    "father": "OA" ,            "configfile": "OA.subfonds.xml" , "mediafield": "no" }
+
+, {"type":"#archLevel", "label": "Scheda File" ,        "id": "file" ,          "father": "fotografico" ,   "configfile": "fotografico.file.xml", "mediafield": "extptr href"  }
+, {"type":"#archLevel", "label": "Scheda Item" ,        "id": "item" ,          "father": "fotografico" ,   "configfile": "fotografico.item.xml" , "mediafield": "extptr[href]" }
+, {"type":"#archLevel", "label": "Scheda Fondo" ,       "id": "fonds" ,         "father": "fotografico" ,   "configfile": "fotografico.fondo.xml" }
+, {"type":"#archLevel", "label": "Scheda Gruppo" ,      "id": "recordgrp" ,     "father": "fotografico" ,   "configfile": "fotografico.recordgrp.xml" }
+, {"type":"#archLevel", "label": "Scheda Serie" ,       "id": "series" ,        "father": "fotografico" ,   "configfile": "fotografico.series.xml" }
+, {"type":"#archLevel", "label": "Scheda Collezione" ,  "id": "collection" ,    "father": "fotografico" ,   "configfile": "fotografico.collection.xml" }
+
+
+                 ]
+}

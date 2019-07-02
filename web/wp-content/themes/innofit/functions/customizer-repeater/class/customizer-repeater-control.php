@@ -652,7 +652,7 @@ class Innofit_Repeater extends WP_Customize_Control {
                 ); ?>
             </span>
 			<div class="input-group icp-container">
-				<input data-placement="bottomRight" class="<?php if($class=="innofit_limit") { echo 'icp icp-auto';} else { echo 'innofit-overlimit-icon-picker';}?>" value="<?php if(!empty($value)) { echo esc_attr( $value );} ?>" type="text">
+				<input data-placement="bottomRight" class="<?php if($class=="innofit_limit") { echo 'icp icp-auto';} else { echo 'innofit-overlimit-icon-picker icp icp-auto';}?>" value="<?php if(!empty($value)) { echo esc_attr( $value );} ?>" type="text">
 				<span class="input-group-addon">
                     <i class="fa <?php echo esc_attr($value); ?>"></i>
                 </span>

@@ -1,0 +1,21 @@
+<c id="generic" level="item">
+        <xDamsElement presentation="unittitle/title/1" label="titolo proprio"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unittitle/1" label="titolo"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="unitdate" label="data"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unittitle/geogname/1" label="luogo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="legalstatus" label="legal status"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="subject" label="soggetto"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="container" label="container"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="did/materialspec/1" label="materiali"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="origination/corpname/1[role]" label="ente e ruolo"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/dimensions/1" label="dimensioni"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/genreform/1" label="genere"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/physfacet/1" label="descrizione fisica"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="bibliography/1" label="bibliografia"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="controlaccess/persname/1" label="descrittori (persone)"   multiple="yes">active</xDamsElement> 
+        <xDamsElement presentation="controlaccess/corpname/1" label="descrittori (enti)"   multiple="yes">active</xDamsElement> 
+        <xDamsElement presentation="controlaccess/geogname/1" label="descrittori (luoghi)"   multiple="yes">active</xDamsElement> 
+        <xDamsElement presentation="origination/persname/1" label="autore"   multiple="yes">active</xDamsElement> 
+</c>
+
+

@@ -64,6 +64,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Changelog
 
+* 0.26 - Fix around
+
+* 0.25 - Template archivi e categorie, fix around
+
+* 0.24 - Fix around
+
 * 0.23 - Paginazione nei post, aggiunta area widget nel footer, fix around
 
 * 0.22 - Bootstrap Italia in locale, aggiunto template post senza sidebar, fix around

@@ -1,0 +1,12 @@
+<c id="generic" level="collection">
+ 	<xDamsElement presentation="objectClassificationWrap/objectWorkTypeWrap/objectWorkType/term/1" label="objectClassificationWrap/objectWorkTypeWrap/objectWorkType/term"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="objectIdentificationWrap/titleWrap/titleSet/appellationValue/1" label="objectIdentificationWrap/titleWrap/titleSet/appellationValue"   multiple="yes">active</xDamsElement>   
+	<xDamsElement presentation="nameActorSet/appellationValue/1" label="nameActorSet/appellationValue"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="eventType/creation/1" label="eventType/creation"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="place/namePlaceSet/appellationValue/1" label="place/namePlaceSet/appellationValue"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="place/namePlaceSet/sourceAppellation/1" label="place/namePlaceSet/sourceAppellation"  multiple="yes">active</xDamsElement>
+
+
+</c>
+
+

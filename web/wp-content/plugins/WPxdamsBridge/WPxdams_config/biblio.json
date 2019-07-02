@@ -1,0 +1,14 @@
+{
+        "items":   [
+
+
+  {"type":"#field", "label": "titolo" ,     "id": "/mods/titleInfo/title/"}
+, {"type":"#field", "label": "subject" ,    "id": "subject"}
+
+
+
+
+		
+
+                 ]
+}

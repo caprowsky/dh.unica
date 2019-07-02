@@ -157,7 +157,7 @@
 	* Add selective refresh for Front page subscribe section controls.
 	*/
 	
-	
+	if (  is_plugin_active( 'innofit-plus/innofit-plus.php' ) ):
 	$wp_customize->selective_refresh->add_partial( 'innofit_subscribe_title', array(
 		'selector'            => '.subscribe-newsletter .section-title',
 		'settings'            => 'innofit_subscribe_title',
@@ -172,6 +172,6 @@
 		'render_callback'  => 'subscribe_subtitle_content_render_callback',
 	
 	) );
-			
+	endif;	
 
 ?>

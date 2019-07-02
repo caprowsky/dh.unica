@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <title>slider dinamico &#8211; test di carlo</title>
+<link rel="alternate" type="application/rss+xml" title="test di carlo &raquo; Feed" href="http://localhost/www.testcarlo.it/feed/" />
+<link rel="alternate" type="application/rss+xml" title="test di carlo &raquo; Feed dei commenti" href="http://localhost/www.testcarlo.it/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/localhost\/www.testcarlo.it\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://localhost/www.testcarlo.it/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://localhost/www.testcarlo.it/wp-includes/css/admin-bar.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='WPxdamsbridgeStyles-css'  href='http://localhost/www.testcarlo.it/wp-content/plugins/http:/fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C700&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='WPxdamsbridgeStyles1-css'  href='http://localhost/www.testcarlo.it/wp-content/plugins/http:/fonts.googleapis.com/css?family=Oxygen%3A400%2C300%2C200&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='WPxdamsbridgeStyles2-css'  href='http://localhost/www.testcarlo.it/wp-content/plugins/WPxdamsBridge/WPxdams_templates/css/WPxdamsBridge_style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='WPxdamsbridgeStyles3-css'  href='http://localhost/www.testcarlo.it/wp-content/plugins/WPxdamsBridge/WPxdams_templates/css/bootstrap/bootstrap.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cpotheme-base-css'  href='http://localhost/www.testcarlo.it/wp-content/themes/allegiant/core/css/base.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cpotheme-main-css'  href='http://localhost/www.testcarlo.it/wp-content/themes/allegiant/style.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://localhost/www.testcarlo.it/wp-content/plugins/WPxdamsBridge/WPxdams_templates/js/xdamsExhibition.js?ver=4.4.2'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://localhost/www.testcarlo.it/wp-content/plugins/WPxdamsBridge/WPxdams_templates/js/bootstrap/bootstrap.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://localhost/www.testcarlo.it/wp-content/themes/allegiant/core/scripts/html5-min.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://localhost/www.testcarlo.it/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/www.testcarlo.it/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/www.testcarlo.it/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://localhost/www.testcarlo.it/slider-dinamico/" />
+<link rel='shortlink' href='http://localhost/www.testcarlo.it/?p=166' />
+<link rel="alternate" type="application/json+oembed" href="http://localhost/www.testcarlo.it/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwww.testcarlo.it%2Fslider-dinamico%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://localhost/www.testcarlo.it/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwww.testcarlo.it%2Fslider-dinamico%2F&#038;format=xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<link rel="pingback" href="http://localhost/www.testcarlo.it/xmlrpc.php"/>
+<meta charset="UTF-8"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://localhost/www.testcarlo.it/wp-content/themes/allegiant/images/background.jpg'); background-repeat: no-repeat; background-position: top center; background-attachment: fixed; }
+</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+</head>
+
+<body class="page page-id-166 page-template-default logged-in admin-bar no-customize-support custom-background  sidebar-right">
+	<div class="outer" id="top">
+				<div class="wrapper">
+			<div id="topbar" class="topbar">
+				<div class="container">
+					<div id="topmenu" class="topmenu"><div class="menu-topmenu-container"><ul id="menu-topmenu" class="menu-top"><li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/oa-b/"><span class="menu-link"><span class="menu-title">OA B</span></span></a></li>
+</ul></div><div id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://thearchivescloud.org/">
+                               <div>                                       
+                                    <label class="screen-reader-text" for="s">Search for:</label>
+                                       <input type="text" value="" name="s" id="s">
+                                       <input type="submit" id="searchsubmit" value="Search">
+                               </div>
+                       </form></div></div>					<div class="clear"></div>
+				</div>
+			</div>
+			<header id="header" class="header">
+				<div class="container">
+					<div id="logo" class="logo"><a class="site-logo" href="http://localhost/www.testcarlo.it"><img src="http://localhost/www.testcarlo.it/wp-content/themes/allegiant/images/logo.png" alt="test di carlo" width="215" height="0"/></a><span class="title site-title hidden"><a href="http://localhost/www.testcarlo.it">test di carlo</a></span></div>					<div class='clear'></div>
+				</div>
+			</header>
+						<div class="clear"></div>
+
+
+<section id="pagetitle" class="pagetitle dark" >
+	<div class="container">
+		<h1 class="pagetitle-title heading">slider dinamico</h1><div id="breadcrumb" class="breadcrumb"><a class="breadcrumb-link" href="http://localhost/www.testcarlo.it">Home</a><span class='breadcrumb-separator'></span><span class='breadcrumb-title'>slider dinamico</span>
+</div>	</div>
+</section>
+
+
+<div id="main" class="main">
+	<div class="container">
+		<section id="content" class="content">
+									<div id="post-166" class="post-166 page type-page status-publish hentry">
+				<div class="page-content">
+							                 
+        
+               
+
+            <div class="starter-template">
+
+                <div class="container">
+
+
+                    <!-- thumb navigation carousel -->
+
+
+
+                    <!-- main slider carousel -->
+                    <div class="row">
+                        <div class="col-md-12" id="slider">
+
+                            <div class="col-md-12" id="carousel-bounding-box">
+                                <div id="myCarousel" class="carousel slide">
+                                    <!-- main slider carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="active item" data-slide-number="0">
+                                            <img src="http://battipaglia.thearchivescloud.org/wp-content/uploads/2016/04/milano-protesta.jpg" class="img-responsive" ><div class="carousel-caption">
+                                                <h3>Titolo della prima slide1</h3>
+                                                <p>se vuoi  anche il sottotitolo</p>
+                                            </div>
+                                        </div> 
+                                        </div>
+                                        <div class="item" data-slide-number="1">
+                                            <img src="http://battipaglia.thearchivescloud.org/wp-content/uploads/2016/04/roma.jpg" class="img-responsive"/>
+                                            <div class="carousel-caption">
+                                                <h3>Titolo della prima slide2</h3>
+                                                <p>se vuoi anche il sottotitolo</p>
+                                            </div>
+                                        </div>
+                                        <div class="item" data-slide-number="2">
+                                            <img src="http://media.regesta.com/xDamsMedia/imageViewPort/xDamsLabs/labs/xDamsLabsxDamsPhoto/0?imageName=/high//IT/XDAMSXD/AMSLAB/SFT000/IT.XDAMSXD.AMSLAB.SFT000.0013.jpg" class="img-responsive"/>
+                                            <div class="carousel-caption">
+                                                <h3>Titolo della prima slide3</h3>
+                                                <p>se vuoi  anche il sottotitolo</p>
+                                            </div>
+                                        </div>
+                                        <div class="item" data-slide-number="3">
+                                            <img src="http://battipaglia.thearchivescloud.org/wp-content/uploads/2016/04/roma.jpg" class="img-responsive"/>
+                                            <div class="carousel-caption">
+                                                <h3>Titolo della prima slide</h3>
+                                                <p>se vuoi  anche il sottotitolo</p>
+                                            </div>
+                                        </div>
+                                        <div class="item" data-slide-number="4">
+                                            <img src="http://battipaglia.thearchivescloud.org/wp-content/uploads/2016/04/trofeo-e1459525107930.jpg" class="img-responsive"/>
+                                            <div class="carousel-caption">
+                                                <h3>Titolo della prima slide</h3>
+                                                <p>se vuoi  anche il sottotitolo</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- main slider carousel nav controls --> 
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+
+                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--/main slider carousel-->
+                    <div class="col-md-12 hidden-sm hidden-xs" id="slider-thumbs">
+
+                        <!-- thumb navigation carousel items -->
+                        <ul class="list-inline">
+                            <li><a id="carousel-selector-0" class="selected"><img src="http://placehold.it/80x60&amp;text=one" class="img-responsive"></a></li>
+                            <li><a id="carousel-selector-1"><img src="http://placehold.it/80x60&amp;text=two" class="img-responsive"></a></li>
+                            <li><a id="carousel-selector-2"><img src="http://placehold.it/80x60&amp;text=three" class="img-responsive"></a></li>
+                            <li><a id="carousel-selector-3"><img src="http://placehold.it/80x60&amp;text=four" class="img-responsive"></a></li>
+                            <li><a id="carousel-selector-4"><img src="http://placehold.it/80x60&amp;text=five" class="img-responsive"></a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        
+
+
+
+        <script>
+            $("#myCarousel").carousel({
+                interval: 4000
+            });
+
+            // handles the carousel thumbnails
+            $("[id^=carousel-selector-]").click( function(){
+                var id_selector = $(this).attr("id");
+                var id = id_selector.substr(id_selector.length -1);
+                id = parseInt(id);
+                $("#myCarousel").carousel(id);
+                $("[id^=carousel-selector-]").removeClass("selected");
+                $(this).addClass("selected");
+            });
+
+            // when the carousel slides, auto update
+            $("#myCarousel").on("slid", function (e) {
+                var id = $(".item.active").data("slide-number");
+                id = parseInt(id);
+                $("[id^=carousel-selector-]").removeClass("selected");
+                $("[id=carousel-selector-"+id+"]").addClass("selected");
+            });
+        </script> 
+									</div>
+			</div>
+											</section>
+		
+<aside id="sidebar" class="sidebar sidebar-primary">
+	<div id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://localhost/www.testcarlo.it/">
+				<div>
+					<label class="screen-reader-text" for="s">Ricerca per:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Cerca" />
+				</div>
+			</form></div><div id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-menu-laterale-container"><ul id="menu-menu-laterale" class="menu"><li id="menu-item-125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="http://localhost/www.testcarlo.it/"><span class="menu-link"><span class="menu-title">Home</span></span></a></li>
+<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/prova-gall/"><span class="menu-link"><span class="menu-title">biblioB list</span></span></a></li>
+<li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/exhibit/"><span class="menu-link"><span class="menu-title">exhibit</span></span></a></li>
+<li id="menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/exhibition/"><span class="menu-link"><span class="menu-title">exhibition</span></span></a></li>
+<li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/exhibition-2/"><span class="menu-link"><span class="menu-title">exhibition</span></span></a></li>
+<li id="menu-item-130" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-b-pre/"><span class="menu-link"><span class="menu-title">Foto B pre</span></span></a></li>
+<li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-b-lista/"><span class="menu-link"><span class="menu-title">foto B ricerca</span></span></a></li>
+<li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/pagina-di-esempio/"><span class="menu-link"><span class="menu-title">foto lista all</span></span></a></li>
+<li id="menu-item-133" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-pre-con-search/"><span class="menu-link"><span class="menu-title">foto pre con search</span></span></a></li>
+<li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-pre-item/"><span class="menu-link"><span class="menu-title">foto pre item</span></span></a></li>
+<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-search-all/"><span class="menu-link"><span class="menu-title">foto search all</span></span></a></li>
+<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-search-pers/"><span class="menu-link"><span class="menu-title">foto search pers</span></span></a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-search-text/"><span class="menu-link"><span class="menu-title">foto search text</span></span></a></li>
+<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-single-e-pic/"><span class="menu-link"><span class="menu-title">foto single + pic</span></span></a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/foto-slider/"><span class="menu-link"><span class="menu-title">foto slider</span></span></a></li>
+<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/histo-lista/"><span class="menu-link"><span class="menu-title">Histo  Lista</span></span></a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/oa-b/"><span class="menu-link"><span class="menu-title">OA B</span></span></a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/tree-all/"><span class="menu-link"><span class="menu-title">tree all</span></span></a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/tree-fotografico/"><span class="menu-link"><span class="menu-title">tree fotografico</span></span></a></li>
+<li id="menu-item-144" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/video-lista-all/"><span class="menu-link"><span class="menu-title">video lista all</span></span></a></li>
+<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/video-search-text/"><span class="menu-link"><span class="menu-title">video search text</span></span></a></li>
+<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://localhost/www.testcarlo.it/video-b-lista/"><span class="menu-link"><span class="menu-title">video B lista</span></span></a></li>
+<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-166 current_page_item"><a href="http://localhost/www.testcarlo.it/slider-dinamico/"><span class="menu-link"><span class="menu-title">slider dinamico</span></span></a></li>
+</ul></div></div><div id="meta-2" class="widget widget_meta"><div class="widget-title heading">Meta</div>			<ul>
+			<li><a href="http://localhost/www.testcarlo.it/wp-admin/">Amministra sito</a></li>			<li><a href="http://localhost/www.testcarlo.it/wp-login.php?action=logout&#038;_wpnonce=2c8e98e4e1">Esci da questo account</a></li>
+			<li><a href="http://localhost/www.testcarlo.it/feed/"><abbr title="Really Simple Syndication">RSS</abbr> degli Articoli</a></li>
+			<li><a href="http://localhost/www.testcarlo.it/comments/feed/"><abbr title="Really Simple Syndication">RSS</abbr> dei commenti</a></li>
+			<li><a href="https://it.wordpress.org/" title="Funziona con Wordpress.">WordPress.org</a></li>			</ul>
+			</div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<div class="widget-title heading">Articoli recenti</div>		<ul>
+					<li>
+				<a href="http://localhost/www.testcarlo.it/2016/03/29/exhibit-prova/">exhibit prova</a>
+						</li>
+					<li>
+				<a href="http://localhost/www.testcarlo.it/2016/01/14/ciao-mondo/">Ciao mondo!</a>
+						</li>
+				</ul>
+		</div>		<div id="categories-2" class="widget widget_categories"><div class="widget-title heading">Categorie</div>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://localhost/www.testcarlo.it/category/senza-categoria/" >Senza categoria</a>
+</li>
+		</ul>
+</div></aside>
+
+		<div class="clear"></div>
+	</div>
+</div>
+
+						
+			<section id="subfooter" class="subfooter secondary-color-bg dark">
+	<div class="container">
+		<div class="clear"></div>	</div>
+</section>			
+						<footer id="footer" class="footer secondary-color-bg dark">
+				<div class="container">
+					<div class="footer-content">&copy; test di carlo 2016. <a href="//www.cpothemes.com/theme/allegiant">Allegiant</a> theme by CPOThemes.</div>				</div>
+			</footer>
+						
+			<div class="clear"></div>
+		</div><!-- wrapper -->
+			</div><!-- outer -->
+	<link rel='stylesheet' id='cpotheme-font-source-sans-pro-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro&#038;ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://localhost/www.testcarlo.it/wp-includes/js/admin-bar.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://localhost/www.testcarlo.it/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://localhost/www.testcarlo.it/wp-content/themes/allegiant/core/scripts/core.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://localhost/www.testcarlo.it/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Vai alla barra degli strumenti</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Barra degli strumenti" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/www.testcarlo.it/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">Informazioni su WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/about.php">Informazioni su WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="https://it.wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="https://codex.wordpress.org/">Documentazione</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="https://wordpress.org/support/%20">Forum di supporto</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="https://wordpress.org/support/forum/requests-and-feedback">Riscontro</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/www.testcarlo.it/wp-admin/">test di carlo</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/">Bacheca</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/themes.php">Temi</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/widgets.php">Widget</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/nav-menus.php">Menu</a>		</li>
+		<li id="wp-admin-bar-background" class="hide-if-customize"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/themes.php?page=custom-background">Sfondo</a>		</li>
+		<li id="wp-admin-bar-header" class="hide-if-customize"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/themes.php?page=custom-header">Testata</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fwww.testcarlo.it%2Fslider-dinamico%2F">Personalizza</a>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/update-core.php" title="3 aggiornamenti plugin, 3 aggiornamenti tema"><span class="ab-icon"></span><span class="ab-label">6</span><span class="screen-reader-text">3 aggiornamenti plugin, 3 aggiornamenti tema</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/edit-comments.php" title="0 commenti in attesa di approvazione"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/www.testcarlo.it/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">Nuovo</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php">Articolo</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php?post_type=page">Pagina</a>		</li>
+		<li id="wp-admin-bar-new-cpo_slide"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php?post_type=cpo_slide">Slide</a>		</li>
+		<li id="wp-admin-bar-new-cpo_feature"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php?post_type=cpo_feature">Feature</a>		</li>
+		<li id="wp-admin-bar-new-cpo_portfolio"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php?post_type=cpo_portfolio">Portfolio</a>		</li>
+		<li id="wp-admin-bar-new-cpo_service"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php?post_type=cpo_service">Services</a>		</li>
+		<li id="wp-admin-bar-new-cpo_team"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php?post_type=cpo_team">Team Member</a>		</li>
+		<li id="wp-admin-bar-new-cpo_testimonial"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php?post_type=cpo_testimonial">Testimonial</a>		</li>
+		<li id="wp-admin-bar-new-cpo_client"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post-new.php?post_type=cpo_client">Client</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/user-new.php">Utente</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/post.php?post=166&#038;action=edit">Modifica pagina</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost/www.testcarlo.it/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Cerca</label><input type="submit" class="adminbar-button" value="Cerca"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="http://localhost/www.testcarlo.it/wp-admin/profile.php">Ciao, admin<img alt='' src='http://0.gravatar.com/avatar/0b50c3d1cb64026fc67c8be4fbecd99c?s=26&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0b50c3d1cb64026fc67c8be4fbecd99c?s=52&amp;d=mm&amp;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost/www.testcarlo.it/wp-admin/profile.php"><img alt='' src='http://0.gravatar.com/avatar/0b50c3d1cb64026fc67c8be4fbecd99c?s=64&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0b50c3d1cb64026fc67c8be4fbecd99c?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>admin</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-admin/profile.php">Modifica il tuo profilo</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="http://localhost/www.testcarlo.it/wp-login.php?action=logout&#038;_wpnonce=2c8e98e4e1">Logout</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/www.testcarlo.it/wp-login.php?action=logout&#038;_wpnonce=2c8e98e4e1">Logout</a>
+					</div>
+
+		</body>
+</html>

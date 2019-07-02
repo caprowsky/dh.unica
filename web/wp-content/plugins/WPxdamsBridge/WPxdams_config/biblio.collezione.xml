@@ -1,0 +1,8 @@
+<c id="generic" level="collection">
+	<xDamsElement presentation="titleInfo" label="titolo"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="originInfo/dateIssued/1" label="data di pubblicazione"   multiple="yes">active</xDamsElement>         
+	<xDamsElement presentation="genre" label="genere"   multiple="yes">active</xDamsElement> 
+	<xDamsElement presentation="namePart" label="namePart"   multiple="yes">active</xDamsElement>
+</c>
+
+

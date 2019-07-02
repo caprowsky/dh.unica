@@ -208,8 +208,8 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		$wp_customize->add_control( 'menu_breakpoint', array(
 		  'type' => 'number',
 		  'section' => 'spicepress_menu_breakpoint', // Add a default or your own section
-		  'label' => __( 'Menu breakpoint' ),
-		  'description' => __( 'Enter the Min. Size 200px and Max Size 6000px' ),
+		  'label' => __( 'Menu breakpoint', 'spicepress' ),
+		  'description' => __( 'Enter the Min. Size 200px and Max Size 6000px', 'spicepress' ),
 		) );
 
 		function spicepress_sanitize_number_absint( $number, $setting ) {

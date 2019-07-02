@@ -1,7 +1,14 @@
 <?php
 function innofit_repeater_register( $wp_customize ) {
-
-	$repeater_path = INNOFIT_TEMPLATE_DIR . '/functions/customizer-repeater/class/customizer-repeater-control.php';
+	if( ! is_plugin_active( 'innofit-plus/innofit-plus.php' ) )
+	{
+	$repeater_path = INNOFIT_TEMPLATE_DIR . '/functions/customizer-repeater/class/customizer-repeater-control.php';	
+	}
+	else
+	{
+	$repeater_path = INNOFIT_TEMPLATE_DIR . '/functions/customizer-repeater/class/customizer-repeater-control-plus.php';	
+	}
+	
 	if( file_exists( $repeater_path ) ){
 		require_once( $repeater_path );
 	}

@@ -24,6 +24,9 @@ SpicePress is distributed under the terms of the GNU GPL
 
 == Changelog ==
 
+@Version 1.6.1
+* Add missing textdomain
+
 @Version 1.6
 * Add CSS for woocommerce page layout
 

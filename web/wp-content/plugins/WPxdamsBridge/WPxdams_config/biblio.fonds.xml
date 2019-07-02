@@ -1,0 +1,9 @@
+<c id="generic" level="item">
+	<xDamsElement presentation="titleInfo" label="titolo"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="originInfo/dateIssued/1" label="data"   multiple="yes">active</xDamsElement>         
+	<xDamsElement presentation="genre" label="genere"   multiple="yes">active</xDamsElement> 
+	<xDamsElement presentation="namePart" label="namePart"   multiple="yes">active</xDamsElement>
+
+</c>
+
+

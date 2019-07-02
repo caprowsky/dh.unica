@@ -149,10 +149,12 @@ function innofit_logo_class($html)
 }
 add_filter('get_custom_logo','innofit_logo_class');
 
+if ( ! is_plugin_active( 'innofit-plus/innofit-plus.php' ) ):
 add_action( 'admin_init', 'innofit_detect_button' );
 	function innofit_detect_button() {
 	wp_enqueue_style( 'innofit-info-button', INNOFIT_TEMPLATE_DIR_URI . '/css/import-button.css' );
 }
+endif;
 
 function innofit_new_content_more($more)
 	{  global $post;

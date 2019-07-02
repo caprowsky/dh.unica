@@ -81,7 +81,7 @@ $table_prefix = 'wp_';
  */
 define('WP_DEBUG', false);
 
-/* Finito, interrompere le modifiche! Buon creazione di contenuti. */
+/* Finito, interrompere le modifiche! Buon blogging. */
 
 /** Path assoluto alla directory di WordPress. */
 if ( !defined('ABSPATH') )

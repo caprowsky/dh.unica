@@ -1,0 +1,442 @@
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Global
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-text-center {
+	text-align: center;
+}
+
+.aiovg-no-border {
+  	border: 0 none;
+}
+
+.aiovg-toggle-fields {
+  	display: none;
+}
+
+.aiovg-checklist {
+	max-height: 100px;
+	padding: 7px 10px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+
+.aiovg-checklist li {
+	margin: 0;
+}
+
+.aiovg-checklist .children li {
+	padding: 0 18px;
+}
+
+.aiovg-checklist label {
+	display: block;
+	line-height: 22px;
+}
+
+.aiovg-pipe-separator {
+  	padding: 7px 0;
+  	color: #CCC;
+}
+
+.aiovg-tick-cross {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+
+.aiovg-upgrade-link,
+.aiovg-upgrade-link:hover,
+.aiovg-text-success {
+	color: green;
+}
+
+.aiovg-notice {
+	padding: 5px; 
+	border-radius: 2px; 
+}
+
+.aiovg-notice-error {
+	background-color: #f2dede; 
+	border: 1px solid #ebccd1; 	
+	color: #a94442;
+}
+
+.aiovg-notice-success {
+	background-color: #dff0d8; 
+	border: 1px solid #d6e9c6; 
+	color: #3c763d;
+}
+
+@media (max-width: 767px) {
+  	.aiovg-hidden-xs {
+    	display: none !important;
+	}
+	  
+	.aiovg-checklist {
+		padding: 3px 10px;
+	}
+
+	.aiovg-checklist li {
+		margin: 7px 0;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  	.aiovg-hidden-sm {
+    	display: none !important;
+  	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  	.aiovg-hidden-md {
+    	display: none !important;
+  	}
+}
+
+@media (min-width: 1200px) {
+  	.aiovg-hidden-lg {
+    	display: none !important;
+  	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Welcome
+ *
+ *--------------------------------------------------------------------------------------------*/
+#aiovg-welcome .aiovg-badge {
+	margin-bottom: 0;
+	background: #0073aa url( '../images/logo.png' ) no-repeat top;
+}
+
+#aiovg-welcome .dashicons-info {
+	color: #ca4a1f;
+}
+
+#aiovg-welcome .dashicons-awards {
+	font-size: 30px; 
+	margin-right: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Videos
+ *
+ *--------------------------------------------------------------------------------------------*/
+.misc-pub-aiovg-shortcode label,
+.misc-pub-aiovg-shortcode strong {
+	display: block;
+	margin-bottom: 7px;
+}
+
+table.aiovg-table {
+  	background: #FFF;
+  	border: 0 none;
+}
+
+table.aiovg-table td {
+  	padding: 13px 15px;
+	border-top: 0 none;
+  	border-bottom: 1px solid #F5F5F5;
+}
+
+table.aiovg-table td.label {
+  	width: 15%;
+  	background: #F9F9F9;
+  	border-right: 1px solid #E1E1E1;
+	border-bottom: 1px solid #F0F0F0;
+  	text-align: center;
+  	vertical-align: middle;
+}
+
+table.aiovg-table label {
+  	display: block;
+  	margin: 0 0 3px;
+  	padding: 0;
+  	color: #333;
+  	font-size: 13px;
+  	line-height: 1.4em;
+}
+
+table.aiovg-table span.required {
+  	display: inline;
+  	margin-left: 3px;
+  	color: #F00;
+}
+
+table.aiovg-table td.label p {
+  	display: block;
+  	margin: 3px 0 0 !important;
+  	padding: 0 !important;
+  	color: #899194;
+  	font-size: 12px;
+  	font-style: normal;
+  	line-height: 16px;
+}
+
+table.aiovg-table input[type="text"],
+table.aiovg-table textarea,
+table.aiovg-table select {
+  	width: 99.95%;
+  	padding: 3px 5px;
+  	outline: none;
+}
+
+table.aiovg-table input[type="text"]:focus,
+table.aiovg-table textarea:focus,
+table.aiovg-table select:focus {
+  	border-color: #98B6CB;
+}
+
+table.aiovg-table input::placeholder,
+table.aiovg-table textarea::placeholder {
+  	color: #BBB;
+}
+
+table.aiovg-table .aiovg-input-wrap {
+  	position: relative;
+  	overflow: hidden;
+}
+
+table.aiovg-table .aiovg-input-wrap input[type="text"] {
+  	height: 29px;
+  	margin: 0;
+}
+
+table.aiovg-table select {
+ 	padding: 2px;
+}
+
+table.aiovg-table option {
+  	padding: 3px;
+}
+
+table.aiovg-table .aiovg-handle {
+  	color: #999;
+  	vertical-align: middle;
+  	cursor: move;
+}
+
+.aiovg-radio-list,
+.aiovg-checkbox-list {
+	position: relative;
+	display: block;
+  	background: transparent !important;  
+  	margin: 0;
+  	padding: 1px;
+}
+
+.aiovg-radio-list.horizontal,
+.aiovg-checkbox-list.horizontal {
+  	overflow: hidden;
+}
+
+.aiovg-radio-list.horizontal li,
+.aiovg-checkbox-list.horizontal li {
+  	float: left;
+  	margin-right: 20px;
+}
+
+.aiovg-radio-list input,
+.aiovg-checkbox-list input {
+  	margin-top: -1px;
+  	margin-right: 5px !important;
+}
+
+@media (max-width: 767px) {
+  	table.aiovg-table .aiovg-media-uploader input[type="text"] {
+  		width: 100%;
+  	}
+	
+  	table.aiovg-table .aiovg-media-uploader .button {
+		width: 100%;
+  		margin-top: 10px;
+		text-align: center;
+  	}
+
+  	.aiovg-tracks-row td {
+  		display: block !important;
+		border-bottom: none !important;
+  	}
+}
+
+@media (min-width: 768px) {
+  	table.aiovg-table .aiovg-media-uploader input[type="text"] {
+		width: 75%;
+  	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Categories
+ *
+ *--------------------------------------------------------------------------------------------*/
+#aiovg-categories-image-wrapper img {
+  	max-width: 200px;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Settings
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-settings h2 {
+	margin-top: 2em;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CCC;
+}
+
+.aiovg-settings .search {
+	background-color: transparent;
+}
+
+#aiovg-categories-settings.aiovg-template-grid tr.hierarchical {
+	display: none;
+}
+
+#aiovg-categories-settings.aiovg-template-list tr.columns,
+#aiovg-categories-settings.aiovg-template-list tr.show_description {
+	display: none;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Shortcode Builder
+ *
+ *--------------------------------------------------------------------------------------------*/
+#aiovg-media-button .dashicons:before {
+	color: #FFF;
+}
+
+#aiovg-shortcode-builder {
+  	position: relative; 
+	width: auto;
+  	max-width: 500px; 
+  	margin: 32px auto;
+  	padding: 20px;  
+  	background: #FFF;  
+}
+
+#aiovg-shortcode-form .aiovg-shortcode-section-header {
+	display: block;
+	margin-bottom: 10px;
+	padding: 7px; 
+	background: #666; 
+	border: #333; 
+	color: #FFF; 
+	pointer-events: none;
+}
+
+#aiovg-shortcode-form .aiovg-shortcode-section-general .aiovg-shortcode-section-header {
+	display: none;
+}
+
+#aiovg-shortcode-form .aiovg-shortcode-selector,
+#aiovg-shortcode-form .aiovg-shortcode-field {
+	margin-bottom: 10px;
+}
+
+#aiovg-shortcode-form .aiovg-shortcode-label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+#aiovg-shortcode-form label.selectit {
+	margin-bottom: 0;
+}
+
+#aiovg-shortcode-form .aiovg-shortcode-field-description {
+	margin: 7px 0;
+}
+
+#aiovg-shortcode-type-categories,
+#aiovg-shortcode-type-videos,
+#aiovg-shortcode-type-video,
+#aiovg-shortcode-type-search_form {
+	display: none;
+}
+
+.aiovg-shortcode-type-categories #aiovg-shortcode-type-categories,
+.aiovg-shortcode-type-videos #aiovg-shortcode-type-videos,
+.aiovg-shortcode-type-video #aiovg-shortcode-type-video,
+.aiovg-shortcode-type-search_form #aiovg-shortcode-type-search_form {
+	display: block;
+}
+
+#aiovg-shortcode-type-categories .aiovg-shortcode-field-title,
+#aiovg-shortcode-type-categories .aiovg-shortcode-field-ratio {
+	display: none;
+}
+
+#aiovg-shortcode-type-categories.aiovg-template-grid .aiovg-shortcode-field-hierarchical {
+	display: none;
+}
+
+#aiovg-shortcode-type-categories.aiovg-template-list .aiovg-shortcode-field-columns,
+#aiovg-shortcode-type-categories.aiovg-template-list .aiovg-shortcode-field-show_description {
+	display: none;
+}
+
+#aiovg-shortcode-type-videos .aiovg-shortcode-field-title,
+#aiovg-shortcode-type-videos .aiovg-shortcode-field-exclude,
+#aiovg-shortcode-type-videos .aiovg-shortcode-field-ratio,
+#aiovg-shortcode-type-videos .aiovg-shortcode-field-show_more,
+#aiovg-shortcode-type-videos .aiovg-shortcode-field-more_label,
+#aiovg-shortcode-type-videos .aiovg-shortcode-field-more_link,
+#aiovg-shortcode-type-videos .aiovg-shortcode-field-excerpt_length {
+	display: none;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Widgets
+ *
+ *--------------------------------------------------------------------------------------------*/
+.aiovg-widget-form .aiovg-widget-section-header {
+	display: block;
+	margin-bottom: 10px;
+	padding: 7px; 
+	background: #666; 
+	border: #333; 
+	color: #FFF; 
+	pointer-events: none;
+}
+
+.aiovg-widget-form .aiovg-widget-section-general .aiovg-widget-section-header {
+	display: none;
+}
+
+.aiovg-widget-form .aiovg-widget-field {
+	margin: 15px 0;
+}
+
+.aiovg-widget-form .aiovg-widget-label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+.aiovg-widget-form .aiovg-widget-field-description {
+	margin: 7px 0;
+}
+
+.aiovg-widget-form-categories.aiovg-template-grid .aiovg-widget-field-hierarchical {
+	display: none;
+}
+
+.aiovg-widget-form-categories.aiovg-template-list .aiovg-widget-field-columns,
+.aiovg-widget-form-categories.aiovg-template-list .aiovg-widget-field-show_description {
+	display: none;
+}
+
+.aiovg-widget-form-videos .aiovg-widget-field-exclude,
+.aiovg-widget-form-videos .aiovg-widget-field-ratio,
+.aiovg-widget-form-videos .aiovg-widget-field-show_count,
+.aiovg-widget-form-videos .aiovg-widget-field-excerpt_length,
+.aiovg-widget-form-videos .aiovg-widget-field-show_pagination {
+	display: none;
+}

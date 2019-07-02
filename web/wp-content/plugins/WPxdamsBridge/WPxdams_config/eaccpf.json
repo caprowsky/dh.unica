@@ -1,0 +1,13 @@
+{
+       "items":   [
+
+
+  {"type":"#field", "label": "titolo" ,  "id": "/eac-cpf/control/recordId"}
+, {"type":"#field", "label": "titolo" ,  "id": "/eac-cpf/cpfDescription/identity/nameEntry/part"}
+
+
+
+		
+
+                 ]
+}

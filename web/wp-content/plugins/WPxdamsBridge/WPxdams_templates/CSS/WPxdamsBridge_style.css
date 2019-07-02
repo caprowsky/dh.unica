@@ -1,0 +1,314 @@
+mult/*
+WPxdamsBRidge
+Author: regesta.exe
+Author URI: http://www.regesta.com
+
+*/
+#xdHierLevel  {
+   font-style: normal;
+   
+}
+
+#xdListSlider  {
+    float: left;
+    max-width: 100%;
+    margin: 0 2px 2px 0;
+    height: 145px;
+    overflow: hidden;
+}
+
+#xdListSlider a{display:inline-block; transition:  0.3s ease-in-out;}
+#xdListSlider a:hover{opacity:.5;}
+
+#xdlistlink a {
+    color: #685d5d;
+	text-decoration: none;
+	border-bottom: 0px none;	
+
+}
+#xdlistlinkImg  {
+	 max-width:  90%;
+	text-align: center;
+}
+#xdlistlinkImg img{margin-bottom:1rem;}
+#xdlistlinkImg a{display:block; padding:1rem 0;    transition: background-color 0.3s ease-in-out;}
+#xdlistlinkImg a:hover{background-color:#ccc;}
+
+
+#xdamsConfigPreview img{
+
+	 width:  100px;
+
+}
+#xdamsPreviewFile  img{
+ 
+           
+           max-height: 600px;
+
+}
+
+#xdlistlinkImg a {
+    color: #000;
+	text-decoration: none;
+	border-bottom: 0px none;
+        
+
+}
+#xdImgResultsPage   {
+    color: #685d5d;
+    width:  100%;
+
+}
+#xdImgResultsPage  tr  {
+   
+	border-width: 0 0px 0px 0;
+    border-top: 0px solid #ffffff;
+}
+#xdImgResultsPage  table {
+   
+	border-width: 0 0px 0px 0;
+}
+#xdImgResultsPage  td {
+   
+	border-width: 0 0px 0px 0;
+	border-top: 0px solid #ffffff;
+	vertical-align: top;
+}
+#content  td tr {
+   
+	border-width: 0 0px 0px 0;
+	border-top: 0px solid #ffffff;
+	vertical-align: top;
+}
+
+#xdamsNavMenu{
+   margin-right: 0px; width: 100%; max-height: 40px; float: left; margin-bottom: 40px; margin-top:20px;
+}
+#xdamsNavMenuBlock0{
+   
+	 float:  left;
+         vertical-align: top;
+         margin-right: 0px;
+}
+#xdamsNavMenuBlock img{
+   
+	 float:  right;
+         vertical-align: top;
+
+}
+#xdamsNavMenuBlockR{
+   
+	 float:  right;
+         vertical-align: top;
+         margin-left: 20px;
+          margin-right: 1%;
+}
+#xdamsMultiFile{
+   
+	 float:  left;
+         vertical-align: top;
+         margin-right: 10px;
+          margin-bottom: 20px;
+         width: 100%;
+}
+#xdamsReport{
+   
+	 clear:  both;
+         
+}
+
+
+#main ul, #main ol{margin-left: 0px;float: left;
+    width: 100%; list-style:none;}
+.xdlistlink{margin: 0; padding: 0;}
+.xdlistlink a:hover{ color: #AB10D7;}
+#main ul .xdlistlink:first-child{border-top: 1px solid #efefef;}
+.xdlistlink {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #efefef;
+}
+#xdlistlink a{    display: block;
+    margin: 0 0 10px 0; color:#333; padding-top:10px;}
+#xdlistlink a:hover{color: #AB10D7;}
+#xdamsPreviewFile{text-align:center;}
+#xdamsPreviewFile img{max-height:400px;}
+
+/*******************************************   story slider start  **********************************************/  IT97X0846657550000000007949
+	#smaller{
+		width:100%;
+		margin:0 auto;
+		}
+	
+	#xdamsStory{
+		width:100%;
+		border: 1px solid grey;
+                margin-top: -5px;
+                
+
+		}
+        #xdamsStory h4 {	
+		margin-top: 50px;
+                margin-left: 31%;
+		width:100%;
+		font-size:38px;
+		
+		font-family: arial;
+		font-weight:600;
+		color:white;
+		text-transform: none;
+	}                
+
+	#xdStoryContainer{
+		width:70%;
+		margin-left:30%;
+                margin-bottom:10%;
+		overflow: hidden; 
+                
+		}
+	
+	#xdStoryContainer ul {
+		overflow: hidden;
+		margin:30px;
+		margin-left:20px;
+		padding:0px;
+			
+	}
+
+	#xdStoryContainer ul li {	
+		
+		list-style:none;
+		float:left;
+		margin-right: 0.50%;
+		margin-left: 0.0%;
+	}
+       
+	#xdStoryContainer a {	
+		text-decoration: none;
+	}
+
+	#xdStoryContainer h5 {	
+		margin:0;
+		
+		padding:0px 30px  30px 30px;
+		font-size:18px;
+		 background: white;
+		font-family: inherit;
+		font-weight:400;
+		color:grey;
+		text-transform: none;
+	}
+		#xdStoryContainer img {
+                    
+		max-width: 96%;
+                margin-left:2% ;
+                 margin-right:2% ;
+		margin-top:2% ;
+                margin-bottom:2% ;
+	}
+	
+	#xdStoryContainer ul li img{width:100%; height:auto;}
+/**	 #9b0909 */
+	#slide1 { background: #ffffff }
+	
+	#slide2 { background: #ffffff }
+	
+	#slide3 { background: #ffffff }
+	
+	#slide4 { background: #ffffff }
+	
+	#slide5 { background: #ffffff }
+	
+	#slide6 { background: #ffffff }
+	
+	#slide7 { background: #ffffff }
+        
+        #slide8 { background: #ffffff }
+        
+        #slide9 { background: #ffffff }
+        
+        #slide10 { background: #ffffff }
+        
+        #slide11 { background: #ffffff }
+        
+        #slide12 { background: #ffffff }
+        
+        #slide13 { background: #ffffff }
+        
+        #slide14 { background: #ffffff }
+          #slide15 { background: #ffffff }
+	
+.center-thumbs{width: 100% !important; max-width: 100% !important;}
+.list-inline>li{padding: 1rem !important; vertical-align: middle !important;}
+	
+.wrap-img-foto-slide { float: left; width: 100%; margin-bottom: 2rem;}
+.wrap-solo-img-slide{ float: left; width: 40%;}
+.xdListPreviewTitle{float: left;width: 50%;margin-left: 2rem;     font-size: 18px;}
+
+.list-inline>li.carousel-xd-preview a{    display: inline-block;
+    transition: 0.3s ease-in-out;}
+
+.list-inline>li.carousel-xd-preview a:hover{opacity:.5;}
+
+
+	@media (max-width: 1980px) {
+	
+		body,html{margin:0; padding:10px;}
+		
+		h5{font-size:14px;padding:10px;height:10%;}
+		
+		#xdStoryContainer ul li {	width:9.45%;}
+	}
+
+/*******************************************   story slider end    **********************************************
+/*******************************************   carousel   ************************************************************/
+            .starter-template{margin-top: 40px}
+            .carousel-inner{
+                text-align: bottom;    
+            }
+
+            .carousel-inner{
+          /*      height: 500px;  */
+                overflow: hidden}
+            
+            .carousel-inner>.item{
+                text-align: center;    
+        /*        height: 500px;  */
+          margin: 0 auto;}
+            
+       /*     .carousel-inner img{max-height: 400px;}*/
+            
+            .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+                display: inline;
+            }        
+            .carousel-inner>.item>.carousel-preview>a>img, .carousel-inner>.item>.carousel-preview>img{    
+                position: absolute;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 50
+            }
+            .center-thumbs{
+                max-width:  80%;
+                padding-top: 30px;
+                position: relative;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0
+                
+                }
+                .carousel-preview h1{
+                font-size:34px;
+                padding:10px;
+               
+                
+                }
+/*******************************************   carousel  end***********************************************************/
+
+
+/********************************************************************************************************************/
+/******************************************** MAIN HTML STYLES ******************************************************/
+/********************************************************************************************************************/

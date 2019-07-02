@@ -1,0 +1,15 @@
+<c id="generic" level="fonds">
+	<xDamsElement presentation="unittitle/1" label="titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="scopecontent" label="scopecontent"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="materialspec" label="materiali"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="origination/corpname/1" label="ente" type="corpname"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/extent/2" label="physdesc"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/genreform/1" label="genere" type="genreform"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="addressline" label="indirizzo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unitdate" label="data"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unitid" label="unitid"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="phystech" label="phystech"  multiple="yes">active</xDamsElement>
+
+</c>
+
+

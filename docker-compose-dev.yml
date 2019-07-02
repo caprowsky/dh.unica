@@ -24,4 +24,4 @@ services:
       PHP_UPLOAD_MAX_FILESIZE: 1G
       PHP_MAX_INPUT_VARS: 1G
     ports:
-      - '7000:80'
+      - '9000:80'

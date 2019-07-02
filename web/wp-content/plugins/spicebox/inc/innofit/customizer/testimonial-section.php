@@ -18,8 +18,6 @@ $wp_customize->add_section( 'testimonial_section' , array(
 		));
 		
 		
-		
-		
 		//Testimonial Background Image
 			$wp_customize->add_setting( 'testimonial_callout_background', array(
 			  'sanitize_callback' => 'esc_url_raw',
@@ -100,6 +98,61 @@ $wp_customize->add_section( 'testimonial_section' , array(
 				'customizer_repeater_designation_control' => true,
 				) ) );
 		}
+		
+		//Testimonial plus
+		class Innofit_testimonial__section_upgrade extends WP_Customize_Control {
+			public function render_content() { ?>
+			<h3 class="customizer_testimonial_upgrade_section" style="display: none;"><?php _e('To add More Testimonial? Then','spicebox'); ?><a href="<?php echo esc_url( 'https://helpdoc.spicethemes.com/innofit-plus/homepage-section-settings-2/#innofitTestimonials' ); ?>" target="_blank">
+			<?php _e('Upgrade to Plus','spicebox'); ?> </a>  
+			<?php
+			}
+		}
+		
+		
+		$wp_customize->add_setting( 'innofit_testimonial_upgrade_to_pro', array(
+			'capability'			=> 'edit_theme_options',
+			'sanitize_callback'	=> 'wp_filter_nohtml_kses',
+		));
+		$wp_customize->add_control(
+			new Innofit_testimonial__section_upgrade(
+			$wp_customize,
+			'innofit_testimonial_upgrade_to_pro',
+				array(
+					'section'				=> 'testimonial_section',
+					'settings'				=> 'innofit_testimonial_upgrade_to_pro',
+				)
+			)
+		);
+		//Plus Team	
+		class WP_testimonial_plus_Customize_Control extends WP_Customize_Control {
+		public $type = 'new_menu';
+		/**
+		* Render the control's content.
+		*/
+		public function render_content() {
+		?>
+		 <div class="pro-vesrion">
+		 <P><?php esc_html_e('More options available for Testimonial section in Innofit Plus','spicebox');?></P>
+		 </div>
+		  <div class="pro-box">
+		 <a href="<?php echo esc_url('https://spicethemes.com/innofit-plus/');?>" class="read-more-button" id="review_plus" target="_blank"><?php esc_html_e( 'Upgrade to Plus','spicebox' ); ?></a>
+		 <div>
+		<?php
+		}
+	    }
+
+		$wp_customize->add_setting(
+			'add_plus_testimonial',
+			array(
+				'capability'     => 'edit_theme_options',
+				'sanitize_callback' => 'sanitize_text_field',
+			)	
+		);
+		$wp_customize->add_control( new WP_testimonial_plus_Customize_Control( $wp_customize, 'add_plus_testimonial', array(	
+				'section' => 'testimonial_section',
+				'setting' => 'add_plus_testimonial',
+		
+		)));
 
 		
 	/**

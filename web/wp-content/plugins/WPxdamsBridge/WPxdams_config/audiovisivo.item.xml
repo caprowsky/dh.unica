@@ -1,0 +1,17 @@
+<c id="generic" level="item">
+	<xDamsElement presentation="did/unittitle/1" label="titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="did/origination/persname/1[role]" label="persona e ruolo"   multiple="yes">active</xDamsElement> 
+        <xDamsElement presentation="origination/corpname/1[role]" label="Ente e ruolo"  multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="controlaccess/corpname/1[role]" label="Ente e ruolo"  multiple="yes">active</xDamsElement>  
+        <xDamsElement presentation="controlaccess/persname/1[role]" label="Persona e ruolo"  multiple="yes">active</xDamsElement>        
+	<xDamsElement presentation="subject" label="soggetto"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="materialspec" label="materiali"   multiple="yes">active</xDamsElement>   
+	<xDamsElement presentation="physdesc/dimensions/1" label="dimesioni"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/genreform/1" label="genere"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/extref/1[href]" label="extref"   multiple="yes">active</xDamsElement>	
+	<xDamsElement presentation="physdesc/physfacet/1" label="physfacet"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/archref/unittitle/1" label="physdesc, titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="scopecontent/list/item/1" label="scopecontent"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="accessrestrict/1" label="restrizioni"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="altformavail/1" label="altre forme"   multiple="yes">active</xDamsElement>
+</c>

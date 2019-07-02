@@ -3,7 +3,7 @@
 Plugin Name: SpiceBox
 Plugin URI:
 Description: Enhances SpiceThemes with extra functionality.
-Version: 0.3.9.1
+Version: 1.0.2
 Author: Spicethemes
 Author URI: https://github.com
 Text Domain: spicebox
@@ -47,8 +47,39 @@ function spiceb_activate() {
 		
 			if ( ! function_exists( 'spiceb_innofit_customize_register' ) ) :
 				function spiceb_innofit_customize_register($wp_customize){
+
+
+					if(!empty(get_theme_mod('innofit_testimonial_content')))
+					{
+					$sections_customizer_data = array('slider','services','about','testimonial','team','news','callout','contact','subscriber','wooproduct','portfolio','instagram','map','pricing','funfact','client');	
+					}
+					else
+					{
+					$sections_customizer_data = array('slider','services','about','team','news','callout','contact','subscriber','wooproduct','portfolio','instagram','map','pricing','funfact','client');	
+					}
+
+					if(!empty(get_theme_mod('home_call_out_title')))
+					{
+					$sections_customizer_data = array('slider','services','about','testimonial','team','news','callout','contact','subscriber','wooproduct','portfolio','instagram','map','pricing','funfact','client');	
+					}
+					else
+					{
+					$sections_customizer_data = array('slider','services','about','team','news','contact','subscriber','wooproduct','portfolio','instagram','map','pricing','funfact','client');	
+					}
+
 					
-				$sections_customizer_data = array('slider','services','about','testimonial','team','news','callout','contact','subscriber','wooproduct');
+					if(!empty(get_theme_mod('innofit_subscribe_title')))
+					{
+					$sections_customizer_data = array('slider','services','about','testimonial','team','news','callout','contact','subscriber','wooproduct','portfolio','instagram','map','pricing','funfact','client');	
+					}
+					else
+					{
+					$sections_customizer_data = array('slider','services','about','team','news','contact','wooproduct','portfolio','instagram','map','pricing','funfact','client');	
+					}
+
+
+					
+				
 					
 				$selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' : 'refresh';	
 				
@@ -59,6 +90,10 @@ function spiceb_activate() {
 						require_once('inc/innofit/customizer/'.$section_customizer_data.'-section.php');
 					}	
 				}
+				require_once('inc/innofit/customizer/customizer_theme_style.php');
+				require_once('inc/innofit/customizer/customizer_typography.php');
+				require_once('inc/innofit/customizer/customizer_layout_manager.php');
+				require_once('inc/innofit/customizer/customizer_color_back_settings.php');
 				
 			}
 			add_action( 'customize_register', 'spiceb_innofit_customize_register' );
@@ -129,6 +164,11 @@ $item_details_page = get_option('item_details_page');
 
 }
 
+//Metabox Seeting For Chilly Theme
+if ( 'Chilly' == $theme->name )
+{
+require_once('inc/chilly/post-meta.php');	
+}
 
 //Sanatize text
 function spiceb_spicepress_home_page_sanitize_text( $input ) {

@@ -1,0 +1,11 @@
+<c id="generic" level="fonds">
+	<xDamsElement presentation="unittitle/title/1" label="titolo"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="scopecontent" label="scopecontent"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="origination/corpname/1" label="Enti e Istituzioni"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="unitdate" label="data"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="did/abstract/1" label="abstract" type="did/abstract/1"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="acqinfo" label="acqinfo" type="informazioni acquisizione"  multiple="yes">active</xDamsElement>
+
+</c>
+
+

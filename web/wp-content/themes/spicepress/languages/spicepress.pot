@@ -3,21 +3,21 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: SpicePress\n"
-"POT-Creation-Date: 2019-04-09 11:23+0530\n"
+"POT-Creation-Date: 2019-05-29 15:05+0530\n"
 "PO-Revision-Date: 2019-04-09 11:22+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -103,7 +103,8 @@ msgid "Support"
 msgstr ""
 
 #: admin/inc/class-spicethemes-about-page.php:331
-#: admin/tab-pages/useful_plugins.php:28 admin/tab-pages/useful_plugins.php:30
+#: admin/tab-pages/useful_plugins.php:28
+#: admin/tab-pages/useful_plugins.php:30
 msgid "Changelog"
 msgstr ""
 
@@ -208,8 +209,9 @@ msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:25
 msgid ""
-"SpicePress supports both a Full-Width and a Boxed layout options. To choose "
-"your preference (and switch between them) go to Appearance > Customize."
+"SpicePress supports both a Full-Width and a Boxed layout options. To "
+"choose your preference (and switch between them) go to Appearance > "
+"Customize."
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:27
@@ -226,8 +228,8 @@ msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:31
 msgid ""
-"This theme supports the Contact Form 7 plugin. Use it to build your contact "
-"form."
+"This theme supports the Contact Form 7 plugin. Use it to build your "
+"contact form."
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:34
@@ -236,8 +238,8 @@ msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:35
 msgid ""
-"Enjoy any of the 7 preset color schemes, or create your own, without adding "
-"any code."
+"Enjoy any of the 7 preset color schemes, or create your own, without "
+"adding any code."
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:37
@@ -336,8 +338,8 @@ msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:123
 msgid ""
-"Top Header, Slider [Unlimited], Services [Unlimited], Portfolio [Unlimited], "
-"Latest News, Clients, Testimonials, Custom Widgets"
+"Top Header, Slider [Unlimited], Services [Unlimited], Portfolio "
+"[Unlimited], Latest News, Clients, Testimonials, Custom Widgets"
 msgstr ""
 
 #: admin/tab-pages/free_vs_pro.php:125
@@ -366,24 +368,24 @@ msgstr ""
 msgid ""
 "This theme is ideal for creating corporate and business websites. The PRO "
 "version has tons of features: a homepage with many sections where you can "
-"feature unlimited sliders, portfolios, user reviews, latest news, services, "
-"calls to action and much more. Each section in the HomePage template is "
-"carefully designed to fit to all business requirements."
+"feature unlimited sliders, portfolios, user reviews, latest news, "
+"services, calls to action and much more. Each section in the HomePage "
+"template is carefully designed to fit to all business requirements."
 msgstr ""
 
 #: admin/tab-pages/getting-started.php:22
 msgid ""
 "You can use this theme for any type of activity. SpicePress is compatible "
-"with popular plugins like WPML and Polylang. To help you create an effective "
-"and impactful web presence, SpicePress has predefined versions of many "
-"pages: Contact, Services, Portfolios, About Us and Blog."
+"with popular plugins like WPML and Polylang. To help you create an "
+"effective and impactful web presence, SpicePress has predefined versions "
+"of many pages: Contact, Services, Portfolios, About Us and Blog."
 msgstr ""
 
 #: admin/tab-pages/getting-started.php:30
 msgid ""
-"To take full advantage of all the features this theme has to offer, install "
-"and activate the SpiceBox plugin. Go to Customize and install the SpiceBox "
-"plugin."
+"To take full advantage of all the features this theme has to offer, "
+"install and activate the SpiceBox plugin. Go to Customize and install the "
+"SpiceBox plugin."
 msgstr ""
 
 #: admin/tab-pages/getting-started.php:33
@@ -418,15 +420,17 @@ msgstr ""
 msgid "Premium Theme Details"
 msgstr ""
 
-#: admin/tab-pages/useful_plugins.php:12 admin/tab-pages/useful_plugins.php:14
+#: admin/tab-pages/useful_plugins.php:12
+#: admin/tab-pages/useful_plugins.php:14
 msgid "Contact Support"
 msgstr ""
 
 #: admin/tab-pages/useful_plugins.php:13
 msgid ""
-"We want to make sure you have the best experience using SpicePress, and that "
-"is why we have gathered all the necessary information here for you. We hope "
-"you will enjoy using SpicePress as much as we enjoy creating great products."
+"We want to make sure you have the best experience using SpicePress, and "
+"that is why we have gathered all the necessary information here for you. "
+"We hope you will enjoy using SpicePress as much as we enjoy creating great "
+"products."
 msgstr ""
 
 #: admin/tab-pages/useful_plugins.php:20
@@ -445,8 +449,9 @@ msgstr ""
 
 #: admin/tab-pages/useful_plugins.php:29
 msgid ""
-"Want to get the gist on the latest theme changes? Just consult our changelog "
-"below to get a taste of the recent fixes and features implemented."
+"Want to get the gist on the latest theme changes? Just consult our "
+"changelog below to get a taste of the recent fixes and features "
+"implemented."
 msgstr ""
 
 #: class-tgm-plugin-activation.php:327
@@ -457,13 +462,11 @@ msgstr ""
 msgid "Install Plugins"
 msgstr ""
 
-#. translators: %s: plugin name.
 #: class-tgm-plugin-activation.php:330
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
-#. translators: %s: plugin name.
 #: class-tgm-plugin-activation.php:332
 #, php-format
 msgid "Updating Plugin: %s"
@@ -473,7 +476,6 @@ msgstr ""
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:336
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
@@ -481,7 +483,6 @@ msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:342
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
@@ -489,7 +490,6 @@ msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:348
 #, php-format
 msgid ""
@@ -501,7 +501,6 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:354
 #, php-format
 msgid "There is an update available for %1$s."
@@ -509,7 +508,6 @@ msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:360
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
@@ -517,11 +515,11 @@ msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:366
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgid_plural ""
+"The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -562,13 +560,11 @@ msgid_plural "The following plugins were activated successfully:"
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: plugin name.
 #: class-tgm-plugin-activation.php:390
 #, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
-#. translators: 1: plugin name.
 #: class-tgm-plugin-activation.php:392
 #, php-format
 msgid ""
@@ -576,7 +572,6 @@ msgid ""
 "Please update the plugin."
 msgstr ""
 
-#. translators: 1: dashboard link.
 #: class-tgm-plugin-activation.php:394
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
@@ -588,8 +583,8 @@ msgstr ""
 
 #: class-tgm-plugin-activation.php:396
 msgid ""
-"There are one or more required or recommended plugins to install, update or "
-"activate."
+"There are one or more required or recommended plugins to install, update "
+"or activate."
 msgstr ""
 
 #: class-tgm-plugin-activation.php:397
@@ -618,8 +613,8 @@ msgstr ""
 
 #: class-tgm-plugin-activation.php:937
 msgid ""
-"The remote plugin package consists of more than one file, but the files are "
-"not packaged in a folder."
+"The remote plugin package consists of more than one file, but the files "
+"are not packaged in a folder."
 msgstr ""
 
 #: class-tgm-plugin-activation.php:1121 class-tgm-plugin-activation.php:2948
@@ -627,7 +622,6 @@ msgctxt "plugin A *and* plugin B"
 msgid "and"
 msgstr ""
 
-#. translators: %s: version number
 #: class-tgm-plugin-activation.php:1982
 #, php-format
 msgid "TGMPA v%s"
@@ -673,14 +667,12 @@ msgstr ""
 msgid "Update recommended"
 msgstr ""
 
-#. translators: 1: install status, 2: update status
 #: class-tgm-plugin-activation.php:2342
 #, php-format
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
-#. translators: 1: number of plugins.
 #: class-tgm-plugin-activation.php:2388
 #, php-format
 msgctxt "plugins"
@@ -689,7 +681,6 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: number of plugins.
 #: class-tgm-plugin-activation.php:2392
 #, php-format
 msgid "To Install <span class=\"count\">(%s)</span>"
@@ -697,7 +688,6 @@ msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: number of plugins.
 #: class-tgm-plugin-activation.php:2396
 #, php-format
 msgid "Updates Available <span class=\"count\">(%s)</span>"
@@ -705,7 +695,6 @@ msgid_plural "Updates Available <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#. translators: 1: number of plugins.
 #: class-tgm-plugin-activation.php:2400
 #, php-format
 msgid "To Activate <span class=\"count\">(%s)</span>"
@@ -755,19 +744,16 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#. translators: %2$s: plugin name in screen reader markup
 #: class-tgm-plugin-activation.php:2603
 #, php-format
 msgid "Install %2$s"
 msgstr ""
 
-#. translators: %2$s: plugin name in screen reader markup
 #: class-tgm-plugin-activation.php:2608
 #, php-format
 msgid "Update %2$s"
 msgstr ""
 
-#. translators: %2$s: plugin name in screen reader markup
 #: class-tgm-plugin-activation.php:2614
 #, php-format
 msgid "Activate %2$s"
@@ -813,19 +799,16 @@ msgstr ""
 msgid "Plugin activation failed."
 msgstr ""
 
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: class-tgm-plugin-activation.php:3498
 #, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#. translators: 1: plugin name, 2: error message.
 #: class-tgm-plugin-activation.php:3501
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
-#. translators: 1: plugin name.
 #: class-tgm-plugin-activation.php:3503
 #, php-format
 msgid "The installation of %1$s failed."
@@ -833,11 +816,10 @@ msgstr ""
 
 #: class-tgm-plugin-activation.php:3507
 msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
 msgstr ""
 
-#. translators: 1: plugin name.
 #: class-tgm-plugin-activation.php:3509
 #, php-format
 msgid "%1$s installed and activated successfully."
@@ -855,7 +837,6 @@ msgstr ""
 msgid "All installations and activations have been completed."
 msgstr ""
 
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: class-tgm-plugin-activation.php:3512
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
@@ -863,11 +844,10 @@ msgstr ""
 
 #: class-tgm-plugin-activation.php:3515
 msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
+"The installation process is starting. This process may take a while on "
+"some hosts, so please be patient."
 msgstr ""
 
-#. translators: 1: plugin name.
 #: class-tgm-plugin-activation.php:3517
 #, php-format
 msgid "%1$s installed successfully."
@@ -877,7 +857,6 @@ msgstr ""
 msgid "All installations have been completed."
 msgstr ""
 
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: class-tgm-plugin-activation.php:3520
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
@@ -973,9 +952,9 @@ msgstr ""
 
 #: footer.php:5 functions/customizer/customizer_general_settings.php:274
 msgid ""
-"<a href=\"https://wordpress.org\">Proudly powered by WordPress</a> | Theme: "
-"<a href=\"https://spicethemes.com\" rel=\"designer\">SpicePress</a> by "
-"SpiceThemes"
+"<a href=\"https://wordpress.org\">Proudly powered by WordPress</a> | "
+"Theme: <a href=\"https://spicethemes.com\" rel=\"designer\">SpicePress</a> "
+"by SpiceThemes"
 msgstr ""
 
 #: functions.php:65
@@ -1197,7 +1176,8 @@ msgstr ""
 msgid "Search results for"
 msgstr ""
 
-#: functions/customizer/customizer_bredcrumbs_settings.php:77 searchform.php:4
+#: functions/customizer/customizer_bredcrumbs_settings.php:77
+#: searchform.php:4
 msgid "Search"
 msgstr ""
 
@@ -1280,8 +1260,8 @@ msgstr ""
 #: functions/customizer/customizer_recommended_plugin.php:12
 #, php-format
 msgid ""
-"Install and activate %s plugin for taking full advantage of all the features "
-"this theme has to offer."
+"Install and activate %s plugin for taking full advantage of all the "
+"features this theme has to offer."
 msgstr ""
 
 #: functions/customizer/customizer_recommended_plugin.php:17
@@ -1388,8 +1368,8 @@ msgstr ""
 
 #: search.php:29
 msgid ""
-"Sorry, but nothing matched your search criteria. Please try again with some "
-"different keywords."
+"Sorry, but nothing matched your search criteria. Please try again with "
+"some different keywords."
 msgstr ""
 
 #: searchform.php:3
@@ -1402,15 +1382,15 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"SpicePress is a responsive and fully customizable business template. It is a "
-"perfect solution for creative and corporate websites, restaurants, wedding "
-"planners, law firms, finance, consulting, travel, photography, recipes, "
-"design, sport/medical shops, startups, online agencies, portfolios, E-"
-"commerce (WooCommerce), and freelancers. The advanced admin panel will "
-"enable you to personalize SpicePress without any technical information. "
-"SpicePress is translation ready and supports popular plugins like WPML, "
-"Polylang, WooCommerce and Contact Form 7. Check out also SpicePress PRO, the "
-"premium version, which has a lot more to offer."
+"SpicePress is a responsive and fully customizable business template. It is "
+"a perfect solution for creative and corporate websites, restaurants, "
+"wedding planners, law firms, finance, consulting, travel, photography, "
+"recipes, design, sport/medical shops, startups, online agencies, "
+"portfolios, E-commerce (WooCommerce), and freelancers. The advanced admin "
+"panel will enable you to personalize SpicePress without any technical "
+"information. SpicePress is translation ready and supports popular plugins "
+"like WPML, Polylang, WooCommerce and Contact Form 7. Check out also "
+"SpicePress PRO, the premium version, which has a lot more to offer."
 msgstr ""
 
 #. Author of the plugin/theme
@@ -1421,299 +1401,6 @@ msgstr ""
 msgid "https://spicethemes.com"
 msgstr ""
 
-#, fuzzy
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: SpiceBox\n"
-"POT-Creation-Date: 2019-02-25 16:23+0530\n"
-"PO-Revision-Date: 2019-02-25 16:23+0530\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: spicebox.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
-
-#: inc/feedback-pop-up-form.php:6
-msgid "Quick Feedback"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:8
-msgid "Your feedback is valuable for us."
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:17
-msgid "What we have done wrong?"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:21
-msgid "Very limited options"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:26
-msgid "I want to try a new design, I don't like Spicepress style"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:27
-msgid "If possible tell us the name of the theme you have selected"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:31
-msgid "Is not working with a plugin that I need"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:32
-msgid "Plugin Name"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:36
-msgid "I don't know how to make it look like demo"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:40
-msgid "Other"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:41
-msgid "Please share the reason"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:46
-msgid "Submit"
-msgstr ""
-
-#: inc/feedback-pop-up-form.php:47
-msgid "Skip &amp; Deactivate"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:6
-msgid "Portfolio settings"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:14
-msgid "Enable Home Portfolio section"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:18
-#: inc/spicepress/features/feature-service-section.php:21
-#: inc/spicepress/features/feature-slider-section.php:19
-#: inc/spicepress/features/feature-testimonial-section.php:20
-msgid "ON"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:19
-#: inc/spicepress/features/feature-service-section.php:22
-#: inc/spicepress/features/feature-slider-section.php:20
-#: inc/spicepress/features/feature-testimonial-section.php:21
-msgid "OFF"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:27
-#: inc/spicepress/sections/spicepress-portfolio-section.php:9
-msgid "Our Portfolio"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:31
-#: inc/spicepress/features/feature-portfolio-section.php:78
-#: inc/spicepress/features/feature-portfolio-section.php:127
-#: inc/spicepress/features/feature-portfolio-section.php:175
-#: inc/spicepress/features/feature-service-section.php:35
-#: inc/spicepress/features/feature-slider-section.php:76
-#: inc/spicepress/features/feature-testimonial-section.php:70
-#: inc/spicepress/features/feature-testimonial-section.php:128
-msgid "Title"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:44
-#: inc/spicepress/features/feature-portfolio-section.php:92
-#: inc/spicepress/features/feature-portfolio-section.php:141
-#: inc/spicepress/features/feature-portfolio-section.php:189
-#: inc/spicepress/features/feature-service-section.php:48
-#: inc/spicepress/features/feature-slider-section.php:88
-#: inc/spicepress/features/feature-testimonial-section.php:83
-#: inc/spicepress/features/feature-testimonial-section.php:114
-msgid "Description"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:59
-#: inc/spicepress/features/feature-portfolio-section.php:108
-#: inc/spicepress/features/feature-portfolio-section.php:157
-#: inc/spicepress/features/feature-slider-section.php:35
-#: inc/spicepress/features/feature-testimonial-section.php:97
-msgid "Image"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:72
-#: inc/spicepress/sections/spicepress-portfolio-section.php:11
-#: inc/spicepress/sections/spicepress-portfolio-section.php:15
-#: inc/spicepress/sections/spicepress-portfolio-section.php:19
-msgid "Art Office Design"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:121
-msgid "Graphics Design"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:169
-msgid "WordPress Themes"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:204
-msgid "More options available for portfolio section in SpicePress Pro"
-msgstr ""
-
-#: inc/spicepress/features/feature-portfolio-section.php:207
-#: inc/spicepress/features/feature-slider-section.php:144
-#: inc/spicepress/features/feature-testimonial-section.php:159
-msgid "Read More"
-msgstr ""
-
-#: inc/spicepress/features/feature-service-section.php:8
-msgid "Service settings"
-msgstr ""
-
-#: inc/spicepress/features/feature-service-section.php:17
-msgid "Enable Services on homepage"
-msgstr ""
-
-#: inc/spicepress/features/feature-service-section.php:30
-#: inc/spicepress/sections/spicepress-features-section.php:10
-msgid "What we Offer?"
-msgstr ""
-
-#: inc/spicepress/features/feature-service-section.php:58
-msgid "Service content"
-msgstr ""
-
-#: inc/spicepress/features/feature-service-section.php:61
-msgid "Add new Service"
-msgstr ""
-
-#: inc/spicepress/features/feature-service-section.php:62
-msgid "Service"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:7
-msgid "Slider settings"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:15
-msgid "Enable slider"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:50
-msgid "Enable slider image overlay"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:63
-msgid "Slider image overlay color"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:71
-msgid "Welcome to SpicePress Theme"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:96
-msgid "Read more"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:101
-msgid "Button Text"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:108
-msgid "#"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:113
-msgid "Button Link"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:126
-msgid "Open link in new tab"
-msgstr ""
-
-#: inc/spicepress/features/feature-slider-section.php:141
-msgid "More options available for slider section in SpicePress Pro"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:8
-msgid "Testimonial settings"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:16
-msgid "Enable Home Testimonial section"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:31
-msgid "Background Image"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:43
-msgid "Enable testimonial image overlay"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:56
-msgid "Testimonial image overlay color"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:65
-#: inc/spicepress/sections/spicepress-testimonail-section.php:24
-msgid "What People Say"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:123
-#: inc/spicepress/sections/spicepress-testimonail-section.php:26
-msgid "Alice Culan"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:136
-#: inc/spicepress/sections/spicepress-testimonail-section.php:27
-msgid "UI Developer"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:141
-msgid "Designation"
-msgstr ""
-
-#: inc/spicepress/features/feature-testimonial-section.php:156
-msgid "More options available for testimonial section in SpicePress Pro"
-msgstr ""
-
-#: inc/spicepress/sections/spicepress-features-section.php:156
-msgid "Easy to Use"
-msgstr ""
-
-#: inc/spicepress/sections/spicepress-features-section.php:163
-msgid "Multi-Purpose"
-msgstr ""
-
-#: inc/spicepress/sections/spicepress-features-section.php:170
-msgid "Responsive Design"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "SpiceBox"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid "Enhances SpiceThemes with extra functionality."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Spicethemes"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://github.com"
+#. Template Name of the plugin/theme
+msgid "Business Template"
 msgstr ""

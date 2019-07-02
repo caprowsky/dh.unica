@@ -1,0 +1,10 @@
+<c id="generic" level="item">
+	<xDamsElement presentation="titleInfo" label="titolo"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="namePart" label="namePart"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="originInfo/place/placeTerm/1" label="luogo di pubblicazione"   multiple="yes">active</xDamsElement> 
+        <xDamsElement presentation="originInfo/dateIssued/1" label="data di pubblicazione"   multiple="yes">active</xDamsElement> 
+	<xDamsElement presentation="originInfo/publisher/1" label="editore"   multiple="yes">active</xDamsElement> 
+	<xDamsElement presentation="subject" label="soggetto"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="abstract" label="abstract"  multiple="yes">active</xDamsElement>
+
+</c>

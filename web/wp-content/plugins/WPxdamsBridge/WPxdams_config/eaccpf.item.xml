@@ -1,0 +1,11 @@
+<c id="generic" level="item">
+	<xDamsElement presentation="control/recordId/1" label="id"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="cpfDescription/identity/nameEntry/part/1[localType=normal]" label="nome"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="cpfDescription/identity/entityType/1" label="tipo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="cpfDescription/description/biogHist/1" label="note biografiche"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="cpfDescription/existDates/1" label="date esistenza"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="relations/cpfRelation/date/3" label="relazioni"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="relations/cpfRelation/descriptiveNote/1" label="note descrittive"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="relations/cpfRelation/relationEntry/1" label="in relazione con"   multiple="yes">active</xDamsElement>
+	
+</c>

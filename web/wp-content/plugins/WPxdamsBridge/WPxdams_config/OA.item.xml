@@ -1,0 +1,20 @@
+<c id="generic" level="item">
+        <xDamsElement presentation="did/materialspec/1"                 label="Oggetto"   multiple="yes">active</xDamsElement>	
+        <xDamsElement presentation="did/unittitle/title/1"              label="Titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="did/unittitle/1"                    label="Soggetto"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="did/unitdate/1"                     label="Data"   multiple="yes">active</xDamsElement> 
+	<xDamsElement presentation="did/unitdate/extref/date/1"         label="Cronologia"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="did/origination/persname/1[extptr]" label="Autore"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/genreform/1"               label="Materia e tecnica"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="physdesc/dimensions/1[encodinganalog=MISA]" label="altezza"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/dimensions/1[encodinganalog=MISL]" label="larghezza"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="descgrp/odd/p/1"                    label="Descrizione oggetto"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="descgrp/scopecontent/p/1"           label="Descrizione soggetto"   multiple="yes">active</xDamsElement>	
+	<xDamsElement presentation="descgrp/odd/p/emph/1"               label="notizie storico crritiche"   multiple="yes">active</xDamsElement>	
+	<xDamsElement presentation="descgrp/scopecontent/list/item/1"   label="Iscrizioni"   multiple="yes">active</xDamsElement>	
+	<xDamsElement presentation="descgrp/acqinfo/p/name/1"           label="Acquisizione"   multiple="yes">active</xDamsElement>	
+	<xDamsElement presentation="descgrp/acqinfo/p/1"                label="Info acquisizione"   multiple="yes">active</xDamsElement>	
+	<xDamsElement presentation="bibliography/p/1"                   label="Bibliografia"   multiple="yes">active</xDamsElement>	
+	<xDamsElement presentation="controlaccess/subject/1"            label="Chiavi accesso categoria"   multiple="yes">active</xDamsElement>	
+	<xDamsElement presentation="controlaccess/name/1"               label="Chiavi accesso gruppo "   multiple="yes">active</xDamsElement>	
+</c>

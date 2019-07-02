@@ -120,7 +120,9 @@
 button.customizer-repeater-new-field {
     float: right;
 }
-
+button.customizer-repeater-new-field-plus {
+    float: right;
+}
 button.customizer-repeater-new-field:before {
     content: "\f132";
     display: inline-block;
@@ -134,7 +136,19 @@ button.customizer-repeater-new-field:before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+button.customizer-repeater-new-field-plus:before {
+    content: "\f132";
+    display: inline-block;
+    position: relative;
+    left: -2px;
+    top: -1px;
+    font: 400 20px/1 dashicons;
+    vertical-align: middle;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .customizer-repeater-box-content-hidden > div.customizer-repeater-social-repeater {
     margin-top: 0;
 }

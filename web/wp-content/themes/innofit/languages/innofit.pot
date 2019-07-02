@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Innofit\n"
-"POT-Creation-Date: 2019-04-29 17:45+0530\n"
+"POT-Creation-Date: 2019-06-14 19:20+0530\n"
 "PO-Revision-Date: 2019-04-03 17:38+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -602,7 +602,7 @@ msgstr ""
 msgid "Leave a Reply"
 msgstr ""
 
-#: content-page.php:11 content.php:46 functions.php:159
+#: content-page.php:11 content.php:46 functions.php:161
 #: functions/customizer/customizer_layout_settings.php:68
 #: template/template-page-full-width.php:26
 msgid "Read More"
@@ -640,40 +640,56 @@ msgstr ""
 msgid "Error 404"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:36
 #: functions/customizer-repeater/class/customizer-repeater-control.php:36
 msgid "Add new field"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:41
 #: functions/customizer-repeater/class/customizer-repeater-control.php:41
 msgid "Customizer Repeater"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:310
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:488
 #: functions/customizer-repeater/class/customizer-repeater-control.php:310
 #: functions/customizer-repeater/class/customizer-repeater-control.php:488
 #: functions/widgets/wdl_featured_latest_news.php:79
 msgid "Title"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:319
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:497
 #: functions/customizer-repeater/class/customizer-repeater-control.php:319
 #: functions/customizer-repeater/class/customizer-repeater-control.php:497
 msgid "Subtitle"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:326
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:504
 #: functions/customizer-repeater/class/customizer-repeater-control.php:326
 #: functions/customizer-repeater/class/customizer-repeater-control.php:504
 msgid "Description"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:334
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:512
 #: functions/customizer-repeater/class/customizer-repeater-control.php:334
 #: functions/customizer-repeater/class/customizer-repeater-control.php:512
 msgid "Features"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:345
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:522
 #: functions/customizer-repeater/class/customizer-repeater-control.php:345
 #: functions/customizer-repeater/class/customizer-repeater-control.php:522
 msgid "Button Text"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:356
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:532
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:780
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:802
 #: functions/customizer-repeater/class/customizer-repeater-control.php:356
 #: functions/customizer-repeater/class/customizer-repeater-control.php:532
 #: functions/customizer-repeater/class/customizer-repeater-control.php:780
@@ -681,48 +697,64 @@ msgstr ""
 msgid "Link"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:370
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:545
 #: functions/customizer-repeater/class/customizer-repeater-control.php:370
 #: functions/customizer-repeater/class/customizer-repeater-control.php:545
 msgid "Price"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:392
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:566
 #: functions/customizer-repeater/class/customizer-repeater-control.php:392
 #: functions/customizer-repeater/class/customizer-repeater-control.php:566
 msgid "Video Url"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:416
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:480
 #: functions/customizer-repeater/class/customizer-repeater-control.php:416
 #: functions/customizer-repeater/class/customizer-repeater-control.php:480
 msgid "Color"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:426
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:577
 #: functions/customizer-repeater/class/customizer-repeater-control.php:426
 #: functions/customizer-repeater/class/customizer-repeater-control.php:577
 msgid "Shortcode"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:434
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:586
 #: functions/customizer-repeater/class/customizer-repeater-control.php:434
 #: functions/customizer-repeater/class/customizer-repeater-control.php:586
 msgid "Designation"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:450
 #: functions/customizer-repeater/class/customizer-repeater-control.php:450
 msgid "Delete "
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:597
 #: functions/customizer-repeater/class/customizer-repeater-control.php:597
 msgid "Delete field"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:634
 #: functions/customizer-repeater/class/customizer-repeater-control.php:634
 msgid "Open link in new tab:"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:645
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:756
 #: functions/customizer-repeater/class/customizer-repeater-control.php:645
 #: functions/customizer-repeater/class/customizer-repeater-control.php:756
 msgid "Icon"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:650
 #: functions/customizer-repeater/class/customizer-repeater-control.php:650
 #, php-format
 msgid ""
@@ -730,72 +762,92 @@ msgid ""
 "icons at %1$s."
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:651
 #: functions/customizer-repeater/class/customizer-repeater-control.php:651
 msgid "http://fontawesome.io/icons/"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:692
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:757
 #: functions/customizer-repeater/class/customizer-repeater-control.php:692
 #: functions/customizer-repeater/class/customizer-repeater-control.php:757
 msgid "Image"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:695
 #: functions/customizer-repeater/class/customizer-repeater-control.php:695
 msgid "Upload Image"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:704
 #: functions/customizer-repeater/class/customizer-repeater-control.php:704
 msgid "Slide Format"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:708
 #: functions/customizer-repeater/class/customizer-repeater-control.php:708
 msgid "Standard"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:712
 #: functions/customizer-repeater/class/customizer-repeater-control.php:712
 msgid "Aside"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:716
 #: functions/customizer-repeater/class/customizer-repeater-control.php:716
 msgid "Quote"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:720
 #: functions/customizer-repeater/class/customizer-repeater-control.php:720
 msgid "Status"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:724
 #: functions/customizer-repeater/class/customizer-repeater-control.php:724
 msgid "Video"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:735
 #: functions/customizer-repeater/class/customizer-repeater-control.php:735
 msgid "Price highlight"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:739
 #: functions/customizer-repeater/class/customizer-repeater-control.php:739
 msgid "Highlight"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:743
 #: functions/customizer-repeater/class/customizer-repeater-control.php:743
 msgid "Non highlight"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:753
 #: functions/customizer-repeater/class/customizer-repeater-control.php:753
 msgid "Image type"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:758
 #: functions/customizer-repeater/class/customizer-repeater-control.php:758
 msgid "None"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:766
 #: functions/customizer-repeater/class/customizer-repeater-control.php:766
 msgid "Social icons"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:783
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:813
 #: functions/customizer-repeater/class/customizer-repeater-control.php:783
 #: functions/customizer-repeater/class/customizer-repeater-control.php:813
 msgid "Remove Icon"
 msgstr ""
 
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:788
+#: functions/customizer-repeater/class/customizer-repeater-control-plus.php:821
 #: functions/customizer-repeater/class/customizer-repeater-control.php:788
 #: functions/customizer-repeater/class/customizer-repeater-control.php:821
 msgid "Add Icon"
@@ -818,7 +870,7 @@ msgid "UPGRADE TO PLUS"
 msgstr ""
 
 #: functions/customizer/customizer-pro.php:20
-#: functions/customizer/customizer_color_back_settings.php:46
+#: functions/customizer/customizer_color_back_settings.php:48
 msgid "Upgrade to Plus"
 msgstr ""
 
@@ -865,7 +917,7 @@ msgstr ""
 msgid "Footer background color"
 msgstr ""
 
-#: functions/customizer/customizer_color_back_settings.php:43
+#: functions/customizer/customizer_color_back_settings.php:45
 msgid "More options available for Color and Background section in Innofit Plus"
 msgstr ""
 
@@ -1141,14 +1193,14 @@ msgstr ""
 msgid "Dribble URL"
 msgstr ""
 
-#: header.php:100 header.php:176
+#: header.php:109 header.php:185
 #, php-format
 msgid "%d"
 msgid_plural "%d"
 msgstr[0] ""
 msgstr[1] ""
 
-#: header.php:121
+#: header.php:130
 msgid "Toggle navigation"
 msgstr ""
 

@@ -1,0 +1,10 @@
+<c id="generic" level="fonds">
+	<xDamsElement presentation="title/1" label="titolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="note" label="note" type="note"  multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="materialspec" label="materiale"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="descgrp/scopecontent/1" label="descrizione"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="did/origination/corpname/1[role]" label="ente e ruolo"   multiple="yes">active</xDamsElement>
+        <xDamsElement presentation="did/origination/persname/1[role]" label="persona e ruolo"   multiple="yes">active</xDamsElement>
+	<xDamsElement presentation="physdesc/genreform/1" label="descrizione fisica"   multiple="yes">active</xDamsElement>             
+	<xDamsElement presentation="physloc" label="luogo"   multiple="yes">active</xDamsElement>
+</c>

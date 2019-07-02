@@ -38,7 +38,9 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		* Render the control's content.
 		*/
 		public function render_content() {
+			if ( ! is_plugin_active( 'innofit-plus/innofit-plus.php' ) ):
 		?>
+
 		 <div class="pro-vesrion">
 		 <P><?php esc_html_e('More options available for Color and Background section in Innofit Plus','innofit');?></P>
 		 </div>
@@ -46,6 +48,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		 <a href="<?php echo esc_url('https://spicethemes.com/innofit-plus/');?>" class="read-more-button" id="review_plus" target="_blank"><?php esc_html_e( 'Upgrade to Plus','innofit' ); ?></a>
 		 <div>
 		<?php
+	endif;
 		}
 	    }
 

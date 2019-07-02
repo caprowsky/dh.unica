@@ -1,0 +1,16 @@
+{
+        "items":   [
+
+
+  {"type":"#field", "label": "titolo" ,     "id": "/c/did/unittitle/"}
+, {"type":"#field", "label": "soggetto" ,   "id": "/c/controlaccess/subject/"}
+, {"type":"#field", "label": "enti" ,       "id": "/c/did/origination/corpname/"}
+, {"type":"#field", "label": "luoghi" ,     "id": "/c/did/unititle/geogname/"}
+
+
+
+	
+		
+
+                 ]
+}
