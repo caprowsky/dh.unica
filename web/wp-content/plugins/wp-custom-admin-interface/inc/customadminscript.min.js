@@ -1,0 +1,1 @@
+jQuery(document).ready(function(t){t(".wp-menu-image.svg").each(function(e){if("none"==t(this).css("background-image")){var n=t(this).attr("style")+" !important;";t(this).attr("style",n)}})});

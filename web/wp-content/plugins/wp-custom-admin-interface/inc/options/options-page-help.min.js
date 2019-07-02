@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e("#accordion").accordion({collapsible:!0,autoHeight:!1,heightStyle:"content",active:!1,speed:"fast"})});

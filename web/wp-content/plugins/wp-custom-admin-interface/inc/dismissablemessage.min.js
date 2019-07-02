@@ -1,0 +1,1 @@
+jQuery(document).ready(function(t){t(".wrap").on("click","#custom-admin-notice .notice-dismiss",function(n){n.preventDefault();var a={action:"dismiss_message",userId:t(this).parent().attr("data")};jQuery.post(ajaxurl,a,function(t){})})});

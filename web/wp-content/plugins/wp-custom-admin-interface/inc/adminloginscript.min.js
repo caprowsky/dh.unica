@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){var a=new Image;a.onload=function(){var a=this.src;if(console.log(a),-1!==a.indexOf("wp-admin/images"));else{var i=this.height/(this.width/320);e("#login h1 a").css("height",i)}};var i=e("#login h1 a").css("background-image");i=i.replace(/.*\s?url\([\'\"]?/,"").replace(/[\'\"]?\).*/,""),a.src=i});

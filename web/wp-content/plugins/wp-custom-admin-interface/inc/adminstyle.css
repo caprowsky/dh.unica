@@ -1,0 +1,706 @@
+.form-table {
+    table-layout: fixed;
+    margin-top:0px;
+}
+
+.form-table th {
+    padding: 0px;
+}
+
+
+#custom_admin_interface_settings_form .tab-content p {
+    padding: 10px;
+}
+
+@-webkit-keyframes webkit-animation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+@-moz-keyframes moz-animation {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(359deg);
+    }
+}
+
+@-o-keyframes o-animation {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(359deg);
+    }
+}
+
+@keyframes normal-animation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.fa-spinner {
+    -webkit-animation: webkit-animation 2s infinite linear;
+    -moz-animation: moz-animation 2s infinite linear;
+    -o-animation: o-animation 2s infinite linear;
+    animation: normal-animation 2s infinite linear;
+    font-size: 20px !important;
+    display: none;
+    margin-top: 9px;
+}
+
+
+#poststuff h2 {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.4;
+}
+
+.information-icon {
+    cursor: pointer;
+}
+
+#custom_admin_interface_settings_form #tabs {
+    border-bottom: 0px !important; 
+    border: 0px solid white !important;
+    padding: 0px !important;
+}
+
+#custom_admin_interface_settings_form #wpbody b, #custom_admin_interface_settings_form #wpbody strong {
+    font-weight: 900;
+}
+
+#custom_admin_interface_settings_form #wpbody a {
+    color: #d14032;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.nav-tab:focus, .nav-tab:hover {
+    box-shadow: none !important;
+}
+
+.form-table td {
+    padding: 5px 10px;
+}
+
+#custom_admin_interface_settings_form .notice h3 {
+    margin-top: 0px;
+}
+
+#custom_admin_interface_settings_form .button-secondary {
+    color: #555 !important;
+    background-color: #eeeeee !important; 
+    
+}
+
+#custom_admin_interface_settings_form .button-primary, #custom_admin_interface_settings_form .button-secondary {
+    text-shadow: 0 0 0 rgba(0,0,0,0) !important;
+    box-shadow: 0 0 0 white !important;
+    border-width: 0px !important;
+    height: 35px !important;
+    line-height: 35px !important;
+    font-weight: 600;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    border-radius: 4px !important;
+}
+
+#custom_admin_interface_settings_form .button-primary{
+    margin: 10px !important;   
+    margin-top: 20px !important; 
+}
+
+#custom_admin_interface_settings_form .postbox {
+    border: 1px solid white;
+}
+
+#custom_admin_interface_settings_form .button-primary {
+    background: #d14032 !important;
+    border-color: #d14032 !important;
+    -webkit-box-shadow: 0 1px 0 #d14032 !important;
+    box-shadow: 0 1px 0 #d14032 !important;
+    text-shadow: 0 -1px 1px #d14032, 1px 0 1px #d14032, 0 1px 1px #d14032, -1px 0 1px #d14032 !important;
+}
+
+.CodeMirror {
+    border: 2px solid #eaeaea !important;
+    border-radius: 3px !important;
+    height: 600px !important;
+}
+
+.options-page-header-icon {
+    color: #d14032;
+}
+
+.wp_custom_admin_interface_settings_input {
+    border: 2px solid #eaeaea !important;
+    border-radius: 3px !important;
+    padding: 6px 8px !important;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0) !important;
+}
+
+#wp-wp_custom_admin_interface_custom_footer-editor-container {
+    border: 2px solid #eaeaea !important;
+    border-radius: 3px !important;     
+}
+
+#wp-wp_custom_admin_interface_custom_footer-editor-tools {
+    margin-bottom: 3px !important;
+    margin-right: 1px !important;
+}
+
+.wp_custom_admin_interface_settings_checkbox, #custom_admin_interface_settings_form input[type=checkbox]
+{
+    border: 2px solid #dddddd !important;
+    border-radius: 3px !important;
+    padding: 0px !important;
+    padding-right: 16px !important;
+    padding-left: 2px !important;
+    padding-top: 2px !important;
+    padding-bottom: 15px !important;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0) !important;
+}
+
+
+
+/* datepicker styling */
+.ui-datepicker {
+    width: 195px;
+    padding: 0.2em 0.2em 0;
+    display: none;
+    background-color: white;
+    padding: 10px 20px 10px 15px;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: .2em 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 2px;
+	width: 1.8em;
+	height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 1px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+    cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 45%;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+
+#custom_admin_interface_settings_form .quick-shortcode-button {
+font-size: 12px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    line-height: 25px !important;
+    height: auto !important;
+    font-weight: 500!important;
+    border-radius: 3px !important;
+}
+
+.removed-menu-item, .hidden-plugin-item, .hidden-user-item, .hidden-sidebar-item, .removed-node-item, .hidden-meta-item {
+    opacity: .3;
+}
+
+
+
+.remove-menu-item, .delete-custom-menu-item, .delete-node-item {
+    float: right;
+    padding-top: 6px;
+}
+
+
+
+.menu-item-separator hr {
+    border-top: 2px dashed black;
+    margin: 0px;
+    width:100%;
+}
+
+.menu-item-separator {
+    display: table;
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+
+.hr-container {
+    display: table-cell;    
+    vertical-align: middle;
+    height: 18px;
+}
+
+
+.menu-item-icon {
+    padding: 0px 5px; 
+    cursor: pointer;
+}
+
+.menu-item-icon:before {
+    margin-top: 3px;
+}
+
+.svg-menu-icon {
+    display:inline-block; 
+    width: 20px; 
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    margin-top: -3px;
+    background-size: 20px 20px;
+}
+
+
+.custom-admin-interface_page_wpcai_admin_menu .ui-dialog {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.4);
+    border-radius: 4px;
+}
+
+.custom-admin-interface_page_wpcai_admin_menu .ui-dialog-title {
+    font-weight: bold;   
+    font-size: 16px;
+    margin-top: 9px;
+    display: inline-block;
+    cursor: move;
+}
+
+
+
+.custom-admin-interface_page_wpcai_admin_menu .ui-dialog-titlebar-close {
+    background-color: #eeeeee !important;
+    border-color: #999 !important;
+    text-shadow: 0 0 0 rgba(0,0,0,0) !important;
+    box-shadow: 0 0 0 white !important;
+    border-width: 0px !important;
+    height: 35px !important;
+    line-height: 35px !important;
+    font-weight: 600;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    border-radius: 4px !important;
+    color: #555 !important; 
+    cursor: pointer !important;
+    float: right !important;
+}
+
+.ui-dialog-titlebar {
+    margin-bottom: 30px;
+}
+
+.dash-icons-for-selection {
+    padding-right: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.svg-icons-for-selection {
+    cursor: pointer;
+    margin-right: 13px;
+}
+
+#admin-menu-manager > li {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,.3);
+    margin-bottom: 15px;
+}
+
+#admin-menu-manager > li > ul {
+    margin-top: 10px;
+}
+
+#admin-menu-manager > li > ul > li {
+    background-color: white;
+    border-radius: 3px;
+    padding: 4px; 
+}
+
+#admin-menu-manager > li > ul > li:last-child {
+    margin-bottom: 0px; 
+}
+
+
+
+
+
+#admin-menu-manager input {
+    border-radius: 3px; 
+    border-width: 2px;
+    box-shadow: none;
+}
+
+#admin-menu-manager > li > ul > li > div > .menu-item-icon {
+    display: none;    
+}
+
+.mjs-nestedSortable-no-nesting {
+    background: none !important;
+    border: none !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
+
+#admin-menu-manager > li > ul > .mjs-nestedSortable-no-nesting {
+    display: none !important;
+}
+
+
+#admin-menu-manager > li > ul > li > div > input[readonly] {
+    background-color: #fafafa;
+    border-color: #e9e9e9;
+}
+
+#admin-menu-manager > li > div > input {
+    font-weight: bold;
+}
+
+#admin-menu-manager li {
+    cursor: move;
+}
+
+#admin-menu-manager-buttons button {
+    margin-bottom: 4px !important;
+}
+
+#admin-menu-manager i {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#admin-menu-manager > li > div {
+    padding-right: 4px;   
+}
+    
+
+
+.mjs-nestedSortable-no-nesting i {
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+}
+
+.delete-separator {
+    cursor: pointer !important;
+    display: table-cell !important;
+    width: 46px !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+}
+
+#admin-menu-manager > li > ul > li > div > .menu-classes, #admin-menu-manager > li > ul > li > div > .edit-menu-item-classes {
+    display: none !important;
+}
+
+.menu-third-value, .menu-fifth-value {
+    display: none !important;
+}
+
+.add-exception-case, .remove-exception-case {
+    cursor: pointer;
+    margin-left: 14px;
+}
+
+.exception-case {
+    margin-bottom: 15px;
+}
+
+
+#custom_admin_interface_settings_form select{
+    border: 2px solid #dddddd;
+    border-radius: 3px;
+    box-shadow: none;
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;    
+   
+}
+
+.duplication-error {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+#adminmenu .wp-menu-image img {
+    width: 20px;
+    height: auto;
+}
+
+.no-url-value {
+    border-color: red !important;  
+}
+
+#custom_admin_interface_settings_form .ui-widget-overlay {
+    background: none !important;
+}
+
+#custom_admin_interface_settings_form .plugin-item, #custom_admin_interface_settings_form .user-item, #custom_admin_interface_settings_form .sidebar-item, #custom_admin_interface_settings_form .meta-item  {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
+    list-style: none;
+    
+}
+
+#custom_admin_interface_settings_form .remove-plugin-item, #custom_admin_interface_settings_form .remove-user-item,
+#custom_admin_interface_settings_form .remove-meta-item, #custom_admin_interface_settings_form .remove-sidebar-item {
+    float: right;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+
+
+#toolbar-menu-manager ul {
+    padding-left: 30px !important;
+}
+
+
+#toolbar-menu-manager li div {
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: move;
+}
+
+#toolbar-menu-manager i {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.remove-node-item {
+    float: right;
+    padding-top: 6px;
+}
+
+@-webkit-keyframes webkit-animation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+@-moz-keyframes moz-animation {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(359deg);
+    }
+}
+
+@-o-keyframes o-animation {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(359deg);
+    }
+}
+
+@keyframes normal-animation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.wp-custom-admin-interface-loading {
+    -webkit-animation: webkit-animation 1s infinite linear;
+    -moz-animation: moz-animation 1s infinite linear;
+    -o-animation: o-animation 1s infinite linear;
+    animation: normal-animation 1s infinite linear;
+    font-size: 16px !important;
+    display: inline-block !important;
+
+}
+
+.ui-accordion-content {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.ui-accordion-header {
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+#accordion {
+    margin-bottom: 20px;
+}

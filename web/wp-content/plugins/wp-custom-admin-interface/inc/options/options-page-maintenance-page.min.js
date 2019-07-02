@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(".datepicker").length&&e(".datepicker").datepicker({dateFormat:"yy-mm-dd"})});

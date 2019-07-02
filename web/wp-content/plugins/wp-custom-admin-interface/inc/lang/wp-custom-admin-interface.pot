@@ -1,0 +1,373 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Custom Admin Interface\n"
+"POT-Creation-Date: 2017-06-03 15:47+1000\n"
+"PO-Revision-Date: 2017-06-03 15:46+1000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-WPHeader: wp-custom-admin-interface.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/options-output.php:323
+msgid "Login Screen Background Color"
+msgstr ""
+
+#: inc/options-output.php:342
+msgid "Custom Login Logo"
+msgstr ""
+
+#: inc/options-output.php:349 inc/options-output.php:370
+msgid "Upload Image"
+msgstr ""
+
+#: inc/options-output.php:362
+msgid "Custom Favicon"
+msgstr ""
+
+#: inc/options-output.php:363
+msgid "For best results please upload an image with a square aspect ratio"
+msgstr ""
+
+#: inc/options-output.php:383
+msgid "Also add the above favicon to the frontend"
+msgstr ""
+
+#: inc/options-output.php:409
+msgid "Admin Link and Button Color"
+msgstr ""
+
+#: inc/options-output.php:410 inc/options-output.php:428
+msgid ""
+"Please click the \"Default\" button when changing the colour to load the "
+"default WordPress styling"
+msgstr ""
+
+#: inc/options-output.php:427
+msgid "Admin Link and Button Hover Color"
+msgstr ""
+
+#: inc/options-output.php:456
+msgid "Custom Footer Text"
+msgstr ""
+
+#: inc/options-output.php:457 inc/options-output.php:757
+msgid "Please feel free to use shortcodes to add dynamic content."
+msgstr ""
+
+#: inc/options-output.php:497
+msgid "Remove admin toolbar from the front end for all users"
+msgstr ""
+
+#: inc/options-output.php:515
+msgid "Add custom CSS to the WordPress admin"
+msgstr ""
+
+#: inc/options-output.php:537
+msgid "Add custom CSS to the WordPress login area"
+msgstr ""
+
+#: inc/options-output.php:559
+msgid "Add custom Javascript/jQuery to the WordPress admin"
+msgstr ""
+
+#: inc/options-output.php:560
+msgid "There's no need to put in the script tags and jQuery can be used like: "
+msgstr ""
+
+#: inc/options-output.php:579
+msgid "Add custom PHP to WordPress"
+msgstr ""
+
+#: inc/options-output.php:580
+msgid "There's no need to put in the starting or closing PHP tags"
+msgstr ""
+
+#: inc/options-output.php:595
+msgid "Remove WordPress Version Number from Footer"
+msgstr ""
+
+#: inc/options-output.php:613
+msgid "Deactivate Custom Code on this Settings Tab"
+msgstr ""
+
+#: inc/options-output.php:631
+msgid "Enable Maintenance Mode"
+msgstr ""
+
+#: inc/options-output.php:651
+msgid "Custom Maintenance Page/Coming Soon Text"
+msgstr ""
+
+#: inc/options-output.php:687
+msgid "Maintenance Mode End Date"
+msgstr ""
+
+#: inc/options-output.php:688
+msgid "Please leave blank to have no expiry."
+msgstr ""
+
+#: inc/options-output.php:719
+msgid "Enable Custom Dashboard Widget"
+msgstr ""
+
+#: inc/options-output.php:737
+msgid "Widget Title"
+msgstr ""
+
+#: inc/options-output.php:756
+msgid "Widget Content"
+msgstr ""
+
+#: inc/options-output.php:798
+msgid ""
+"These 5 below colors will make up a new color scheme called \"Custom\" that "
+"will be available to select on your"
+msgstr ""
+
+#: inc/options-output.php:798
+msgid "User Profile"
+msgstr ""
+
+#: inc/options-output.php:798
+msgid "page."
+msgstr ""
+
+#: inc/options-output.php:805
+msgid "Color Scheme Color 1"
+msgstr ""
+
+#: inc/options-output.php:821
+msgid "Color Scheme Color 2"
+msgstr ""
+
+#: inc/options-output.php:837
+msgid "Color Scheme Color 3"
+msgstr ""
+
+#: inc/options-output.php:853
+msgid "Color Scheme Color 4"
+msgstr ""
+
+#: inc/options-output.php:873
+msgid "SVG Icon Color"
+msgstr ""
+
+#: inc/options-output.php:891
+msgid "Force the custom color scheme on all users"
+msgstr ""
+
+#: inc/options-output.php:892
+msgid ""
+"This will force the \"Custom\" color scheme on all users regardless of what "
+"color scheme they have chosen in their user profile."
+msgstr ""
+
+#: inc/options-output.php:909
+msgid "Disable Automatic WordPress Updates"
+msgstr ""
+
+#: inc/options-output.php:956
+msgid "Add separator"
+msgstr ""
+
+#: inc/options-output.php:958
+msgid "Add menu item"
+msgstr ""
+
+#: inc/options-output.php:970
+msgid "Advanced functionality"
+msgstr ""
+
+#: inc/options-output.php:972
+msgid "Restore to default WordPress menu"
+msgstr ""
+
+#: inc/options-output.php:974
+msgid "Restore to last save"
+msgstr ""
+
+#: inc/options-output.php:1122
+msgid "Use my custom menu for"
+msgstr ""
+
+#: inc/options-output.php:1127
+msgid "No-one"
+msgstr ""
+
+#: inc/options-output.php:1128
+msgid "Everyone"
+msgstr ""
+
+#: inc/options-output.php:1131
+msgid "except"
+msgstr ""
+
+#: inc/options-output.php:1203
+msgid "Show notification icons on custom menu"
+msgstr ""
+
+#: inc/options-output.php:1214 wp-custom-admin-interface.php:237
+msgid "Save All Settings"
+msgstr ""
+
+#: inc/options-page-wrapper.php:22
+msgid "A Message from the Developer"
+msgstr ""
+
+#: inc/options-page-wrapper.php:22
+msgid ""
+"Hi there! Thanks for using my plugin. I wrote this plugin because at the "
+"moment I use a few different little plugins to customise the admin interface "
+"and I thought it would be great to put it all into one and make things easy "
+"to use. I appreciate that customising the WordPress admin is a bit of a "
+"pandora's box as everyone has their own way they like to do things! If you "
+"like the plugin please consider rating it"
+msgstr ""
+
+#: inc/options-page-wrapper.php:24
+msgid ""
+"Sick of seeing this notice and my ugly face at the bottom of this settings "
+"page?"
+msgstr ""
+
+#: inc/options-page-wrapper.php:24
+msgid "Why not hide it using this plugin with the following"
+msgstr ""
+
+#: inc/options-page-wrapper.php:24
+msgid "CSS code"
+msgstr ""
+
+#: inc/options-page-wrapper.php:33
+msgid "General Settings"
+msgstr ""
+
+#: inc/options-page-wrapper.php:34
+msgid "Custom Admin Code"
+msgstr ""
+
+#: inc/options-page-wrapper.php:35
+msgid "Coming Soon/Maintenance Page"
+msgstr ""
+
+#: inc/options-page-wrapper.php:36
+msgid "Custom Dashboard Widget"
+msgstr ""
+
+#: inc/options-page-wrapper.php:37
+msgid "Admin Color Scheme"
+msgstr ""
+
+#: inc/options-page-wrapper.php:38
+msgid "Customize Admin Menu"
+msgstr ""
+
+#: inc/options-page-wrapper.php:39
+msgid "Export/Import Settings"
+msgstr ""
+
+#: inc/options-page-wrapper.php:40
+msgid "Request a Feature"
+msgstr ""
+
+#: inc/options-page-wrapper.php:41
+msgid "Help"
+msgstr ""
+
+#: wp-custom-admin-interface.php:72
+msgid "Donate"
+msgstr ""
+
+#: wp-custom-admin-interface.php:73
+msgid "Support Forum"
+msgstr ""
+
+#: wp-custom-admin-interface.php:87
+msgid "Settings"
+msgstr ""
+
+#: wp-custom-admin-interface.php:154
+msgid "Please use the"
+msgstr ""
+
+#: wp-custom-admin-interface.php:154
+msgid "forum"
+msgstr ""
+
+#: wp-custom-admin-interface.php:154
+msgid ""
+"to raise a support issue for the plugin. I generally respond to these within "
+"24 hours during weekdays. Currently it's"
+msgstr ""
+
+#: wp-custom-admin-interface.php:154
+msgid "down under! Also check out the below walkthrough video:"
+msgstr ""
+
+#: wp-custom-admin-interface.php:160
+msgid "Your"
+msgstr ""
+
+#: wp-custom-admin-interface.php:160
+msgid "donations"
+msgstr ""
+
+#: wp-custom-admin-interface.php:160
+msgid ""
+"keep me interested in this plugin and encourage me to provide ongoing "
+"support. Thank you!"
+msgstr ""
+
+#: wp-custom-admin-interface.php:168
+msgid ""
+"Thanks for using the plugin! Please use this form to request a feature. I "
+"can't guarantee it will make its way into the production release but if it's "
+"decent enough I will try my best. Thanks for contributing and making the "
+"plugin even better! If you haven't already please consider rating the plugin"
+msgstr ""
+
+#: wp-custom-admin-interface.php:186
+msgid "Export Settings"
+msgstr ""
+
+#: wp-custom-admin-interface.php:199
+msgid "Copy Settings"
+msgstr ""
+
+#: wp-custom-admin-interface.php:206
+msgid "Import Settings"
+msgstr ""
+
+#: wp-custom-admin-interface.php:211
+msgid "Import"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Custom Admin Interface"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.northernbeacheswebsites.com.au"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Customise the WordPress admin and login interfaces and customize the "
+"WordPress dashboard menu."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Martin Gibson"
+msgstr ""
