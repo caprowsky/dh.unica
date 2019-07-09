@@ -19,8 +19,8 @@ sleep 5
 echo -e "\nAncora 5 secondi ed eseguo lo switch"
 
 #Eseguo switch su branch master
-#git fetch --all
-#git checkout master
+git fetch --all
+git checkout master
 sleep 3
 
 echo -e "\nEseguo il git pull"
