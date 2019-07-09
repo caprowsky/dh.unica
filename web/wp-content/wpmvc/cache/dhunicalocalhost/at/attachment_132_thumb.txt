@@ -1,0 +1,1 @@
+a:4:{s:5:"value";s:74:"http://dh.unica.localhost/wp-content/uploads/2019/07/132-todde-150x150.jpg";s:10:"write_time";i:1562688106;s:10:"expired_in";i:2592000;s:12:"expired_time";i:1565280106;}

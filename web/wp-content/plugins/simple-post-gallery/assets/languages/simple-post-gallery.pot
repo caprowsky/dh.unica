@@ -1,0 +1,164 @@
+# Copyright (C) 2018 10 Quality
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-post-gallery\n"
+"POT-Creation-Date: 2018-05-23 01:35-0600\n"
+"PO-Revision-Date: 2018-05-23 01:36-0600\n"
+"Language-Team: 10 Quality\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "Settings"
+msgstr ""
+
+msgid "Post Gallery Settings"
+msgstr ""
+
+msgid "Galleries"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "<i class="fa fa-cog" aria-hidden="true"></i> Cache"
+msgstr ""
+
+msgid "<i class="fa fa-book" aria-hidden="true"></i> Documentation"
+msgstr ""
+
+msgid "Cache cleared."
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Insert into content (current cursor position)"
+msgstr ""
+
+msgid "Gallery"
+msgstr ""
+
+msgid "Thumbnails"
+msgstr ""
+
+msgid "Import Video"
+msgstr ""
+
+msgid "Invalid value."
+msgstr ""
+
+msgid "Url provided appears to be invalid."
+msgstr ""
+
+msgid "Invalid video provider."
+msgstr ""
+
+msgid "Video provider not supported."
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Watch"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Paste video link here"
+msgstr ""
+
+msgid "Supported:"
+msgstr ""
+
+msgid "Import:"
+msgstr ""
+
+msgid "Add Media"
+msgstr ""
+
+msgid "?"
+msgstr ""
+
+msgid "Display in"
+msgstr ""
+
+msgid "templates"
+msgstr ""
+
+msgid "Shortcode:"
+msgstr ""
+
+msgid "PRO"
+msgstr ""
+
+msgid "Thumb Slider"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+msgid "Slider Sync"
+msgstr ""
+
+msgid "Slider Sync 2"
+msgstr ""
+
+msgid "Vertical"
+msgstr ""
+
+msgid "Vertical Left"
+msgstr ""
+
+msgid "Vertical Right"
+msgstr ""
+
+msgid "Cache"
+msgstr ""
+
+msgid "Force cache clean up. This tool can be used especially when migrating to a new wordpress setup. Alternatively, you can manually do this by deleting the cache folder inside the plugin."
+msgstr ""
+
+msgid "Clean cache"
+msgstr ""
+
+msgid "Back to top"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Enqueue assets"
+msgstr ""
+
+msgid "Indicates whether or not to enqueue default scripts and styles when displaying generated gallery."
+msgstr ""
+
+msgid "This plugin uses lightbox by default to display the gallery."
+msgstr ""
+
+msgid "Post types"
+msgstr ""
+
+msgid "Select the post types that will support galleries:"
+msgstr ""
+
+msgid "Gallery metabox"
+msgstr ""
+
+msgid "Properties of the metabox that will appear when creating or editing a new post."
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Dismiss this notice."
+msgstr ""

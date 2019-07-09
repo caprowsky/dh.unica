@@ -1,0 +1,476 @@
+[
+    {
+        "name": "psr/log",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+            "shasum": ""
+        },
+        "time": "2012-12-21T11:40:51+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Psr\\Log\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "10quality/wpmvc-logger",
+        "version": "v2.0.x-dev",
+        "version_normalized": "2.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/10quality/wpmvc-logger.git",
+            "reference": "726b82a34807cdac30d06684e342b7d0035735fd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/10quality/wpmvc-logger/zipball/726b82a34807cdac30d06684e342b7d0035735fd",
+            "reference": "726b82a34807cdac30d06684e342b7d0035735fd",
+            "shasum": ""
+        },
+        "require": {
+            "10quality/wp-file": "0.9.*",
+            "php": ">=5.3",
+            "psr/log": "1.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.0.*"
+        },
+        "time": "2016-09-23T21:01:36+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPMVC\\KLogger\\": "src/"
+            },
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kenny Katzgrau",
+                "email": "katzgrau@gmail.com"
+            },
+            {
+                "name": "Dan Horrigan",
+                "email": "dan@dhorrigan.com"
+            },
+            {
+                "name": "10 Quality",
+                "email": "info@10quality.com",
+                "homepage": "http://www.10quality.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Alejandro Mostajo",
+                "email": "amostajo@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "KLogger for Wordpress MVC.",
+        "keywords": [
+            "logging"
+        ]
+    },
+    {
+        "name": "10quality/wpmvc-phpfastcache",
+        "version": "v4.0.x-dev",
+        "version_normalized": "4.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/10quality/wpmvc-phpfastcache.git",
+            "reference": "f084123371dbfc734ed0e680a4e7aa61dd0d100b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/10quality/wpmvc-phpfastcache/zipball/f084123371dbfc734ed0e680a4e7aa61dd0d100b",
+            "reference": "f084123371dbfc734ed0e680a4e7aa61dd0d100b",
+            "shasum": ""
+        },
+        "require": {
+            "10quality/wp-file": "0.9.*",
+            "php": ">=5.1.0"
+        },
+        "require-dev": {
+            "katzgrau/klogger": "dev-master",
+            "mockery/mockery": "dev-master",
+            "phpunit/phpunit": "~4.1",
+            "sami/sami": "dev-master"
+        },
+        "time": "2016-10-25T23:32:37+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/lib/functions.php"
+            ],
+            "psr-4": {
+                "WPMVC\\PHPFastCache\\": "src/psr4"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Khoa Bui",
+                "email": "khoaofgod@gmail.com",
+                "homepage": "http://www.phpfastcache.com",
+                "role": "Developer"
+            },
+            {
+                "name": "10 Quality",
+                "email": "info@10quality.com",
+                "homepage": "http://www.10quality.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Alejandro Mostajo",
+                "email": "amostajo@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Forked version that works with Wordpress MVC.",
+        "homepage": "http://www.phpfastcache.com",
+        "keywords": [
+            "cache"
+        ]
+    },
+    {
+        "name": "nikic/php-parser",
+        "version": "2.x-dev",
+        "version_normalized": "2.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "reference": "4dd659edadffdc2143e4753df655d866dbfeedf0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4dd659edadffdc2143e4753df655d866dbfeedf0",
+            "reference": "4dd659edadffdc2143e4753df655d866dbfeedf0",
+            "shasum": ""
+        },
+        "require": {
+            "ext-tokenizer": "*",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2016-09-16T12:04:44+00:00",
+        "bin": [
+            "bin/php-parse"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "PhpParser\\": "lib/PhpParser"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov"
+            }
+        ],
+        "description": "A PHP parser written in PHP",
+        "keywords": [
+            "parser",
+            "php"
+        ]
+    },
+    {
+        "name": "10quality/ayuco",
+        "version": "v1.0.x-dev",
+        "version_normalized": "1.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/10quality/ayuco.git",
+            "reference": "413481dd2d725c31e70ef63bbb3b77d9f9bf9b07"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/10quality/ayuco/zipball/413481dd2d725c31e70ef63bbb3b77d9f9bf9b07",
+            "reference": "413481dd2d725c31e70ef63bbb3b77d9f9bf9b07",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.4.*"
+        },
+        "time": "2016-05-14T09:07:34+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Ayuco\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alejandro Mostajo",
+                "homepage": "http://about.me/amostajo"
+            },
+            {
+                "name": "10Quality",
+                "homepage": "http://www.10quality.com/"
+            }
+        ],
+        "description": "Command-Line interface that can be used to execute commands written in PHP.",
+        "homepage": "https://github.com/10quality/ayuco",
+        "keywords": [
+            "command-line",
+            "commands",
+            "php"
+        ]
+    },
+    {
+        "name": "10quality/wpmvc-commands",
+        "version": "v1.0.x-dev",
+        "version_normalized": "1.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/10quality/wpmvc-commands.git",
+            "reference": "283016f921589c0161bda9064cd8a879bc82f9de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/10quality/wpmvc-commands/zipball/283016f921589c0161bda9064cd8a879bc82f9de",
+            "reference": "283016f921589c0161bda9064cd8a879bc82f9de",
+            "shasum": ""
+        },
+        "require": {
+            "10quality/ayuco": "^1.0",
+            "nikic/php-parser": "^2.1",
+            "php": ">=5.4.0"
+        },
+        "time": "2017-04-21T18:45:32+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPMVC\\Commands\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alejandro Mostajo",
+                "email": "amostajo@gmail.com"
+            }
+        ],
+        "description": "Ayuco commands/jobs for Wordpress MVC.",
+        "keywords": [
+            "ayuco",
+            "jobs",
+            "mvc",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "10quality/wp-file",
+        "version": "v0.9.4",
+        "version_normalized": "0.9.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/10quality/wp-file.git",
+            "reference": "282f0f6733a9e18b392a8b9999dcd8949275a77b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/10quality/wp-file/zipball/282f0f6733a9e18b392a8b9999dcd8949275a77b",
+            "reference": "282f0f6733a9e18b392a8b9999dcd8949275a77b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.4.*"
+        },
+        "time": "2018-06-12T20:43:25+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TenQuality\\WP\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alejandro Mostajo",
+                "email": "amostajo@gmail.com"
+            },
+            {
+                "name": "10 Quality",
+                "email": "info@10quality.com"
+            }
+        ],
+        "description": "Small class library that facilitates file handling in Wordpress.",
+        "keywords": [
+            "file",
+            "filesystem",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "10quality/wpmvc-mvc",
+        "version": "v2.1.6",
+        "version_normalized": "2.1.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/10quality/wpmvc-mvc.git",
+            "reference": "f90689907b6f1eab368a14e859e37bd16e87286c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/10quality/wpmvc-mvc/zipball/f90689907b6f1eab368a14e859e37bd16e87286c",
+            "reference": "f90689907b6f1eab368a14e859e37bd16e87286c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "7.5.*"
+        },
+        "time": "2019-06-04T21:22:07+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPMVC\\MVC\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alejandro Mostajo",
+                "email": "amostajo@gmail.com"
+            },
+            {
+                "name": "10Quality",
+                "email": "info@10quality.com"
+            }
+        ],
+        "description": "Lightweight MVC for WPMVC (Wordpress MVC framework).",
+        "keywords": [
+            "light",
+            "lightweight",
+            "mvc",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "10quality/wpmvc-core",
+        "version": "v3.0.x-dev",
+        "version_normalized": "3.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/10quality/wpmvc-core.git",
+            "reference": "1ebc746808fa17a79c4adf7c8a271ef7ff009750"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/10quality/wpmvc-core/zipball/1ebc746808fa17a79c4adf7c8a271ef7ff009750",
+            "reference": "1ebc746808fa17a79c4adf7c8a271ef7ff009750",
+            "shasum": ""
+        },
+        "require": {
+            "10quality/wpmvc-logger": "2.0.*",
+            "10quality/wpmvc-mvc": "2.1.*",
+            "10quality/wpmvc-phpfastcache": "4.0.*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "10quality/wpmvc-commands": "1.0.*",
+            "phpunit/phpunit": "7.5.*"
+        },
+        "time": "2019-06-11T03:27:55+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/lib/functions.php"
+            ],
+            "psr-4": {
+                "WPMVC\\": "src/psr4"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alejandro Mostajo",
+                "email": "amostajo@gmail.com"
+            },
+            {
+                "name": "10 Quality",
+                "email": "info@10quality.com"
+            }
+        ],
+        "description": "Wordpress MVC crore plugin.",
+        "keywords": [
+            "core",
+            "mvc",
+            "wordpress"
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+/**
+ * Gutenberg block type.
+ * Post Gallery block for gutenberg.
+ *
+ * @author Cami Mostajo
+ * @copyright 10 Quality
+ * @package PostGallery
+ * @version 2.3.0
+ */
+.wp-block-simple-post-gallery-gallery {
+    background-color: #eee;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #999;
+    cursor: pointer;
+}
