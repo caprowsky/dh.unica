@@ -1,0 +1,3 @@
+order deny, allow \r\n
+deny from all \r\n
+allow from 127.0.0.1
