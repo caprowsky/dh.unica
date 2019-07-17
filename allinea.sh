@@ -44,6 +44,14 @@ echo -e "\nImposto wordpress per lo sviluppo locale"
 # wp option update home 'http://dh.unica.localhost'
 # wp option update siteurl 'http://dh.unica.localhost'
 
+if $(wp --url=http://dh.unica.it core is-installed --network); then
+    wp search-replace --url=http://dh.unica.it 'http://dh.unica.it' 'http://dh.unica.localhost' --recurse-objects --network --skip-columns=guid --skip-tables=wp_users
+else
+    wp search-replace 'http://dh.unica.it' 'http://dh.unica.localhost' --recurse-objects --skip-columns=guid --skip-tables=wp_users
+fi
+
+echo -e "\nscript di conversione delle url locali eseguito!"
+
 wp search-replace --url=dh.unica.it dh.unica.it dh.unica.localhost 'wp_*options' wp_blogs
 echo -e "\nOk! Database impostato per l'ambiente di sviluppo"
 sleep 5
